@@ -123,7 +123,7 @@ GLOBAL_LIST_INIT(limb_types_by_name, list(
 	var/message_length = length(message)
 	var/index = 1
 	while(index <= message_length)
-		var/char = copytext(message, index, index + 1)
+		var/char = copytext_char(message, index, index + 1)
 		if(char == " " || prob(clear_char_probability))
 			output_message += char
 		else
@@ -140,9 +140,13 @@ GLOBAL_LIST_INIT(limb_types_by_name, list(
  * Return:
  * returns the parsed and modified html output with the text content being partially scrambled with asteriks
  */
-/proc/stars_decode_html(message)
+/proc/stars_decode_html(message, clear_char_probability = 25)
 	if(!length(message))
-		return
+		return ""
+
+	clear_char_probability = max(clear_char_probability, 0)
+	if(clear_char_probability >= 100)
+		return message
 
 	// boolean value to know if the current indexed element needs to be scrambled.
 	var/parsing_message = FALSE
@@ -161,7 +165,7 @@ GLOBAL_LIST_INIT(limb_types_by_name, list(
 	// output string after parse
 	var/output_message = ""
 	for(var/character_index in 1 to length(message))
-		var/current_char = message[character_index]
+		var/current_char = copytext_char(message, character_index, character_index + 1)
 
 		// Apparent edge case safety, we only want to check the < and > on the edges of the tag.
 		if(!parsing_message)
@@ -186,7 +190,7 @@ GLOBAL_LIST_INIT(limb_types_by_name, list(
 			parsing_message = FALSE
 			current_tag = ""
 			if(length(current_string_to_scramble))
-				var/scrambled_string = stars(current_string_to_scramble)
+				var/scrambled_string = stars(current_string_to_scramble, clear_char_probability)
 				output_message += scrambled_string
 				current_string_to_scramble = ""
 
@@ -195,6 +199,8 @@ GLOBAL_LIST_INIT(limb_types_by_name, list(
 		else
 			output_message += current_char
 			current_tag += current_char
+	if(length(current_string_to_scramble))
+		output_message += stars(current_string_to_scramble, clear_char_probability)
 	return output_message
 
 /proc/slur(phrase)
