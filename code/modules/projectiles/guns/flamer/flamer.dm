@@ -549,7 +549,7 @@
 
 /obj/item/weapon/gun/flamer/upp
 	name = "\improper LPO80 incinerator unit"
-	desc = "An aged but effective lightweight combat incinerator officially in service as a anti-fortification tool but, in practice, utilized in close quarters combat for flushing out enemy combatants."
+	desc = "An old, slightly rusty, but still functional flamethrower that can give your enemies hell at close range or in trench warfare."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/upp.dmi'
 	icon_state = "LPO80"
 	item_state = "LPO80"
