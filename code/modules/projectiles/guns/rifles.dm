@@ -133,8 +133,8 @@
 		/obj/item/attachable/stock/nsg23/rmc,
 		/obj/item/attachable/scope/mini/nsg23,
 		/obj/item/attachable/attached_gun/grenade/nsg,
+	   /obj/item/attachable/attached_gun/flamer/advanced
 	)
-
 	starting_attachment_types = list(
 		/obj/item/attachable/scope/mini/nsg23,
 		/obj/item/attachable/stock/nsg23,
