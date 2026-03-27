@@ -188,7 +188,7 @@
 	health = 230
 	health_max = 230
 	display_ammo = FALSE
-	iff_allowed = FALSE
+	iff_allowed = TRUE
 
 	var/static/image/barrel_overheat_image
 	var/has_barrel_overlay = FALSE
