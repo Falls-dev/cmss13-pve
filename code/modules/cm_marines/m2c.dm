@@ -178,7 +178,7 @@
 	icon_state = "M56DE"
 	icon_full = "M56DE"
 	icon_empty = "M56DE_e"
-	rounds_max = 150
+	rounds_max = 200
 	ammo = /datum/ammo/bullet/machinegun/auto
 	fire_delay = 2.5
 	var/grip_dir = null
@@ -198,7 +198,7 @@
 
 	// OVERHEAT MECHANIC VARIABLES
 	var/overheat_value = 0
-	var/overheat_threshold = 200
+	var/overheat_threshold = 50
 	var/emergency_cooling = FALSE
 	var/overheat_text_cooldown = 0
 	var/force_cooldown_timer = 10
