@@ -140,7 +140,7 @@ FORENSIC SCANNER
 		if(!ui)
 			ui = new(user, src, "HealthScan", "Stored Health Scan")
 			ui.open()
-			ui.set_autoupdate(FALSE)
+			ui.set_autoupdate(TRUE)
 
 /obj/item/device/healthanalyzer/ui_data(mob/user)
 	return last_scan
