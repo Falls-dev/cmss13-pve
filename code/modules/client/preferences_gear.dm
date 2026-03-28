@@ -81,16 +81,20 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	display_name = "BiMex Polarized Shades"
 	path = /obj/item/clothing/glasses/sunglasses/big
 	allowed_origins = USCM_ORIGINS
+	cost = 0
+
 
 /datum/gear/eyewear/bimex_shades_orange
 	display_name = "BiMex Tactical Shades"
 	path = /obj/item/clothing/glasses/sunglasses/big/orange
 	allowed_origins = USCM_ORIGINS
+	cost = 0
 
 /datum/gear/eyewear/bimex_shades_classic
 	display_name = "BiMex Classic Shades"
 	path = /obj/item/clothing/glasses/sunglasses/big/classic
 	allowed_origins = NON_UPP_ORIGINS
+	cost = 0
 
 /datum/gear/eyewear/sunglasses
 	display_name = "Sunglasses"
@@ -246,7 +250,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/mask/uscm/skull_balaclava_black
 	display_name = "USCM balaclava, black skull"
 	path = /obj/item/clothing/mask/rebreather/skull/black
-	cost = 4
+	cost = 2
 	slot = WEAR_FACE
 
 /*
@@ -747,7 +751,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/paperwork/pen
 	display_name = "Pen, black"
 	path = /obj/item/tool/pen
-	cost = 1
+	cost = 0
 
 /datum/gear/paperwork/pen_blue
 	display_name = "Pen, blue"
@@ -1231,7 +1235,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 /datum/gear/drink/water
 	display_name = "Bottled water"
 	path = /obj/item/reagent_container/food/drinks/cans/waterbottle
-	cost = 1
+	cost = 0
 
 /datum/gear/drink/grape_juice
 	display_name = "Grape juice"
