@@ -66,7 +66,7 @@
 	secondary_skill = SKILL_ENGINEER
 
 /datum/character_trait/skills/miniengie/antag
-	trait_name = "Field Technician Training"
+	trait_name = "Combat Technician Training"
 	trait_desc = "Boosts the construction and engineering skills to 2. Crewmember received full training in creating fortifications and maintaining various machinery."
 	skill_cap = 2
 	skill_increment = 2
@@ -79,6 +79,7 @@
 	skill_cap = 3
 	secondary_skill_cap = 2
 	skill_increment = 3
+	applyable = FALSE
 
 /datum/character_trait/skills/jtac
 	trait_name = "JTAC Training"
@@ -89,9 +90,10 @@
 	trait_name = "Spotter Training"
 	trait_desc = "Boosts the JTAC skill by 1. Crewmember received additional training in using JTAC equipment and Ghillie outfits."
 	skill = SKILL_JTAC
+	applyable = FALSE
 
 /datum/character_trait/skills/loader
-	trait_name = "Loader Training"
+	trait_name = "Endurance Training"
 	trait_desc = "Boosts the endurance skill by 1."
 	skill = SKILL_ENDURANCE
 	skill_cap = SKILL_ENDURANCE_TRAINED
@@ -101,21 +103,21 @@
 	trait_name = "Powerloader Usage Training"
 	trait_desc = "Boosts the powerloader skill to 1. Crewmember received training in operating powerloaders."
 	skill = SKILL_POWERLOADER
+	applyable = FALSE
 
 /datum/character_trait/skills/intel
 	trait_name = "Intelligence training"
 	trait_desc = "Boosts the Intel skill to 1. Crewmember received training in quickly processing intelligence documents."
 	skill = SKILL_INTEL
+	applyable = FALSE
 
 /datum/character_trait/skills/police
 	trait_name = "Police Training"
 	trait_desc = "Boosts the policing skill by 1. Crewmember received training in use of security equipment."
 	skill = SKILL_POLICE
+	applyable = FALSE
 
 /datum/character_trait/skills/surgery
 	trait_name = "Surgery Training"
-	trait_desc = "Boosts the surgery and research skills. Crewmember received training in surgery and advanced R&D."
+	trait_desc = "Boosts the surgery skill. Crewmember received training in field surgery."
 	skill = SKILL_SURGERY
-	secondary_skill = SKILL_RESEARCH
-	secondary_skill_cap = 3
-	skill_increment = 3
