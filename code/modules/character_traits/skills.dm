@@ -9,7 +9,7 @@
 	var/skill_increment = 1 //How much the skill level is increased
 	var/skill_cap = 1 //The maximum level this can get the skill to
 	var/secondary_skill_cap
-	applyable = FALSE
+	applyable = TRUE
 	trait_group = /datum/character_trait_group/skills
 
 /datum/character_trait/skills/New()
