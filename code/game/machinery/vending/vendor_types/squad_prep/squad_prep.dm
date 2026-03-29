@@ -918,8 +918,8 @@
 		list("Screwdriver", round(scale * 5), /obj/item/tool/screwdriver/tactical, VENDOR_ITEM_REGULAR),
 		list("Wirecutters", round(scale * 5), /obj/item/tool/wirecutters/tactical, VENDOR_ITEM_REGULAR),
 		list("Crowbar", round(scale * 5), /obj/item/tool/crowbar/tactical, VENDOR_ITEM_REGULAR),
-		list("Wrench", round(scale * 5), /obj/item/tool/wrench/tactical, VENDOR_ITEM_REGULAR),
-		list("Multitool", round(scale * 1), /obj/item/device/multitool/tactical, VENDOR_ITEM_REGULAR),
+		list("Wrench", round(scale * 5), /obj/item/tool/wrench, VENDOR_ITEM_REGULAR),
+		list("Multitool", round(scale * 1), /obj/item/device/multitool, VENDOR_ITEM_REGULAR),
 		list("Welding Tool", round(scale * 1), /obj/item/tool/weldingtool/largetank, VENDOR_ITEM_REGULAR),
 
 		list("EXPLOSIVES", -1, null, null),
