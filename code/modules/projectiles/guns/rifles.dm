@@ -184,6 +184,7 @@
 		/obj/item/attachable/scope/mini/nsg23/rmc,
 		/obj/item/attachable/attached_gun/grenade/nsg,
 		/obj/item/attachable/stock/nsg23/rmc,
+	    /obj/item/attachable/attached_gun/grenade/nsg
 	)
 
 /obj/item/weapon/gun/rifle/nsg23/rmc/set_gun_config_values()
