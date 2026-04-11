@@ -139,7 +139,7 @@
 
 /obj/item/weapon/gun/pistol/vp70
 	name = "\improper VP70 M5 service pistol"
-	desc = "Standard issue semi-automatic USCM service pistol. Recently replacing the M4A3, it retains its predecessor's 9mm chambering but offers both a higher magazine capacity and a 3-round burst selector."
+	desc = "Standard issue semi-automatic USCM service pistol. Recently replacing the M4A3, it retains its predecessor's 9mm chambering but offers both a higher magazine capacity and a 3-round burst selector and also automatic mode."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/uscm.dmi'
 	icon_state = "vp70"
 	item_state = "vp70"
