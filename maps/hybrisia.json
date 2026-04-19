@@ -1,0 +1,16 @@
+{
+    "map_name": "Hybrisia",
+    "short_name": "Hybrisia",
+    "map_path": "map_files/Hybrisia",
+    "map_file": "hybrisia.dmm",
+    "webmap_url": "Hybrisia",
+
+    "weather_holder": "/datum/weather_ss_map_holder/lv522_chances_claim",
+
+    "map_item_type": "/obj/item/map/city",
+
+    "camouflage": "urban",
+    "environment_traits": {
+        "COLD": false
+    }
+}
