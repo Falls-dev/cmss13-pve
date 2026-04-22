@@ -100,7 +100,7 @@ GLOBAL_LIST_INIT(human_ai_conversations, initialize_human_ai_conversations())
 /datum/human_ai_conversation/faction/conversation_allowed(datum/human_ai_brain/brain)
 	if(brain.tied_human.faction in acceptable_factions)
 		return ..()
-	return FALSE
+	return TRUE
 
 
 /datum/human_ai_brain
