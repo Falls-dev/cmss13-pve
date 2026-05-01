@@ -37,7 +37,7 @@ GLOBAL_LIST_EMPTY(human_ai_brains)
 	var/list/detection_turfs = list()
 
 	/// If TRUE, then we're actively fighting someone or saw a bullet go by or saw someone else go into combat
-	var/in_combat = FALSE
+	var/in_combat = TRUE
 
 	/// The minimum amount of time that can pass before this AI can leave combat
 	var/combat_decay_time_min = 15 SECONDS
