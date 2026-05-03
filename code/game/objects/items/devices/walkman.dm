@@ -455,7 +455,7 @@
 /obj/item/device/cassette_tape/ocean
 	name = "ocean cassette"
 	id = 11
-	desc = "A blue and white plastic cassette tape."
+	desc = "A blue and white plastic cassette tape. While you staring at this cassete, she staring at you too. That's feels very strange, and you already know something wrong if you holding this cassete, but don't know what exactly."
 	icon_state = "cassette_ocean"
 	side1_icon = "cassette_ocean"
 	songs = list("side1" = list("music_ext/surf/10-1-1.ogg",\
