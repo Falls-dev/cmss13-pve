@@ -403,7 +403,7 @@
 /obj/item/device/cassette_tape/hairmetal
 	name = "red striped cassette"
 	id = 7
-	desc = "A plastic cassette tape with a gray sticker with red stripes."
+	desc = "A plastic cassette tape with a gray sticker with red stripes. It's already feels very heavy."
 	icon_state = "cassette_red_stripe"
 	side1_icon = "cassette_red_stripe"
 	songs = list("side1" = list("music_ext/hairmetal/6-1-1.ogg",\
