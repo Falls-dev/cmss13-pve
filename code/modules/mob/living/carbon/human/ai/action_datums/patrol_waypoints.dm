@@ -16,6 +16,12 @@
 	if(current_order.waiting)
 		return 0
 
+	if(brain.squad_id)
+		var/datum/human_ai_squad/squad = SShuman_ai.squad_id_dict["[brain.squad_id]"]
+		if(squad && squad.squad_leader && !brain.is_squad_leader && squad.current_order == brain.current_order)
+			// Squad members should follow the leader while the leader is patrolling.
+			return 0
+
 	if(!brain.is_squad_leader)
 		if(get_dist(brain.tied_human, current_order.current_waypoint) <= 1)
 			return 0

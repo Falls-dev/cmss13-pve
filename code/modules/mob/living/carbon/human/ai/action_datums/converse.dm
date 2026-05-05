@@ -21,7 +21,7 @@
 	if(.)
 		return .
 
-	var/list/ai_nearby = list()
+	var/list/ai_nearby = list(brain)
 	for(var/mob/living/carbon/human/nearby_human in view(2, brain.tied_human))
 		var/datum/human_ai_brain/other_brain = nearby_human.get_ai_brain()
 		if(!other_brain || other_brain.in_combat || other_brain.in_conversation || other_brain.tied_human.client || (other_brain.tied_human.health < HEALTH_THRESHOLD_CRIT))
@@ -29,7 +29,7 @@
 
 		ai_nearby += other_brain
 
-	if(length(ai_nearby) <= 1)
+	if(length(ai_nearby) < 1)
 		return ONGOING_ACTION_COMPLETED
 
 	var/datum/human_ai_conversation/picked_convo
@@ -53,6 +53,9 @@
 		for(var/i in 1 to picked_index)
 			cut_down_ai_nearby += pick_n_take(ai_nearby)
 		ai_nearby = cut_down_ai_nearby
+
+	if(length(ai_nearby) < picked_index)
+		return ONGOING_ACTION_COMPLETED
 
 	var/datum/human_ai_conversation/gotten_convo = picked_convo
 	INVOKE_ASYNC(gotten_convo, TYPE_PROC_REF(/datum/human_ai_conversation, initiate_conversation), ai_nearby)

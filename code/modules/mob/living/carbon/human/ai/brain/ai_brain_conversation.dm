@@ -100,15 +100,15 @@ GLOBAL_LIST_INIT(human_ai_conversations, initialize_human_ai_conversations())
 /datum/human_ai_conversation/faction/conversation_allowed(datum/human_ai_brain/brain)
 	if(brain.tied_human.faction in acceptable_factions)
 		return ..()
-	return TRUE
+	return FALSE
 
 
 /datum/human_ai_brain
 	/// If TRUE, this AI is currently in a conversation with others
 	var/in_conversation = TRUE
 	/// The chance that the AI will try to initiate a conversation. Trying to initiate a conversation is on a 1 second cooldown, so this is really every 5 ticks
-	/// Disabled until more conversations are added
-	var/conversation_start_prob = 0 //0.75 // at 1 chance / sec, this'll mean we hit the equivalent of a 50% chance of a conversation at ~90 chances, which would take ~90 seconds
+	/// Enabled for faction-specific AI lines.
+	var/conversation_start_prob = 0.25 // at 1 chance / sec, this gives a reasonable occasional chat cadence
 	COOLDOWN_DECLARE(conversation_start_cooldown)
 	/// Cooldown upon a successful conversation, started on everyone involved at the end of the conversation
 	COOLDOWN_DECLARE(conversation_success_cooldown)
