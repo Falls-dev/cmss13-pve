@@ -108,7 +108,7 @@ GLOBAL_LIST_INIT(human_ai_conversations, initialize_human_ai_conversations())
 	var/in_conversation = TRUE
 	/// The chance that the AI will try to initiate a conversation. Trying to initiate a conversation is on a 1 second cooldown, so this is really every 5 ticks
 	/// Enabled for faction-specific AI lines.
-	var/conversation_start_prob = 0.25 // at 1 chance / sec, this gives a reasonable occasional chat cadence
+	var/conversation_start_prob = 0.60 // at 1 chance / sec, this gives a reasonable occasional chat cadence
 	COOLDOWN_DECLARE(conversation_start_cooldown)
 	/// Cooldown upon a successful conversation, started on everyone involved at the end of the conversation
 	COOLDOWN_DECLARE(conversation_success_cooldown)
