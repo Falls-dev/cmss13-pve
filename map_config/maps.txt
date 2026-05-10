@@ -50,6 +50,7 @@ map shivas_snowball
 endmap
 
 map hybrisia
+	voteweight 1
 endmap
 
 map kutjevo
