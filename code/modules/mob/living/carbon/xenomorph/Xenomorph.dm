@@ -586,23 +586,14 @@
 	if(!HAS_TRAIT(src, TRAIT_NO_COLOR))
 		color = in_hive.color
 
-	var/age_display = show_age_prefix ? age_prefix : ""
-	var/name_display = ""
-	// Rare easter egg
-	if(nicknumber == 666)
-		number_decorator = "Infernal "
-	if(show_name_numbers)
-		name_display = show_only_numbers ? " ([nicknumber])" : " ([name_client_prefix][nicknumber][name_client_postfix])"
-	name = "[name_prefix][number_decorator][age_display][caste.display_name || caste.caste_type][name_display]"
+/mob/living/carbon/xenomorph/proc/tail_stab_animation(target, attack)
+	// Stubbed for Hybrisa props compatibility
+	return
 
-	//Update linked data so they show up properly
-	change_real_name(src, name)
-
-	// Since we updated our name we should update the info in the UI
-	in_hive.hive_ui.update_xeno_info()
-
-/mob/living/carbon/xenomorph/proc/set_lighting_alpha_from_prefs(client/xeno_client)
-	var/vision_level = xeno_client?.prefs?.xeno_vision_level_pref
+/mob/living/carbon/xenomorph/proc/set_lighting_alpha_from_prefs(client/client)
+	var/vision_level = XENO_VISION_LEVEL_MID_NVG
+	if(client && client.prefs)
+		vision_level = client.prefs.xeno_vision_level_pref
 	switch(vision_level)
 		if(XENO_VISION_LEVEL_NO_NVG)
 			lighting_alpha = LIGHTING_PLANE_ALPHA_VISIBLE
@@ -611,9 +602,6 @@
 		if(XENO_VISION_LEVEL_FULL_NVG)
 			lighting_alpha = LIGHTING_PLANE_ALPHA_INVISIBLE
 	update_sight()
-	if(hud_used)
-		var/atom/movable/screen/xenonightvision/screenobj = (locate() in hud_used.infodisplay)
-		screenobj.update_icon(src)
 
 /mob/living/carbon/xenomorph/proc/set_lighting_alpha(level)
 	switch(level)

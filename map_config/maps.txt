@@ -49,6 +49,10 @@ endmap
 map shivas_snowball
 endmap
 
+map hybrisia
+	minplayers 130
+endmap
+
 map kutjevo
 endmap
 

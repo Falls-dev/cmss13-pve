@@ -35,6 +35,7 @@
 #define MAP_ICE_COLONY_V3 "Shivas Snowball" //Ice Rework, low pop enabled.
 #define MAP_RUNTIME "USS Runtime"
 #define MAP_LV522_CHANCES_CLAIM "LV-522 Chance's Claim" // Highpop Only
+#define MAP_LV759_HYBRISA_PROSPERA "LV-759 Hybrisa Prospera" // Highpop Only
 #define MAP_LV522_CHANCES_CLAIM_FORECON "LV-522 Chance's Claim Forecon"
 #define MAP_NEW_VARADERO "New Varadero"//ice colony underground but as its own map
 #define MAP_NEW_VARADERO_REPAIRED "New Varadero Repaired"
@@ -377,6 +378,7 @@
 #define WALL_JUNGLE_UPDATED "jungle_veg"
 #define WALL_STRATA_OUTPOST_RIBBED "strata_ribbed_outpost_"
 #define WALL_STRATA_OUTPOST_BARE "strata_bare_outpost_"
+#define WALL_ENGINEERSHIP "engineership"
 #define WALL_SHIVA_ICE "shiva_ice"
 #define WALL_SHIVA_FAB "shiva_fab"
 #define WALL_SHIVA_FAB_R "shiva_fab_r"

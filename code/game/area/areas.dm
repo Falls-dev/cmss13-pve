@@ -85,6 +85,10 @@
 	// Day-Night settings
 	var/daytime_affected = TRUE
 
+	// LV759 Hybrisa specific
+	var/linked_lz // Link to dropship landing zone
+	var/unoviable_timer // Timer for cave inaccessibility
+
 
 /area/New()
 	// This interacts with the map loader, so it needs to be set immediately

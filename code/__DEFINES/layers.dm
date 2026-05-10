@@ -133,6 +133,8 @@
 #define FACEHUGGER_LAYER 4.13
 /// For WEATHER
 #define WEATHER_LAYER 4.14
+/// For billboards and tall structures
+#define BILLBOARD_LAYER 4.15
 
 //#define FLY_LAYER 5
 

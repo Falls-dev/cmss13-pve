@@ -89,7 +89,7 @@
 #define AMBIENCE_SHIP 'sound/ambience/shipambience.ogg'
 #define AMBIENCE_JUNGLE 'sound/ambience/ambienceLV624.ogg'
 #define AMBIENCE_RIVER  'sound/ambience/ambienceriver.ogg'
-#define AMBIENCE_MALL 'sound/ambience/medbay1.ogg'
+#define AMBIENCE_MALL 'sound/ambience/shipambience.ogg'
 #define AMBIENCE_CAVE 'sound/ambience/desert.ogg'
 #define AMBIENCE_YAUTJA 'sound/ambience/yautja_ship.ogg'
 #define AMBIENCE_AICORE 'sound/ambience/ai_interface.ogg'
@@ -102,6 +102,15 @@
 #define AMBIENCE_NV 'sound/ambience/ambienceNV.ogg'
 #define AMBIENCE_PRISON 'sound/ambience/shipambience.ogg'
 #define AMBIENCE_TRIJENT 'sound/ambience/desert.ogg'
+#define AMBIENCE_CITY 'sound/ambience/desert.ogg'
+#define AMBIENCE_WEYMART 'sound/ambience/shipambience.ogg'
+#define AMBIENCE_LAB 'sound/ambience/shipambience.ogg'
+#define AMBIENCE_LAB_2 'sound/ambience/shipambience1.ogg'
+#define AMBIENCE_LAB_HALLWAY 'sound/ambience/shipambience.ogg'
+#define AMBIENCE_HYBRISA_INTERIOR 'sound/ambience/shipambience.ogg'
+#define AMBIENCE_HYBRISA_CAVES 'sound/ambience/desert.ogg'
+#define AMBIENCE_HYBRISA_CAVES_ALARM 'sound/ambience/desert.ogg'
+#define AMBIENCE_DERELICT 'sound/ambience/shipambience.ogg'
 
 #define SCAPE_PL_WIND list('sound/soundscape/wind1.ogg','sound/soundscape/wind2.ogg')
 #define SCAPE_PL_LV522_OUTDOORS list('sound/soundscape/lv522/outdoors/wind1.ogg','sound/soundscape/lv522/outdoors/wind2.ogg','sound/soundscape/lv522/outdoors/wind3.ogg',)
@@ -114,4 +123,10 @@
 #define SCAPE_PL_ENG list('sound/soundscape/engamb1.ogg', 'sound/soundscape/engamb2.ogg', 'sound/soundscape/engamb3.ogg', 'sound/soundscape/engamb4.ogg', 'sound/soundscape/engamb5.ogg', 'sound/soundscape/engamb6.ogg', 'sound/soundscape/engamb7.ogg', )
 #define SCAPE_PL_HANGAR list('sound/soundscape/hangaramb1.ogg', 'sound/soundscape/hangaramb2.ogg', 'sound/soundscape/hangaramb3.ogg', 'sound/soundscape/hangaramb4.ogg', 'sound/soundscape/hangaramb5.ogg', 'sound/soundscape/hangaramb6.ogg', 'sound/soundscape/hangaramb7.ogg', 'sound/soundscape/hangaramb8.ogg', 'sound/soundscape/hangaramb9.ogg', 'sound/soundscape/hangaramb10.ogg', )
 #define SCAPE_PL_ARES list('sound/soundscape/mother.ogg')
+#define SCAPE_PL_LV759_INDOORS list('sound/soundscape/lv522/indoors/indoor_wind.ogg','sound/soundscape/lv522/indoors/indoor_wind2.ogg')
+#define SCAPE_PL_LV759_OUTDOORS list('sound/soundscape/wind1.ogg','sound/soundscape/wind2.ogg')
+#define SCAPE_PL_LV759_CAVES list('sound/soundscape/rocksfalling1.ogg', 'sound/soundscape/rocksfalling2.ogg')
+#define SCAPE_PL_LV759_DEEPCAVES list('sound/soundscape/rocksfalling1.ogg', 'sound/soundscape/rocksfalling2.ogg')
+#define SCAPE_PL_LV759_PLATEAU_OUTDOORS list('sound/soundscape/wind1.ogg','sound/soundscape/wind2.ogg')
+#define SCAPE_PL_LV759_DERELICTSHIP list('sound/soundscape/mother.ogg')
 #define SCAPE_PL_AICORE list('sound/soundscape/aicore/aicore_beep.ogg', 'sound/soundscape/aicore/aicore_ident.ogg', 'sound/soundscape/aicore/aicore_rumble1.ogg', 'sound/soundscape/aicore/aicore_rumble2.ogg', 'sound/soundscape/aicore/aicore_rumble3.ogg', 'sound/soundscape/aicore/aicore_rumble4.ogg', 'sound/soundscape/aicore/aicore_rumble5.ogg', 'sound/soundscape/aicore/aicore_tone1.ogg', 'sound/soundscape/aicore/aicore_tone2.ogg', 'sound/soundscape/aicore/aicore_tone3.ogg', 'sound/soundscape/aicore/aicore_tone4.ogg', 'sound/soundscape/aicore/aicore_tone5.ogg', 'sound/soundscape/aicore/aicore_tone6.ogg', 'sound/soundscape/aicore/aicore_tone7.ogg', 'sound/soundscape/aicore/aicore_tone8.ogg', 'sound/soundscape/aicore/aicore_tone9.ogg', 'sound/soundscape/aicore/aicore_tone10.ogg', 'sound/soundscape/aicore/aicore_tone11.ogg', 'sound/soundscape/aicore/aicore_tone12.ogg', 'sound/soundscape/aicore/aicore_tone13.ogg', 'sound/soundscape/aicore/aicore_tone14.ogg', 'sound/soundscape/aicore/aicore_tone15.ogg', 'sound/soundscape/aicore/aicore_tone16.ogg', 'sound/soundscape/aicore/aicore_tone17.ogg', 'sound/soundscape/aicore/aicore_tone18.ogg', )
