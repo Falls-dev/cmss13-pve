@@ -18,9 +18,13 @@
 	if( CONFIG_GET(string/discordurl) )
 		if(tgui_alert(src, "This will open the worksheet in your browser. Are you sure?", "Confirm", list("Yes", "No")) != "Yes")
 			return
-			src << link(CONFIG_GET(string/discordurl))
+		src << link(CONFIG_GET(string/discordurl))
 	else
 		to_chat(src, SPAN_DANGER("The Discord URL is not set in the server configuration."))
+	return
+
+/client/verb/changelog()
+	set name = "Changelog"
 	set category = "OOC"
 	if(!GLOB.changelog_tgui)
 		GLOB.changelog_tgui = new /datum/changelog()
