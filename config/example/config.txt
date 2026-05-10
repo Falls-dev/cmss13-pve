@@ -128,8 +128,8 @@ GUEST_BAN
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 #SERVER server.net:port
 
-## forum address
-FORUMURL https://forum.cm-ss13.com/
+## Discord invite address
+DISCORDURL https://discord.gg/Eb6fzkRX9a
 
 ## Wiki address
 WIKIURL https://cm-ss13.com/w

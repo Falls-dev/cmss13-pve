@@ -15,16 +15,12 @@
 	set name = "Worksheet"
 	set desc = "Visit the worksheet."
 	set hidden = TRUE
-	if( CONFIG_GET(string/forumurl) )
+	if( CONFIG_GET(string/discordurl) )
 		if(tgui_alert(src, "This will open the worksheet in your browser. Are you sure?", "Confirm", list("Yes", "No")) != "Yes")
 			return
-		src << link(CONFIG_GET(string/forumurl))
+			src << link(CONFIG_GET(string/discordurl))
 	else
-		to_chat(src, SPAN_DANGER("The forum URL is not set in the server configuration."))
-	return
-
-/client/verb/changelog()
-	set name = "Changelog"
+		to_chat(src, SPAN_DANGER("The Discord URL is not set in the server configuration."))
 	set category = "OOC"
 	if(!GLOB.changelog_tgui)
 		GLOB.changelog_tgui = new /datum/changelog()
