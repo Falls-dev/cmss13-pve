@@ -250,7 +250,9 @@
 
 	if(islist(json["CO_survivor_types"]))
 		CO_survivor_types = json["CO_survivor_types"]
-	else if ("CO_survivor_types" in json)
+	else if(islist(json["CO_insert_survivor_types"]))
+		CO_survivor_types = json["CO_insert_survivor_types"]
+	else if (("CO_survivor_types" in json) || ("CO_insert_survivor_types" in json))
 		log_world("map_config CO_survivor_types is not a list!")
 		return
 
@@ -378,13 +380,14 @@
 
 	if(islist(json["gamemodes"]))
 		for(var/g in json["gamemodes"])
-			if(!(g in gamemode_names))
-				log_world("map_config has an invalid gamemode name!")
-				return
 			if(g == "Extended") // always allow extended
 				continue
+			if(!(g in gamemode_names))
+				log_world("map_config has an invalid gamemode name '[g]' - skipping")
+				continue
 			gamemodes += g
-		gamemodes += "Extended"
+		if(!("Extended" in gamemodes))
+			gamemodes += "Extended"
 	else if(!isnull(json["gamemodes"]))
 		log_world("map_config gamemodes is not a list!")
 		return
