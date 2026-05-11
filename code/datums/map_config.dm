@@ -125,25 +125,34 @@
 
 #define CHECK_EXISTS(X) if(!istext(json[X])) { log_world("[##X] missing from json!"); return; }
 /datum/map_config/proc/LoadConfig(filename, error_if_missing, maptype)
+	log_config("LoadConfig called for [filename]")
 	if(!fexists(filename))
+		log_config("File does not exist: [filename]")
 		if(error_if_missing)
 			log_world("map_config not found: [filename]")
 		return
 
+	log_config("File exists, reading [filename]")
 	var/json = file(filename)
 	if(!json)
+		log_config("Could not open file: [filename]")
 		log_world("Could not open map_config: [filename]")
 		return
 
 	json = file2text(json)
 	if(!json)
+		log_config("File is not text: [filename]")
 		log_world("map_config is not text: [filename]")
 		return
 
+	log_config("Decoding JSON from [filename]")
 	json = json_decode(json)
 	if(!json)
+		log_config("Could not decode JSON: [filename]")
 		log_world("map_config is not json: [filename]")
 		return
+
+	log_config("JSON decoded successfully")
 
 	config_filename = filename
 
@@ -384,6 +393,7 @@
 			var/datum/game_mode/G = a
 			gamemodes += initial(G.config_tag)
 
+	log_config("Map config successfully loaded: map_name=[map_name], map_path=[map_path], map_file=[map_file]")
 	defaulted = FALSE
 	return TRUE
 #undef CHECK_EXISTS

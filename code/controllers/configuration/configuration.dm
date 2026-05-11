@@ -97,7 +97,9 @@
 
 		switch(command)
 			if("map")
+				log_config("Attempting to load map config: maps/[data].json")
 				currentmap = load_map_config("maps/[data].json")
+				log_config("Map config loaded for [data]: defaulted=[currentmap.defaulted], map_name=[currentmap.map_name]")
 				if(currentmap.defaulted)
 					log_config("Failed to load map config for [data]!")
 					currentmap = null
@@ -111,9 +113,14 @@
 				LAZYINITLIST(defaultmaps)
 				defaultmaps[maptype] = currentmap
 			if("endmap")
+				if(!currentmap)
+					log_config("ERROR: endmap without currentmap!")
+					continue
+				log_config("Adding map to maplist: [maptype] -> [currentmap.map_name]")
 				LAZYINITLIST(maplist)
 				LAZYINITLIST(maplist[maptype])
 				maplist[maptype][currentmap.map_name] = currentmap
+				log_config("Map added successfully")
 				currentmap = null
 			if("disabled")
 				currentmap = null
