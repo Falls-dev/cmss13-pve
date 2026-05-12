@@ -416,7 +416,7 @@
 /obj/item/device/cassette_tape/indie
 	name = "rising sun cassette"
 	id = 8
-	desc = "A plastic cassette tape with the Japanese Rising Sun."
+	desc = "A plastic cassette tape with strange sign of rooster."
 	icon_state = "cassette_rising_sun"
 	side1_icon = "cassette_rising_sun"
 	songs = list("side1" = list("music_ext/indie/7-1-1.ogg",\
