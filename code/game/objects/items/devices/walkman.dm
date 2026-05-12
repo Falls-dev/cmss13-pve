@@ -421,10 +421,15 @@
 	side1_icon = "cassette_rising_sun"
 	songs = list("side1" = list("music_ext/indie/7-1-1.ogg",\
 								"music_ext/indie/7-1-2.ogg",\
-								"music_ext/indie/7-1-3.ogg"),\
+                                "misic_ext/indie/7-1-3.ogg",\
+                                "misic_ext/indie/7-1-4.ogg",\
+								"music_ext/indie/7-1-5.ogg"),\
 				"side2" = list("music_ext/indie/7-2-1.ogg",\
 								"music_ext/indie/7-2-2.ogg",\
-								"music_ext/indie/7-2-3.ogg"))
+                                "music_ext/indie/7-2-3.ogg",\
+                                "music_ext/indie/7-2-4.ogg",\
+                                "music_ext/indie/7-2-5.ogg",\
+								"music_ext/indie/7-2-6.ogg"))
 
 /obj/item/device/cassette_tape/hiphop
 	name = "blue stripe cassette"
