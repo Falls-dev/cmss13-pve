@@ -455,7 +455,9 @@
 								"music_ext/nam/9-1-3.ogg"),\
 				"side2" = list("music_ext/nam/9-2-1.ogg",\
 								"music_ext/nam/9-2-2.ogg",\
-								"music_ext/nam/9-2-3.ogg"))
+                                "music_ext/nam/9-2-3.ogg",\
+                                "musix_ext/nam/9-2-4.ogg",\
+								"music_ext/nam/9-2-5.ogg"))
 
 /obj/item/device/cassette_tape/ocean
 	name = "ocean cassette"
