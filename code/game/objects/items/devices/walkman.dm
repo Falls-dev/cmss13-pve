@@ -447,7 +447,7 @@
 /obj/item/device/cassette_tape/nam
 	name = "green cassette"
 	id = 10
-	desc = "A green plastic cassette tape."
+	desc = "A green plastic cassette tape. Little blue sticker with strange SWAT4 logo on the top."
 	icon_state = "cassette_green"
 	side1_icon = "cassette_green"
 	songs = list("side1" = list("music_ext/nam/9-1-1.ogg",\
