@@ -1,6 +1,6 @@
 /obj/vehicle/multitile/apc/uppapc
-	name = "ZSL-68 'Pilgrim'"
-	desc = "The ZSL-68 'Pilgrim APC designed in a joint project Ukraine and China, as part of the 'New Arms Cooperative' initiative of 2165. Despite its' rough appearance and age, it is still respected by the many branches it serves. Entrances on the rear and sides"
+	name = "ZSL-68 'Piligrim'"
+	desc = "The ZSL-68 'Piligrim APC designed in a joint project Belarus and China, as part of the 'New Arms Cooperative' initiative of 2165. Despite its' rough appearance and age, it is still respected by the many branches it serves. Entrances on the rear and sides. It smells potato somehow"
 
 	icon = 'icons/obj/vehicles/uppapc.dmi'
 	icon_state = "uppapc_base"
