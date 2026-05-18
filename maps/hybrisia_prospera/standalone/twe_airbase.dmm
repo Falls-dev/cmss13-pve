@@ -3790,8 +3790,8 @@
 /turf/closed/wall/hybrisa/marhsalls,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Nn" = (
-/obj/effect/decal/hybrisa/road/lines3,
-/obj/effect/decal/hybrisa/road/road_edge{
+/obj/structure/desertdam/decals/road/lines3,
+/obj/structure/desertdam/decals/road/road_edge{
 	icon_state = "road_edge_decal3"
 	},
 /obj/effect/decal/hybrisa/doubleroad/lines2{
@@ -4160,10 +4160,10 @@
 /turf/closed/wall/hybrisa/marhsalls,
 /area/lv759/indoors/twe_souter_outpost)
 "TG" = (
-/obj/effect/decal/hybrisa/road/road_edge{
+/obj/structure/desertdam/decals/road/road_edge{
 	icon_state = "road_edge_decal3"
 	},
-/obj/effect/decal/hybrisa/road/lines3,
+/obj/structure/desertdam/decals/road/lines3,
 /obj/effect/decal/hybrisa/doubleroad/lines2{
 	pixel_y = 4
 	},
@@ -4201,10 +4201,10 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "TO" = (
-/obj/effect/decal/hybrisa/road/road_edge{
+/obj/structure/desertdam/decals/road/road_edge{
 	icon_state = "road_edge_decal3"
 	},
-/obj/effect/decal/hybrisa/road/lines3,
+/obj/structure/desertdam/decals/road/lines3,
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "TW" = (
