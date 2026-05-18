@@ -57,7 +57,7 @@
 	layer = 2.5;
 	dir = 1
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "ah" = (
 /obj/item/trash/cigbutt{
@@ -3900,7 +3900,7 @@
 	layer = 2.5;
 	pixel_y = 5
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Pm" = (
 /obj/structure/machinery/vending/coffee{

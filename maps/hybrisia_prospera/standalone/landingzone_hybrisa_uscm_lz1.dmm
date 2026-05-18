@@ -866,7 +866,7 @@
 	icon_state = "E"
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/outdoors/mining_outpost/south_entrance)
 "cq" = (
 /obj/effect/decal/cleanable/blood,
@@ -1737,7 +1737,7 @@
 	layer = 3.3
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/outdoors/mining_outpost/south_entrance)
 "hv" = (
 /obj/structure/largecrate/random/mini/small_case{
@@ -2595,7 +2595,7 @@
 	layer = 3.3
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/outdoors/mining_outpost/south_entrance)
 "tq" = (
 /obj/effect/decal/medical_decals{
@@ -3184,7 +3184,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/outdoors/mining_outpost/south_entrance)
 "Am" = (
 /turf/open/auto_turf/hybrisa_auto_turf/layer0,
@@ -4536,7 +4536,7 @@
 	},
 /obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/outdoors/mining_outpost/south_entrance)
 "Uy" = (
 /obj/effect/decal/cleanable/dirt/greenglow{

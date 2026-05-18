@@ -406,7 +406,7 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "eP" = (
 /obj/structure/machinery/floodlight,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "fa" = (
 /obj/structure/sign/safety/bulkhead_door,
@@ -583,7 +583,7 @@
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "gU" = (
 /obj/structure/barricade/handrail{
@@ -1479,7 +1479,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "uT" = (
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "uV" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
@@ -1586,7 +1586,7 @@
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "wb" = (
 /obj/effect/landmark/survivor_spawner/clf_engi,
@@ -1970,7 +1970,7 @@
 /obj/item/ammo_magazine/rifle/m16/ap,
 /obj/item/ammo_magazine/rifle/m16/ap,
 /obj/item/ammo_magazine/rifle/m16/ap,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "AT" = (
 /obj/structure/window/framed/hybrisa/spaceport/reinforced,
@@ -2290,7 +2290,7 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "GX" = (
 /obj/structure/disposalpipestandard/manifold/hidden/dark{
@@ -2436,7 +2436,7 @@
 	pixel_y = 6
 	},
 /obj/item/weapon/gun/rifle/m16,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "IQ" = (
 /obj/structure/bed/chair/vehicle{
@@ -3248,7 +3248,7 @@
 /area/lv759/indoors/spaceport/cargo)
 "Vl" = (
 /obj/structure/platform/strata/metal,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "Vz" = (
 /obj/structure/platform/strata/metal,

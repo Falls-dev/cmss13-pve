@@ -1338,7 +1338,7 @@
 	icon_state = "N"
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gD" = (
 /obj/structure/bed/chair/office/light{
@@ -2485,7 +2485,7 @@
 	icon_state = "N"
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mD" = (
 /obj/item/shard,
@@ -2959,7 +2959,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "pU" = (
 /turf/open/floor/almayer/plating_striped/west,
@@ -7866,7 +7866,7 @@
 	pixel_y = 20
 	},
 /obj/structure/prop/hybrisa/airport/dropshipnosecone,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Sn" = (
 /obj/structure/sign/safety/two,
@@ -7910,7 +7910,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "SA" = (
 /obj/structure/largecrate/random/barrel/brown,
@@ -8091,7 +8091,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "TK" = (
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "TM" = (
 /turf/closed/wall{
@@ -8971,7 +8971,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 
 (1,1,1) = {"

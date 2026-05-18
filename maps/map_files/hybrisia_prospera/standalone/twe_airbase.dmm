@@ -9,7 +9,7 @@
 	pixel_y = -14;
 	pixel_x = -4
 	},
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /turf/open/floor/almayer/blackfull/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ab" = (
@@ -57,7 +57,7 @@
 	layer = 2.5;
 	dir = 1
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "ah" = (
 /obj/item/trash/cigbutt{
@@ -127,7 +127,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/central_streets)
 "aC" = (
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_2";
 	pixel_x = -6;
@@ -697,7 +697,7 @@
 /turf/open/hybrisa/street/sidewalk/east,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "fn" = (
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/item/trash/cigbutt{
 	pixel_x = -10;
 	pixel_y = 13
@@ -1028,7 +1028,7 @@
 	},
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /turf/open/floor/plating,
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 1;
 	pixel_y = 26
@@ -1594,7 +1594,7 @@
 	dir = 1;
 	pixel_y = 26
 	},
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/structure/closet/crate{
 	color = "#98a3ab"
 	},
@@ -2425,7 +2425,7 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /turf/open/floor/prison/darkredfull2,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "vP" = (
@@ -3406,7 +3406,7 @@
 	pixel_x = -10;
 	pixel_y = 13
 	},
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/item/reagent_container/food/drinks/coffee{
 	pixel_y = 9;
 	pixel_x = 2
@@ -3482,7 +3482,7 @@
 /turf/open/floor/prison/darkpurple2,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "IP" = (
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /turf/open/floor/prison,
 /area/lv759/indoors/twe_souter_outpost/flight)
 "IS" = (
@@ -3900,7 +3900,7 @@
 	layer = 2.5;
 	pixel_y = 5
 	},
-/turf/open/floor/plating/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Pm" = (
 /obj/structure/machinery/vending/coffee{
@@ -4654,7 +4654,7 @@
 /area/lv759/outdoors/colony_streets/central_streets)
 "Zy" = (
 /obj/effect/decal/cleanable/blood_2,
-/obj/structure/pipes/pipe,
+/obj/structure/pipes/pipe/visible,
 /obj/structure/sign/safety/airtraffictower{
 	pixel_x = 36;
 	pixel_y = -6
