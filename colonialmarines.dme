@@ -2714,5 +2714,4 @@
 #include "interface\skin.dmf"
 #include "maps\_basemap.dm"
 #include "map_files\hybrisia_prospera\hybrisia.dmm"
-
 // END_INCLUDE
