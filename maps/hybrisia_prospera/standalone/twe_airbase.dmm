@@ -9,7 +9,7 @@
 	pixel_y = -14;
 	pixel_x = -4
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /turf/open/floor/almayer/blackfull/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ab" = (
@@ -17,7 +17,7 @@
 	dir = 4;
 	pixel_x = -1
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/darkred2/east,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ac" = (
@@ -29,10 +29,10 @@
 /turf/open/floor/prison/darkred2/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ad" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ae" = (
@@ -49,7 +49,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1,
 /area/lv759/indoors/twe_souter_outpost)
 "ag" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/warning_stripes{
@@ -57,7 +57,7 @@
 	layer = 2.5;
 	dir = 1
 	},
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "ah" = (
 /obj/item/trash/cigbutt{
@@ -74,7 +74,7 @@
 	pixel_x = -10;
 	pixel_y = 13
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/almayer/plating/northeast,
@@ -111,7 +111,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "aw" = (
-/obj/structure/platform/metal/stair_cut/hybrisa_metal_right,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
@@ -119,7 +119,7 @@
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "aA" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent2{
 	pixel_x = 12;
 	pixel_y = 25
@@ -127,7 +127,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/central_streets)
 "aC" = (
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_2";
 	pixel_x = -6;
@@ -137,7 +137,7 @@
 /area/lv759/indoors/twe_souter_outpost/reception)
 "aT" = (
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/strata/metal,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/hybrisa/misc/fake/pipes/pipe3{
 	dir = 4
@@ -188,7 +188,7 @@
 	pixel_x = 9;
 	pixel_y = 17
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/item/reagent_container/food/drinks/coffeecup/uscm{
 	name = "TWE coffee mug";
 	desc = "A red, white and blue coffee mug depicting the flag of the TWE. Patriotic and bold, and commonly seen among veterans as a novelty.";
@@ -236,7 +236,7 @@
 	pixel_y = 6
 	},
 /obj/structure/machinery/power/apc/no_power/west,
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/almayer/black/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "bG" = (
@@ -276,7 +276,7 @@
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "bT" = (
 /obj/structure/machinery/power/apc/no_power/west,
-/obj/item/ammo_magazine/smg/p90/twe,
+/obj/item/ammo_magazine/smg,
 /turf/open/floor/strata/red3/west,
 /area/lv759/indoors/twe_souter_outpost/armoury)
 "bU" = (
@@ -318,12 +318,12 @@
 	pixel_x = 1;
 	pixel_y = 8
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/central_streets)
 "co" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
@@ -350,7 +350,7 @@
 	pixel_x = -10;
 	pixel_y = 13
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/darkred2,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "cz" = (
@@ -412,7 +412,7 @@
 	pixel_x = 5;
 	pixel_y = 4
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/item/storage/box/mre/twe{
 	pixel_y = 24;
 	pixel_x = -15
@@ -453,7 +453,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "dx" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt{
 	pixel_y = 8
 	},
@@ -505,7 +505,7 @@
 /turf/open/floor/prison/darkpurple2,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "dI" = (
-/obj/structure/machinery/door/poddoor/hybrisa/secure_red_door{
+/obj/structure/machinery/door/airlock/glass{
 	name = "Armory Lockdown";
 	id = "imperial_armory";
 	needs_power = 0;
@@ -583,7 +583,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
 	dir = 1
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
 	id = "twe_hangar_lockdown"
 	},
@@ -608,7 +608,7 @@
 	},
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "eE" = (
-/obj/structure/pipes/standard/manifold/hidden/dark,
+/obj/structure/disposalpipestandard/manifold/hidden/dark,
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
 	layer = 2.5;
@@ -631,11 +631,11 @@
 	},
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "eN" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
 	},
@@ -661,7 +661,7 @@
 /obj/structure/prop/hybrisa/misc/trash/green{
 	pixel_y = 2
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "fg" = (
@@ -697,7 +697,7 @@
 /turf/open/hybrisa/street/sidewalk/east,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "fn" = (
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /obj/item/trash/cigbutt{
 	pixel_x = -10;
 	pixel_y = 13
@@ -812,7 +812,7 @@
 /turf/template_noop,
 /area/template_noop)
 "ga" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "gb" = (
@@ -855,25 +855,25 @@
 /turf/open/floor/prison/darkred2/southwest,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "gs" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/lv759/outdoors/colony_streets/central_streets)
 "gv" = (
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
 /obj/item/weapon/gun/smg/p90/twe{
 	pixel_y = 4
 	},
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
 /obj/item/weapon/gun/smg/p90/twe{
 	pixel_y = -4
 	},
@@ -883,7 +883,7 @@
 /turf/open/floor/strata/red3,
 /area/lv759/indoors/twe_souter_outpost/armoury)
 "gA" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/strata/multi_tiles/west,
@@ -1027,8 +1027,8 @@
 	color = "#98a3ab"
 	},
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
-/obj/effect/landmark/objective_landmark/close,
-/obj/structure/pipes/vents/pump_hybrisa,
+/turf/open/floor/plating,
+/obj/structure/disposalpipevent,
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 1;
 	pixel_y = 26
@@ -1077,7 +1077,7 @@
 	pixel_x = 6;
 	pixel_y = 7
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/structure/surface/table/reinforced/prison{
 	color = "#848484"
 	},
@@ -1161,7 +1161,7 @@
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "iw" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 5
 	},
 /obj/effect/hybrisa/misc/fake/wire/red{
@@ -1189,11 +1189,11 @@
 	pixel_x = 5;
 	pixel_y = -1
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "iW" = (
-/obj/structure/pipes/standard/manifold/hidden/dark{
+/obj/structure/disposalpipestandard/manifold/hidden/dark{
 	dir = 8
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
@@ -1215,8 +1215,8 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "jB" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "jL" = (
@@ -1232,7 +1232,7 @@
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
 	dir = 1
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/strata/multi_tiles/west,
@@ -1248,7 +1248,7 @@
 /turf/open/floor/prison/red/southwest,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "kf" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/effect/decal/strata_decals/grime/grime4{
 	icon_state = "grime3"
 	},
@@ -1257,15 +1257,15 @@
 "ki" = (
 /obj/structure/closet/secure_closet/security,
 /obj/item/weapon/gun/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/item/ammo_magazine/smg/p90/twe,
-/obj/effect/landmark/objective_landmark/close,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/obj/item/ammo_magazine/smg,
+/turf/open/floor/plating,
 /obj/structure/machinery/power/apc/no_power/east,
 /turf/open/floor/prison/red/southeast,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "km" = (
-/obj/structure/pipes/standard/manifold/hidden/dark,
+/obj/structure/disposalpipestandard/manifold/hidden/dark,
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "kn" = (
@@ -1434,7 +1434,7 @@
 /obj/structure/machinery/door/airlock/hybrisa/generic/autoname{
 	dir = 2
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "lH" = (
@@ -1454,7 +1454,7 @@
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	pixel_y = 1
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 10
 	},
 /obj/effect/hybrisa/misc/fake/wire/red{
@@ -1531,7 +1531,7 @@
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/outdoors/colony_streets/central_streets)
@@ -1552,7 +1552,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "mt" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 6
 	},
 /obj/item/paper/crumpled{
@@ -1569,7 +1569,7 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "mv" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/paper/crumpled{
 	pixel_x = 15;
 	pixel_y = -9
@@ -1581,8 +1581,8 @@
 /obj/effect/hybrisa/misc/fake/pipes/pipe3{
 	dir = 8
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
@@ -1594,7 +1594,7 @@
 	dir = 1;
 	pixel_y = 26
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /obj/structure/closet/crate{
 	color = "#98a3ab"
 	},
@@ -1611,12 +1611,12 @@
 /turf/open/floor/prison/red/north,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "mD" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "mE" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "mI" = (
@@ -1646,7 +1646,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "mN" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/bed/hybrisa/bunkbed2{
 	dir = 4
 	},
@@ -1854,7 +1854,7 @@
 	dir = 8;
 	pixel_y = -15
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/structure/machinery/space_heater/radiator/red{
 	dir = 4;
 	pixel_y = 7
@@ -1865,14 +1865,14 @@
 /obj/effect/decal/strata_decals/grime/grime4{
 	dir = 1
 	},
-/obj/structure/pipes/standard/manifold/hidden/dark,
+/obj/structure/disposalpipestandard/manifold/hidden/dark,
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/twe_souter_outpost/maint)
 "nS" = (
 /obj/structure/barricade/handrail/strata{
 	layer = 3.1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/lv759/outdoors/colony_streets/central_streets)
 "nT" = (
@@ -1880,7 +1880,7 @@
 	icon_state = "W";
 	layer = 3.3
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 6
 	},
 /turf/open/floor/strata/multi_tiles/west,
@@ -1890,11 +1890,11 @@
 	dir = 4;
 	pixel_y = -14
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "nZ" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 5
 	},
 /obj/structure/bed/chair{
@@ -1925,7 +1925,7 @@
 	dir = 1;
 	pixel_y = 26
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/item/clipboard{
 	pixel_x = -5;
 	pixel_y = -1
@@ -2008,7 +2008,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/north,
 /area/lv759/indoors/twe_souter_outpost)
 "pK" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 5
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
@@ -2029,8 +2029,8 @@
 /turf/open/floor/prison/darkred2/southwest,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "pZ" = (
-/obj/structure/pipes/standard/manifold/hidden/dark,
-/obj/effect/decal/hybrisa/dirt,
+/obj/structure/disposalpipestandard/manifold/hidden/dark,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning";
 	layer = 2.5;
@@ -2046,7 +2046,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "qn" = (
@@ -2081,7 +2081,7 @@
 	pixel_y = 3
 	},
 /obj/effect/landmark/objective_landmark/medium,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/item/ammo_box/magazine/misc/mre/twe{
 	pixel_x = -16;
 	pixel_y = 6
@@ -2111,13 +2111,13 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "qY" = (
-/obj/structure/pipes/standard/manifold/hidden/dark{
+/obj/structure/disposalpipestandard/manifold/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "ra" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/disposalpipe/segment,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
@@ -2132,12 +2132,12 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/outdoors/colony_streets/central_streets)
 "rl" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/central_streets)
 "rt" = (
 /obj/structure/disposalpipe/segment,
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /obj/structure/barricade/handrail/hybrisa/road/plastic/blue{
 	dir = 1
 	},
@@ -2293,8 +2293,8 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "un" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -2323,7 +2323,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "uG" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/bed/hybrisa/bunkbed2{
 	dir = 8
 	},
@@ -2344,7 +2344,7 @@
 /turf/closed/wall/hybrisa/marhsalls,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "uL" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/warning_stripes{
@@ -2353,7 +2353,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "uS" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
@@ -2365,7 +2365,7 @@
 	pixel_x = -10;
 	pixel_y = 14
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/strata_decals/grime/grime4{
@@ -2392,7 +2392,7 @@
 /turf/open/floor/strata/red4,
 /area/lv759/indoors/twe_souter_outpost/armoury)
 "vj" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 10
 	},
 /obj/structure/machinery/power/apc/no_power/east,
@@ -2410,7 +2410,7 @@
 /obj/item/spacecash/ewallet{
 	pixel_y = 8
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/hybrisa/misc/fake/wire/red{
 	dir = 4
 	},
@@ -2425,7 +2425,7 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /turf/open/floor/prison/darkredfull2,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "vP" = (
@@ -2454,8 +2454,8 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/obj/effect/decal/hybrisa/dirt,
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/window/reinforced{
 	dir = 1;
 	layer = 3.3;
@@ -2547,9 +2547,9 @@
 	},
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "xs" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -2562,7 +2562,7 @@
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/outdoors/colony_streets/central_streets)
 "xt" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/disposalpipe/segment,
 /obj/effect/hybrisa/misc/fake/wire/blue{
 	dir = 4;
@@ -2592,7 +2592,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "xN" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/prison,
@@ -2607,11 +2607,11 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/central_streets)
 "yq" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
@@ -2645,11 +2645,11 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "zo" = (
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/twe_souter_outpost/armoury)
 "zr" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/colorable_rug{
@@ -2779,7 +2779,7 @@
 /turf/open/hybrisa/street/sidewalk/east,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Be" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt{
 	pixel_x = 1;
 	pixel_y = 8
@@ -2812,7 +2812,7 @@
 /turf/open/floor/mech_bay_recharge_floor,
 /area/lv759/indoors/twe_souter_outpost/maint)
 "BD" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 9
 	},
 /obj/structure/largecrate/random/barrel/black{
@@ -2857,7 +2857,7 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28;
 	pixel_x = -6
@@ -2873,7 +2873,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "CR" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/effect/decal/strata_decals/grime/grime4{
 	icon_state = "grime3";
 	pixel_x = -10;
@@ -2882,7 +2882,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "CS" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/structure/sign/safety/ammunition{
@@ -2893,7 +2893,7 @@
 	color = "#a6aeab";
 	dir = 4
 	},
-/obj/structure/platform/metal/stair_cut/hybrisa_metal_right,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "CY" = (
@@ -2928,10 +2928,10 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Di" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
+/obj/structure/platform/strata/metal,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -3140,7 +3140,7 @@
 /turf/open/floor/prison/darkred2/southwest,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "FA" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/trash,
@@ -3192,7 +3192,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "Gn" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/strata/multi_tiles/west,
@@ -3202,7 +3202,7 @@
 	dir = 1;
 	pixel_y = 16
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/almayer,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "Gr" = (
@@ -3230,7 +3230,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Gu" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/bed/hybrisa/bunkbed2{
 	dir = 8
 	},
@@ -3249,7 +3249,7 @@
 	pixel_x = -8;
 	pixel_y = 4
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/twe_souter_outpost/reception)
@@ -3262,7 +3262,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "GI" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 10
 	},
 /obj/effect/decal/strata_decals/grime/grime4{
@@ -3357,8 +3357,8 @@
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "HA" = (
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
 	},
@@ -3406,7 +3406,7 @@
 	pixel_x = -10;
 	pixel_y = 13
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /obj/item/reagent_container/food/drinks/coffee{
 	pixel_y = 9;
 	pixel_x = 2
@@ -3427,7 +3427,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Ii" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/trash{
@@ -3438,7 +3438,7 @@
 /turf/open/floor/prison/red/east,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "IB" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning2";
 	pixel_x = 3;
@@ -3451,7 +3451,7 @@
 	pixel_x = 1;
 	pixel_y = 8
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/sign/poster/nspa{
 	pixel_y = 33
 	},
@@ -3482,14 +3482,14 @@
 /turf/open/floor/prison/darkpurple2,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "IP" = (
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/disposalpipevent,
 /turf/open/floor/prison,
 /area/lv759/indoors/twe_souter_outpost/flight)
 "IS" = (
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Ja" = (
@@ -3504,7 +3504,7 @@
 /turf/open/floor/hybrisa/metal/grated,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Jl" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Jp" = (
@@ -3524,9 +3524,9 @@
 /turf/open/floor/prison/blue,
 /area/lv759/indoors/twe_souter_outpost/flight)
 "JD" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -3611,7 +3611,7 @@
 /turf/open/hybrisa/street/cement2,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "KK" = (
-/obj/structure/platform/metal/stair_cut/hybrisa_metal_right,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
@@ -3623,7 +3623,7 @@
 	pixel_x = -10;
 	pixel_y = 13
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/structure/sign/safety/ammunition{
@@ -3633,7 +3633,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "KM" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
@@ -3644,13 +3644,13 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/reception)
 "KS" = (
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "KW" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -3680,7 +3680,7 @@
 /obj/structure/surface/rack{
 	color = "#848484"
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/item/fuel_cell/used,
 /turf/open/floor/almayer/plating_striped,
 /area/lv759/indoors/twe_souter_outpost/maint)
@@ -3706,7 +3706,7 @@
 	color = "#98a3ab"
 	},
 /obj/item/roller/bedroll,
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/effect/landmark/item_pool_spawner/survivor_ammo/buckshot,
 /obj/item/clothing/under/marine/veteran/royal_marine/iasf,
 /obj/item/clothing/under/marine/veteran/royal_marine/iasf,
@@ -3731,7 +3731,7 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "MP" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/prop/hybrisa/fakeplatforms/platform4{
 	dir = 4
 	},
@@ -3760,7 +3760,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Nb" = (
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/hybrisa/street/cement2,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Nd" = (
@@ -3780,7 +3780,7 @@
 /turf/open/floor/strata/red4/north,
 /area/lv759/indoors/twe_souter_outpost/armoury)
 "Nf" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
@@ -3790,23 +3790,23 @@
 /turf/closed/wall/hybrisa/marhsalls,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Nn" = (
-/obj/structure/desertdam/decals/road/lines3,
-/obj/structure/desertdam/decals/road/road_edge{
+/obj/structure/desertdam/decals/road_edge,
+/obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
 	},
-/obj/effect/decal/hybrisa/doubleroad/lines2{
+/obj/effect/decal/cleanable/blood{
 	pixel_y = 4
 	},
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Nw" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement2,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "NO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform1,
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
@@ -3892,7 +3892,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Pg" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/warning_stripes{
@@ -3900,7 +3900,7 @@
 	layer = 2.5;
 	pixel_y = 5
 	},
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Pm" = (
 /obj/structure/machinery/vending/coffee{
@@ -3908,11 +3908,11 @@
 	pixel_y = 20;
 	density = 0
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/darkred2,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "Pp" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/hybrisa/metal/grated,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Pz" = (
@@ -3983,13 +3983,13 @@
 /turf/open/floor/prison/darkred2/northeast,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "Qv" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/hybrisa/trash{
 	icon_state = "trash_9";
 	pixel_y = 13;
 	pixel_x = -7
 	},
-/obj/structure/sign/poster/corporate{
+/obj/structure/sign/poster{
 	pixel_y = 32
 	},
 /turf/open/floor/hybrisa/metal/grated,
@@ -4018,7 +4018,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Rl" = (
-/obj/item/ammo_magazine/smg/p90/twe,
+/obj/item/ammo_magazine/smg,
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Rq" = (
@@ -4040,7 +4040,7 @@
 /turf/open/floor/prison/darkred2/northwest,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "RB" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "RD" = (
@@ -4051,7 +4051,7 @@
 /obj/structure/barricade/handrail/strata{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/hybrisa/metal/grated/east,
 /area/lv759/outdoors/colony_streets/central_streets)
 "RH" = (
@@ -4063,7 +4063,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "RK" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/structure/bed/hybrisa/bunkbed2{
 	dir = 4
 	},
@@ -4080,7 +4080,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/darkred2/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "Sk" = (
@@ -4123,7 +4123,7 @@
 	pixel_y = -9;
 	dir = 1
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Tt" = (
@@ -4142,7 +4142,7 @@
 	dir = 8;
 	pixel_x = -2
 	},
-/turf/open/floor/prison/ramptop/east,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Ty" = (
 /obj/effect/decal/warning_stripes{
@@ -4151,7 +4151,7 @@
 	dir = 8;
 	pixel_x = -2
 	},
-/turf/open/floor/prison/ramptop/east,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Tz" = (
 /turf/open/floor/prison/darkred2/east,
@@ -4160,11 +4160,11 @@
 /turf/closed/wall/hybrisa/marhsalls,
 /area/lv759/indoors/twe_souter_outpost)
 "TG" = (
-/obj/structure/desertdam/decals/road/road_edge{
+/obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
 	},
-/obj/structure/desertdam/decals/road/lines3,
-/obj/effect/decal/hybrisa/doubleroad/lines2{
+/obj/structure/desertdam/decals/road_edge,
+/obj/effect/decal/cleanable/blood{
 	pixel_y = 4
 	},
 /turf/open/hybrisa/street/asphalt,
@@ -4192,7 +4192,7 @@
 	pixel_x = 5;
 	pixel_y = 19
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning2";
 	pixel_x = 3;
@@ -4201,14 +4201,14 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "TO" = (
-/obj/structure/desertdam/decals/road/road_edge{
+/obj/structure/desertdam/decals/road_edge{
 	icon_state = "road_edge_decal3"
 	},
-/obj/structure/desertdam/decals/road/lines3,
+/obj/structure/desertdam/decals/road_edge,
 /turf/open/hybrisa/street/asphalt,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "TW" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Ul" = (
@@ -4231,7 +4231,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Un" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 9
 	},
 /turf/open/floor/prison,
@@ -4257,7 +4257,7 @@
 /obj/structure/barricade/handrail/strata{
 	layer = 3.1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/central_streets)
 "UH" = (
@@ -4266,14 +4266,14 @@
 	pixel_x = -8;
 	pixel_y = 4
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "UU" = (
 /obj/item/trash/cigbutt{
 	pixel_x = 4
 	},
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/effect/decal/hybrisa/colorable_rug{
@@ -4334,14 +4334,14 @@
 /turf/open/floor/hybrisa/metal/yellow_warning_floor,
 /area/lv759/indoors/twe_souter_outpost/flight)
 "Vt" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "VD" = (
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "VE" = (
@@ -4355,7 +4355,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "VN" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/structure/machinery/door/poddoor/hybrisa/shutters{
@@ -4397,8 +4397,8 @@
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
-/obj/structure/platform/metal/hybrisa/metalplatform1/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
@@ -4433,7 +4433,7 @@
 /turf/open/floor/prison/darkred2,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "Wz" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/prison/darkpurple2/north,
@@ -4457,7 +4457,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "WP" = (
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /obj/item/weapon/twohanded/folded_metal_chair{
 	pixel_x = 1;
 	pixel_y = 11
@@ -4484,7 +4484,7 @@
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "Xa" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 6
 	},
 /turf/open/floor/strata/multi_tiles/west,
@@ -4504,7 +4504,7 @@
 	dir = 8;
 	pixel_x = -11
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/hybrisa/tile/tilewhite,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "XC" = (
@@ -4532,7 +4532,7 @@
 /turf/open/floor/hybrisa/metal/grated,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Ya" = (
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
 	layer = 2.5
@@ -4545,7 +4545,7 @@
 	layer = 2;
 	pixel_x = -14
 	},
-/obj/structure/pipes/standard/simple/hidden/dark,
+/obj/structure/disposalpipestandard/simple/hidden/dark,
 /turf/open/floor/plating/plating_catwalk,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "YA" = (
@@ -4557,7 +4557,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "YK" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 9
 	},
 /obj/structure/surface/table/almayer{
@@ -4567,11 +4567,11 @@
 	pixel_x = 8;
 	pixel_y = 12
 	},
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /turf/open/floor/prison/darkpurple2/north,
 /area/lv759/indoors/twe_souter_outpost/dorm)
 "YL" = (
-/obj/structure/pipes/standard/manifold/hidden/dark{
+/obj/structure/disposalpipestandard/manifold/hidden/dark{
 	dir = 1
 	},
 /obj/item/trash/cigbutt{
@@ -4581,7 +4581,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/twe_souter_outpost/hallway)
 "YN" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/central_streets)
 "YR" = (
@@ -4611,7 +4611,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/twe_souter_outpost/hangar)
 "Zi" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 6
 	},
 /turf/open/floor/prison,
@@ -4642,7 +4642,7 @@
 /obj/effect/hybrisa/misc/fake/pipes/pipe1{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform1/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/roof/hybrisa/billboardsandsigns/billboardsmedium/billboard3{
 	dir = 6;
@@ -4653,8 +4653,8 @@
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/outdoors/colony_streets/central_streets)
 "Zy" = (
-/obj/effect/decal/hybrisa/dirt_2,
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/effect/decal/cleanable/blood_2,
+/obj/structure/disposalpipevent,
 /obj/structure/sign/safety/airtraffictower{
 	pixel_x = 36;
 	pixel_y = -6
@@ -4672,7 +4672,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/twe_souter_outpost/twe_gunship)
 "ZN" = (
-/obj/structure/pipes/standard/simple/hidden/dark{
+/obj/structure/disposalpipestandard/simple/hidden/dark{
 	dir = 4
 	},
 /obj/item/trash/cigbutt{

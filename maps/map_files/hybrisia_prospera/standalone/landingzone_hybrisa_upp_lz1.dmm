@@ -23,7 +23,7 @@
 	pixel_x = -10;
 	pixel_y = 8
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /obj/structure/surface/table/reinforced/prison{
 	color = "#b7b8b2"
 	},
@@ -63,7 +63,7 @@
 	pixel_x = 16;
 	pixel_y = 32
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "ag" = (
 /obj/structure/machinery/atm{
@@ -79,7 +79,7 @@
 	name = "General Listening Channel";
 	pixel_y = 30
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "ai" = (
 /obj/vehicle/train/cargo/engine{
@@ -111,7 +111,7 @@
 /turf/open/floor/hybrisa/misc/spaceport1,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "am" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "an" = (
@@ -138,8 +138,8 @@
 /turf/open/floor/almayer/plating_striped/north,
 /area/lv759/indoors/spaceport/heavyequip)
 "aq" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 3;
@@ -164,11 +164,11 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "at" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -179,7 +179,7 @@
 	icon_state = "S";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -189,13 +189,13 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/item/tool/warning_cone{
 	pixel_x = -21;
 	pixel_y = 3
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aw" = (
 /obj/effect/decal/warning_stripes{
@@ -204,22 +204,22 @@
 /obj/effect/decal/hybrisa/WY/WY1{
 	pixel_y = 16
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ax" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = -21;
 	pixel_y = 3
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ay" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced/colony{
@@ -237,7 +237,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/janitor)
 "aA" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aB" = (
@@ -251,7 +251,7 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aD" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/handrail/strata{
 	dir = 8;
 	layer = 4
@@ -265,7 +265,7 @@
 /turf/open/hybrisa/dropship/dropship4,
 /area/lv759/indoors/spaceport/horizon_runner)
 "aH" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -300,7 +300,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "aK" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/vehicle/powerloader{
 	dir = 8;
 	layer = 5;
@@ -309,7 +309,7 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aL" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aM" = (
@@ -317,7 +317,7 @@
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aN" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -336,11 +336,11 @@
 /area/lv759/indoors/spaceport/cuppajoes)
 "aQ" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aR" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -356,7 +356,7 @@
 /turf/open/hybrisa/dropship/dropship2,
 /area/lv759/indoors/spaceport/horizon_runner)
 "aT" = (
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "aU" = (
 /obj/structure/platform_decoration/metal/strata,
@@ -367,23 +367,23 @@
 	pixel_y = 11
 	},
 /obj/structure/prop/hybrisa/supermart/freezer/freezer5,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/kitchen)
 "aW" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aX" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "aY" = (
 /obj/structure/platform_decoration/metal/strata,
@@ -393,7 +393,7 @@
 /turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ba" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "bb" = (
@@ -405,11 +405,11 @@
 /turf/open/floor/plating/kutjevo,
 /area/lv759/indoors/spaceport/maintenance_east)
 "bc" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "bd" = (
@@ -424,14 +424,14 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "bf" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "bg" = (
@@ -459,13 +459,13 @@
 	pixel_x = 6;
 	pixel_y = 6
 	},
-/obj/effect/landmark/objective_landmark/close{
+/turf/open/floor/plating{
 	layer = 5
 	},
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/cuppajoes)
 "bn" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e";
 	icon_state = "p_stair_full"
@@ -477,7 +477,7 @@
 	pixel_x = -9;
 	pixel_y = 11
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "bq" = (
 /turf/closed/shuttle/dropship4/WY/HorizonRunner{
@@ -488,10 +488,10 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "bu" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "bx" = (
@@ -517,7 +517,7 @@
 /turf/open/floor/prison/kitchen,
 /area/lv759/indoors/spaceport/kitchen)
 "bG" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/floodlight/landing,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -542,7 +542,7 @@
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "bQ" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	layer = 3.33
@@ -636,7 +636,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/strata/orange_edge/northeast,
+/turf/open/floor/platingeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "cv" = (
 /obj/structure/largecrate/random/barrel{
@@ -660,7 +660,7 @@
 /turf/open/floor/strata/red1,
 /area/lv759/indoors/spaceport/security)
 "cy" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/item/fuel_cell,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -668,7 +668,7 @@
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_25"
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /turf/open/floor/hybrisa/metal/bluemetal1/southeast,
 /area/lv759/indoors/spaceport/flight_control_room)
 "cB" = (
@@ -704,7 +704,7 @@
 /obj/structure/pipes/standard/manifold/hidden/dark{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "cQ" = (
@@ -726,7 +726,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/north,
 /area/lv759/indoors/spaceport/communications_office)
 "cU" = (
-/obj/structure/platform/metal/strata,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
@@ -751,7 +751,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/cuppajoes)
 "cZ" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/disposal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
@@ -781,7 +781,7 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/baggagehandling)
 "di" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/flag/upp{
 	pixel_y = 28;
 	layer = 2.7
@@ -820,7 +820,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "du" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
@@ -960,7 +960,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1,
 /area/lv759/indoors/spaceport/flight_control_room)
 "ea" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/handrail/hybrisa/road/wood/orange{
 	layer = 3
 	},
@@ -1031,8 +1031,8 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/hallway_east)
 "eI" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "eJ" = (
@@ -1099,13 +1099,13 @@
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "fd" = (
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "ff" = (
 /turf/open/floor/hybrisa/metal/bluemetalfull,
 /area/lv759/indoors/spaceport/communications_office)
 "fh" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing3";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -1175,7 +1175,7 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/spaceport/baggagehandling)
 "fC" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/stack/cable_coil/cut{
 	icon_state = "coil2"
 	},
@@ -1201,7 +1201,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "fO" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "fS" = (
@@ -1311,7 +1311,7 @@
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/janitor)
 "gs" = (
-/obj/structure/platform/metal/stair_cut/strata_right,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 4
@@ -1327,7 +1327,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 9
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gB" = (
 /obj/item/tool/warning_cone{
@@ -1337,8 +1337,8 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/north,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gD" = (
 /obj/structure/bed/chair/office/light{
@@ -1351,7 +1351,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gF" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gG" = (
@@ -1359,7 +1359,7 @@
 /turf/open/floor/prison/cell_stripe/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gI" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gK" = (
@@ -1368,7 +1368,7 @@
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "gL" = (
-/obj/structure/sign/poster/corporate{
+/obj/structure/sign/poster{
 	layer = 2.9;
 	pixel_y = 32
 	},
@@ -1380,20 +1380,20 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gN" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/stack/sheet/metal,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gO" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/plating/kutjevo,
 /area/lv759/indoors/spaceport/maintenance_east)
 "gQ" = (
@@ -1411,7 +1411,7 @@
 /area/lv759/indoors/spaceport/docking_bay_1)
 "gU" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
@@ -1457,7 +1457,7 @@
 	layer = 4;
 	pixel_x = -7
 	},
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "he" = (
@@ -1471,14 +1471,14 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "hi" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "hk" = (
@@ -1501,7 +1501,7 @@
 /turf/open/floor/strata/red3/north,
 /area/lv759/indoors/spaceport/security)
 "hn" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
@@ -1513,7 +1513,7 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "hp" = (
 /obj/structure/machinery/big_computers/messaging_server/brown{
@@ -1576,10 +1576,10 @@
 /turf/open/floor/hybrisa/tile/cuppajoesfloor,
 /area/lv759/indoors/spaceport/cuppajoes)
 "hL" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "hM" = (
@@ -1616,7 +1616,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/structure/sign/poster/corporate{
+/obj/structure/sign/poster{
 	layer = 2.9;
 	pixel_y = 32
 	},
@@ -1710,11 +1710,11 @@
 	name = "floor panel"
 	},
 /obj/structure/reagent_dispensers/fueltank/spacecraft,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/engineering)
 "io" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/item/tool/warning_cone{
 	pixel_x = -4;
 	pixel_y = 5
@@ -1761,7 +1761,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
 "iD" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
@@ -1786,7 +1786,7 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/baggagehandling)
 "iG" = (
@@ -1835,10 +1835,10 @@
 	pixel_y = 1
 	},
 /obj/item/tool/pen/blue,
-/obj/structure/sign/poster/corporate{
+/obj/structure/sign/poster{
 	layer = 2.9
 	},
-/obj/structure/sign/poster/wylogo{
+/obj/structure/sign/poster{
 	pixel_y = 32
 	},
 /turf/open/floor/hybrisa/metal/bluemetalfull,
@@ -1921,7 +1921,7 @@
 /turf/open/floor/hybrisa/tile/cuppajoesfloor,
 /area/lv759/indoors/spaceport/cuppajoes)
 "ji" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /obj/structure/machinery/light{
 	dir = 4
 	},
@@ -1981,7 +1981,7 @@
 	},
 /obj/structure/machinery/door/poddoor/almayer/open,
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/baggagehandling)
 "jw" = (
 /turf/closed/wall/hybrisa/spaceport,
@@ -1997,7 +1997,7 @@
 /area/lv759/indoors/spaceport/horizon_runner)
 "jz" = (
 /obj/structure/machinery/conveyor,
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "jB" = (
 /turf/closed/shuttle/dropship2/transparent{
@@ -2111,17 +2111,17 @@
 	icon_state = "S";
 	pixel_y = -1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "kf" = (
 /turf/open/floor/hybrisa/carpet/carpetbeige,
 /area/lv759/indoors/spaceport/cuppajoes)
 "kg" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "kl" = (
@@ -2129,8 +2129,8 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "kn" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "ko" = (
@@ -2159,15 +2159,15 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "ks" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/baggagehandling)
 "kt" = (
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "kw" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "kz" = (
@@ -2354,7 +2354,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cuppajoes)
 "lI" = (
-/turf/open/floor/prison/ramptop/east,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "lJ" = (
 /turf/closed/shuttle/dropship2/transparent{
@@ -2376,11 +2376,11 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "lU" = (
-/obj/structure/sign/poster/wylogo{
+/obj/structure/sign/poster{
 	pixel_y = 32;
 	layer = 2.9
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "lW" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -2407,11 +2407,11 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "mb" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/sidewalk/west,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "md" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "me" = (
@@ -2463,7 +2463,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "mu" = (
 /obj/structure/sign/safety/restrictedarea{
@@ -2484,8 +2484,8 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/north,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mD" = (
 /obj/item/shard,
@@ -2504,7 +2504,7 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mH" = (
 /obj/structure/bed/chair/comfy/hybrisa/brown{
@@ -2518,7 +2518,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mL" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/largecrate/empty/secure,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -2595,22 +2595,22 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/security)
 "nn" = (
-/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/engineering)
 "nt" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/vehicle/powerloader/ft{
 	layer = 5
 	},
 /turf/open/floor/mech_bay_recharge_floor,
 /area/lv759/indoors/spaceport/heavyequip)
 "nu" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "ny" = (
@@ -2622,7 +2622,7 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "nH" = (
 /obj/structure/pipes/standard/manifold/hidden/dark{
@@ -2669,12 +2669,12 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "nW" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "nY" = (
@@ -2688,9 +2688,9 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/engineering)
 "nZ" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "oa" = (
@@ -2698,11 +2698,11 @@
 	color = "#6e6e6e";
 	icon_state = "p_stair_full"
 	},
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "oc" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/flag/upp{
 	pixel_y = 28;
 	layer = 2.7
@@ -2715,7 +2715,7 @@
 /area/lv759/indoors/spaceport/baggagehandling)
 "oe" = (
 /obj/structure/bed/sofa/vert/white/bot,
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "of" = (
 /turf/closed/shuttle/dropship4/WY/HorizonRunner{
@@ -2746,7 +2746,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/engineering)
 "oj" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -2774,7 +2774,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "oy" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "oD" = (
@@ -2826,7 +2826,7 @@
 "oR" = (
 /obj/item/trash/hybrisa/cuppa_joes/lid,
 /obj/item/trash/burger,
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/cuppajoes)
 "oS" = (
@@ -2860,7 +2860,7 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/baggagehandling)
 "pf" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/airport/refuelinghose2{
 	layer = 1;
 	pixel_x = -12;
@@ -2883,7 +2883,7 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "pn" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/stack/cable_coil/green{
 	icon_state = "coil1"
 	},
@@ -2906,7 +2906,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "pA" = (
 /obj/structure/machinery/power/apc/no_power/east,
@@ -2936,7 +2936,7 @@
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "pK" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#656c6b";
 	icon_state = "p_stair_full"
@@ -2944,7 +2944,7 @@
 /turf/open/hybrisa/street/sidewalk/west,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "pO" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -2958,8 +2958,8 @@
 /obj/structure/prop/hybrisa/airport/dropshipnosecone{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/north,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "pU" = (
 /turf/open/floor/almayer/plating_striped/west,
@@ -2980,8 +2980,8 @@
 /obj/vehicle/powerloader{
 	layer = 5
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28;
 	pixel_x = 20
@@ -3071,7 +3071,7 @@
 /turf/closed/wall/hybrisa/spaceport,
 /area/lv759/indoors/spaceport/cuppajoes)
 "qE" = (
-/obj/structure/platform/metal/strata,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "qF" = (
@@ -3085,7 +3085,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "qG" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
@@ -3145,8 +3145,8 @@
 /turf/open/floor/strata/orange_icorner,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "qN" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 4
@@ -3198,7 +3198,7 @@
 /turf/closed/wall/hybrisa/spaceport/unmeltable,
 /area/lv759/oob)
 "rm" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 6
@@ -3292,7 +3292,7 @@
 /area/lv759/indoors/spaceport/cuppajoes)
 "rL" = (
 /obj/structure/largecrate/random/mini/small_case,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
 	pixel_x = -8
@@ -3329,17 +3329,17 @@
 /turf/closed/wall/hybrisa/spaceport,
 /area/lv759/indoors/spaceport/cuppajoes)
 "sc" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/prop/hybrisa/airport/refuelinghose{
 	layer = 1;
 	pixel_x = -12;
 	pixel_y = -12
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "sd" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#656c6b";
 	icon_state = "p_stair_full"
@@ -3350,7 +3350,7 @@
 /obj/structure/machinery/door/airlock/dropship_hatch/two{
 	name = "\improper WY-LWI Horizon Runner HR-150 airlock"
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "sh" = (
 /turf/closed/shuttle/dropship4/WY/HorizonRunner{
@@ -3391,7 +3391,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "sC" = (
 /turf/closed/wall/hybrisa/spaceport/unmeltable,
@@ -3415,7 +3415,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "sF" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -3429,7 +3429,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/spaceport/cargo)
 "sL" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	layer = 3.33
@@ -3504,7 +3504,7 @@
 	pixel_x = 3;
 	pixel_y = 5
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /turf/open/floor/strata/red3/east,
 /area/lv759/indoors/spaceport/security)
 "th" = (
@@ -3512,7 +3512,7 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/sidewalk/east,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "tl" = (
@@ -3608,7 +3608,7 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "tH" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "tL" = (
@@ -3624,7 +3624,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "tY" = (
 /obj/structure/barricade/handrail/wire{
@@ -3651,7 +3651,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "uc" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/fuel_cell,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -3835,7 +3835,7 @@
 	pixel_x = 4;
 	pixel_y = 14
 	},
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "uY" = (
@@ -3935,7 +3935,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "vp" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "vw" = (
@@ -3945,7 +3945,7 @@
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
 	dir = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "vA" = (
 /obj/structure/largecrate/random/barrel/red,
@@ -3955,7 +3955,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
 "vB" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 6
@@ -3984,8 +3984,8 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/structure/platform/metal/stair_cut/strata_left,
-/turf/open/floor/prison/ramptop/east,
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "vL" = (
 /obj/structure/barricade/plasteel/wired,
@@ -4086,7 +4086,7 @@
 /turf/open/floor/prison/kitchen,
 /area/lv759/indoors/spaceport/kitchen)
 "wf" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "wi" = (
@@ -4122,7 +4122,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /turf/open/floor/hybrisa/metal/bluemetalfull,
 /area/lv759/indoors/spaceport/communications_office)
 "wn" = (
@@ -4294,11 +4294,11 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/communications_office)
 "xi" = (
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/heavyequip)
 "xo" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /obj/structure/machinery/light/blue{
 	dir = 4
 	},
@@ -4365,11 +4365,11 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "xN" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "xQ" = (
@@ -4377,8 +4377,8 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "xV" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "xY" = (
@@ -4386,7 +4386,7 @@
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "ya" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/safety/security{
 	pixel_y = 32
 	},
@@ -4402,7 +4402,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/engineering)
 "yf" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
@@ -4425,12 +4425,12 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
 "yn" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "yp" = (
 /obj/structure/disposalpipe/segment{
@@ -4457,7 +4457,7 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "yx" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/floodlight/landing,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -4550,7 +4550,7 @@
 /obj/structure/machinery/light/small/blue{
 	dir = 8
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/kitchen)
 "zj" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -4559,7 +4559,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/baggagehandling)
 "zl" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "zo" = (
@@ -4582,10 +4582,10 @@
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "zt" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "zA" = (
@@ -4597,7 +4597,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/baggagehandling)
 "zB" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 8;
@@ -4625,12 +4625,12 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/baggagehandling)
 "zL" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "zN" = (
@@ -4686,13 +4686,13 @@
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 32
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ab" = (
 /obj/structure/largecrate/random/case/small{
 	pixel_y = 9
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "Ae" = (
 /obj/structure/machinery/light/blue{
@@ -4720,7 +4720,7 @@
 	pixel_x = -9;
 	pixel_y = 10
 	},
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
 	pixel_x = -8
@@ -4760,15 +4760,15 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "AE" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "AG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "AI" = (
@@ -4942,7 +4942,7 @@
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "Bk" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/blue{
 	dir = 4
 	},
@@ -4950,7 +4950,7 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Bm" = (
 /obj/structure/sink/kitchen{
@@ -4989,10 +4989,10 @@
 /turf/open/floor/hybrisa/tile/cuppajoesfloor,
 /area/lv759/indoors/spaceport/cuppajoes)
 "Bz" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "BC" = (
@@ -5009,11 +5009,11 @@
 /obj/structure/barricade/metal/wired{
 	dir = 4
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "BH" = (
 /obj/structure/barricade/metal/wired,
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "BM" = (
 /obj/effect/decal/warning_stripes{
@@ -5027,7 +5027,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/strata/orange_edge/northwest,
+/turf/open/floor/platingwest,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "BP" = (
 /obj/structure/machinery/conveyor{
@@ -5067,7 +5067,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "BY" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing6";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -5099,7 +5099,7 @@
 /obj/structure/closet/hydrant{
 	pixel_y = 32
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "Cm" = (
 /obj/structure/largecrate/random/barrel/blue,
@@ -5204,21 +5204,21 @@
 	icon_state = "N"
 	},
 /obj/structure/machinery/conveyor,
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "CQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "CU" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/spaceport/cuppajoes)
 "CV" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
 	pixel_x = -8
@@ -5234,7 +5234,7 @@
 	icon_state = "S"
 	},
 /obj/effect/landmark/objective_landmark/medium,
-/obj/structure/sign/poster/corporate{
+/obj/structure/sign/poster{
 	layer = 2.9;
 	pixel_y = 32
 	},
@@ -5329,20 +5329,20 @@
 /turf/open/floor/strata/multi_tiles/southeast,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Dv" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Dy" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "DB" = (
-/obj/structure/platform/metal/strata,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "DD" = (
@@ -5355,7 +5355,7 @@
 	pixel_x = -6;
 	pixel_y = 15
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "DG" = (
 /obj/structure/machinery/conveyor{
@@ -5417,8 +5417,8 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/security_office)
 "DV" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
 	pixel_x = -8
@@ -5426,8 +5426,8 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "DY" = (
-/obj/structure/platform/metal/strata/east,
-/turf/open/floor/strata/orange_edge/north,
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "DZ" = (
 /obj/structure/bed/chair/office/light{
@@ -5436,7 +5436,7 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/west,
 /area/lv759/indoors/spaceport/flight_control_room)
 "Eb" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/flag/upp{
 	dir = 1;
 	pixel_y = 26;
@@ -5473,7 +5473,7 @@
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Eu" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/vending/coffee{
 	icon_state = "coffee-broken";
 	stat = 1;
@@ -5516,7 +5516,7 @@
 /turf/open/floor/hybrisa/metal/metalwhitefull,
 /area/lv759/indoors/spaceport/cuppajoes)
 "EA" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/safety/landingzone{
 	pixel_x = 32
 	},
@@ -5538,10 +5538,10 @@
 /turf/open/floor/almayer/plating_striped,
 /area/lv759/indoors/spaceport/baggagehandling)
 "EG" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "EJ" = (
@@ -5561,7 +5561,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "EN" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/blue{
 	dir = 8
 	},
@@ -5603,7 +5603,7 @@
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/cuppajoes)
 "Fa" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing8";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -5630,7 +5630,7 @@
 	icon_state = "igniter0";
 	name = "floor panel"
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/engineering)
 "Ff" = (
 /obj/structure/machinery/door/airlock/hybrisa/generic/autoname{
@@ -5666,7 +5666,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/sign/poster/wylogo{
+/obj/structure/sign/poster{
 	pixel_y = 32
 	},
 /obj/effect/landmark/objective_landmark/medium,
@@ -5702,12 +5702,12 @@
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/horizon_runner)
 "Fv" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Fw" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/showcase{
 	breakable = 1;
 	density = 0;
@@ -5723,7 +5723,7 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Fz" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/bed/chair/comfy/hybrisa/brown{
 	dir = 4
 	},
@@ -5876,11 +5876,11 @@
 	icon_state = "N"
 	},
 /obj/structure/machinery/door/poddoor/almayer/open,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/baggagehandling)
 "Gn" = (
 /obj/structure/surface/rack,
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /turf/open/floor/plating/kutjevo,
 /area/lv759/indoors/spaceport/maintenance_east)
 "Go" = (
@@ -5961,7 +5961,7 @@
 	dir = 1
 	},
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/security)
 "GE" = (
 /obj/structure/machinery/light/blue{
@@ -6021,7 +6021,7 @@
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "GS" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
@@ -6083,7 +6083,7 @@
 /turf/open/floor/hybrisa/tile/cuppajoesfloor,
 /area/lv759/indoors/spaceport/cuppajoes)
 "Ht" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/tool/warning_cone{
 	pixel_x = -4;
 	pixel_y = 8
@@ -6203,7 +6203,7 @@
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "HY" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/handrail/strata{
 	dir = 8;
 	layer = 4
@@ -6217,8 +6217,8 @@
 /turf/open/floor/strata/blue3/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Ia" = (
-/obj/structure/platform/metal/strata/west,
-/turf/open/floor/strata/orange_edge/north,
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ib" = (
 /obj/structure/stairs/perspective{
@@ -6245,7 +6245,7 @@
 	icon_state = "p_stair_full"
 	},
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ih" = (
 /obj/item/tool/mop{
@@ -6268,12 +6268,12 @@
 /turf/open/floor/prison/kitchen,
 /area/lv759/indoors/spaceport/kitchen)
 "Im" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "In" = (
 /turf/open/floor/almayer/w_y1/north,
@@ -6283,7 +6283,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ip" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
@@ -6299,7 +6299,7 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/spaceport/baggagehandling)
 "Iy" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_29";
 	pixel_y = 6
@@ -6310,12 +6310,12 @@
 /turf/open/floor/almayer/tcomms,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "ID" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "IG" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -6372,7 +6372,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out"
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "Jc" = (
 /obj/structure/barricade/handrail{
@@ -6390,7 +6390,7 @@
 /area/lv759/indoors/spaceport/hallway_east)
 "Jf" = (
 /obj/effect/spawner/random/toy,
-/obj/effect/landmark/objective_landmark/close{
+/turf/open/floor/plating{
 	layer = 5
 	},
 /obj/structure/surface/table/reinforced/prison{
@@ -6419,7 +6419,7 @@
 /area/lv759/indoors/spaceport/cuppajoes)
 "Js" = (
 /obj/structure/closet/crate/foodcart,
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Jv" = (
 /obj/structure/machinery/floodlight/landing/floor,
@@ -6464,7 +6464,7 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/hallway_east)
 "JE" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/bed/chair/comfy/hybrisa/brown{
 	dir = 4
 	},
@@ -6543,7 +6543,7 @@
 /turf/open/hybrisa/street/sidewalk/south,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "JX" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/light/spot/blue{
 	dir = 8;
@@ -6631,8 +6631,8 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Ko" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/largecrate/random/mini/small_case,
 /turf/open/floor/strata/orange_icorner/north,
 /area/lv759/indoors/spaceport/docking_bay_1)
@@ -6685,7 +6685,7 @@
 /turf/open/floor/almayer,
 /area/lv759/indoors/spaceport/heavyequip)
 "KH" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/vending/cola{
 	pixel_x = -9;
 	pixel_y = 1;
@@ -6756,7 +6756,7 @@
 	},
 /area/lv759/indoors/spaceport/horizon_runner)
 "Lj" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing2";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -6767,7 +6767,7 @@
 /turf/open/hybrisa/street/sidewalkfull,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Ls" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Lx" = (
@@ -6803,7 +6803,7 @@
 "LI" = (
 /obj/structure/platform_decoration/metal/strata/east,
 /obj/structure/largecrate/random/mini/small_case,
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "LM" = (
 /obj/structure/prop/hybrisa/misc/phonebox/bloody{
@@ -6841,7 +6841,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
 "Md" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/cleanable/liquid_fuel,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -6943,7 +6943,7 @@
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "MF" = (
-/obj/structure/platform/metal/strata,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "MG" = (
@@ -6958,7 +6958,7 @@
 /obj/structure/machinery/light/small{
 	dir = 4
 	},
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/janitor)
 "MJ" = (
@@ -6972,12 +6972,12 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "MK" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "ML" = (
 /obj/structure/bed/chair/comfy/hybrisa/brown{
@@ -7006,7 +7006,7 @@
 /area/lv759/indoors/spaceport/docking_bay_1)
 "MS" = (
 /obj/structure/machinery/light/blue,
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "MT" = (
@@ -7109,20 +7109,20 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "NL" = (
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "NO" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/east,
-/obj/structure/platform/metal/hybrisa/metalplatform6,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/prop/hybrisa/misc/floorprops/grate,
 /obj/structure/prop/hybrisa/misc/fake/heavydutywire/heavy2{
 	dir = 4
 	},
-/obj/structure/platform/metal/hybrisa/metalplatform6/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/underground_unweedable,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "NP" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "NQ" = (
@@ -7146,7 +7146,7 @@
 /area/lv759/indoors/spaceport/cuppajoes)
 "NS" = (
 /obj/item/trash/hybrisa/cuppa_joes/empty_cup,
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/maintenance_east)
 "NT" = (
@@ -7181,19 +7181,19 @@
 /turf/open/floor/almayer/plating/northeast,
 /area/lv759/indoors/spaceport/baggagehandling)
 "Oa" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/manifold/hidden/dark{
 	dir = 8
 	},
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Oc" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/tool/warning_cone{
 	pixel_x = 4;
 	pixel_y = 14
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Oe" = (
 /obj/structure/prop/hybrisa/misc/stoneplanterseats/empty{
@@ -7201,7 +7201,7 @@
 	layer = 4;
 	pixel_x = -7
 	},
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Of" = (
@@ -7249,7 +7249,7 @@
 	lazy_nodes = 0;
 	layer = 3
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "Os" = (
 /obj/item/reagent_container/food/drinks/milk{
@@ -7377,7 +7377,7 @@
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Pi" = (
 /obj/effect/decal/cleanable/liquid_fuel,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Pm" = (
@@ -7389,10 +7389,10 @@
 	icon_state = "E";
 	pixel_x = 2
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ps" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/blue{
 	dir = 8
 	},
@@ -7400,24 +7400,24 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Pw" = (
-/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/engineering)
 "Px" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/sidewalk/north,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "Pz" = (
 /obj/structure/bed/chair/comfy/hybrisa/brown{
 	pixel_y = 8
 	},
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/hallway_east)
 "PB" = (
 /obj/effect/decal/strata_decals/grime/grime3{
@@ -7437,7 +7437,7 @@
 /turf/open/floor/strata/orange_edge/east,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "PD" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing7";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -7548,14 +7548,14 @@
 	pixel_y = 9;
 	layer = 2.97
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/kitchen)
 "QE" = (
 /obj/structure/largecrate/random/mini/small_case,
 /turf/open/floor/hybrisa/carpet/carpetdarkerblue,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "QF" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/orange_cover,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "QG" = (
@@ -7624,7 +7624,7 @@
 	pixel_y = 7
 	},
 /obj/structure/barricade/metal/wired,
-/turf/open/floor/strata/orange_edge/north,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "QZ" = (
 /obj/structure/closet/toolcloset,
@@ -7674,7 +7674,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = -17
 	},
@@ -7683,7 +7683,7 @@
 	pixel_x = -1;
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Ro" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -7714,7 +7714,7 @@
 /turf/open/floor/almayer/cargo_arrow/east,
 /area/lv759/indoors/spaceport/baggagehandling)
 "Rx" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
 	pixel_y = 2
@@ -7726,7 +7726,7 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "RC" = (
 /obj/structure/window/reinforced{
@@ -7774,8 +7774,8 @@
 /turf/open/floor/corsat/plate,
 /area/lv759/indoors/spaceport/kitchen)
 "RQ" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue{
 	dir = 4;
 	pixel_x = 8
@@ -7783,7 +7783,7 @@
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "RS" = (
-/obj/structure/platform/metal/stair_cut/strata_left,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 8
@@ -7821,16 +7821,16 @@
 /turf/open/floor/hybrisa/metal/bluemetal1/east,
 /area/lv759/indoors/spaceport/flight_control_room)
 "RX" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Sd" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/handrail/strata{
 	dir = 8;
 	layer = 4
 	},
-/obj/structure/largecrate/empty/case/double{
+/obj/structure/largecrate{
 	pixel_x = 6;
 	pixel_y = 4
 	},
@@ -7866,7 +7866,7 @@
 	pixel_y = 20
 	},
 /obj/structure/prop/hybrisa/airport/dropshipnosecone,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Sn" = (
 /obj/structure/sign/safety/two,
@@ -7910,7 +7910,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "SA" = (
 /obj/structure/largecrate/random/barrel/brown,
@@ -7927,7 +7927,7 @@
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
 	dir = 8
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/heavyequip)
 "SM" = (
 /obj/effect/decal/medical_decals{
@@ -7948,11 +7948,11 @@
 	pixel_x = -9;
 	pixel_y = 17
 	},
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "SX" = (
-/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/machinery/light/spot/blue,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
@@ -7960,7 +7960,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/spaceport/engineering)
 "Ta" = (
-/obj/structure/platform/metal/hybrisa/metalplatform6/north,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/almayer/plate,
 /area/lv759/indoors/spaceport/heavyequip)
 "Te" = (
@@ -7971,7 +7971,7 @@
 	icon_state = "igniter0";
 	name = "floor panel"
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/engineering)
 "Tk" = (
 /obj/structure/closet,
@@ -8063,7 +8063,7 @@
 	layer = 5
 	},
 /obj/structure/prop/hybrisa/supermart/freezer/freezer6,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/kitchen)
 "TG" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -8091,10 +8091,10 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "TK" = (
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "TM" = (
-/turf/closed/shuttle/dropship4/WY/StarGlider{
+/turf/closed/wall{
 	icon_state = "zwing4";
 	opacity = 0;
 	desc = "The WY-LWI Horizon Runner HR-150, a collaborative creation of Lunnar-Welsun Industries and Weyland-Yutani. This small dropship is designed for short-range commercial transport.";
@@ -8104,7 +8104,7 @@
 "TP" = (
 /obj/structure/blocker/invisible_wall,
 /obj/structure/machinery/door/poddoor{
-	explo_proof = 1;
+	 = 1;
 	needs_power = 0;
 	unacidable = 1;
 	name = "\improper Lockdown";
@@ -8149,7 +8149,7 @@
 	},
 /obj/effect/decal/strata_decals/catwalk/prison,
 /obj/structure/reagent_dispensers/fueltank/spacecraft,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "TY" = (
@@ -8164,10 +8164,10 @@
 	color = "#656c6b";
 	icon_state = "p_stair_full"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ud" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/handrail/strata{
 	dir = 8;
 	layer = 4
@@ -8201,7 +8201,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Ut" = (
-/obj/structure/platform/metal/almayer/north,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/cleanable/liquid_fuel,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
@@ -8359,7 +8359,7 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/security_office)
 "VJ" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/structure/sign/safety/storage{
 	pixel_y = 32
 	},
@@ -8452,7 +8452,7 @@
 /turf/open/floor/almayer/plate,
 /area/lv759/indoors/spaceport/heavyequip)
 "Wn" = (
-/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform/strata/metal,
 /turf/open/shuttle/escapepod/floor1,
 /area/lv759/indoors/spaceport/engineering)
 "Wq" = (
@@ -8576,10 +8576,10 @@
 	name = "\improper WY-LWI Horizon Runner HR-150 cockpit";
 	locked = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/horizon_runner)
 "Xm" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/almayer/tcomms,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Xq" = (
@@ -8593,7 +8593,7 @@
 /turf/open/floor/strata/orange_edge,
 /area/lv759/indoors/spaceport/hallway_east)
 "Xr" = (
-/obj/structure/platform/metal/strata/north,
+/obj/structure/platform/strata/metal,
 /obj/item/tool/warning_cone{
 	pixel_x = -4;
 	pixel_y = 5
@@ -8653,7 +8653,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Yc" = (
-/obj/structure/largecrate/empty/case/double,
+/obj/structure/largecrate,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Yd" = (
@@ -8691,7 +8691,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Yl" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic_solid/autoname,
@@ -8746,8 +8746,8 @@
 /turf/open/floor/almayer/plating_striped/east,
 /area/lv759/indoors/spaceport/baggagehandling)
 "YO" = (
-/obj/structure/platform/metal/strata/north,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
+/obj/structure/platform/strata/metal,
 /turf/open/hybrisa/street/cement3,
 /area/lv759/outdoors/colony_streets/north_west_street)
 "YP" = (
@@ -8791,7 +8791,7 @@
 /turf/open/hybrisa/dropship/dropship4,
 /area/lv759/indoors/spaceport/horizon_runner)
 "Zg" = (
-/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs/perspective{
 	color = "#6e6e6e"
 	},
@@ -8807,7 +8807,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_1)
 "Zj" = (
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	layer = 3.33
@@ -8876,7 +8876,7 @@
 /turf/open/floor/strata/red3/north,
 /area/lv759/indoors/spaceport/security)
 "Zz" = (
-/obj/structure/platform/metal/strata,
+/obj/structure/platform/strata/metal,
 /obj/structure/stairs{
 	color = "#a6aeab";
 	dir = 8
@@ -8893,7 +8893,7 @@
 /obj/item/device/toner{
 	layer = 4
 	},
-/obj/effect/landmark/objective_landmark/close{
+/turf/open/floor/plating{
 	layer = 5
 	},
 /obj/structure/machinery/light/blue,
@@ -8934,7 +8934,7 @@
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/attachment,
 /obj/effect/spawner/random/attachment,
-/obj/effect/landmark/objective_landmark/close,
+/turf/open/floor/plating,
 /obj/effect/spawner/random/supply_kit,
 /obj/effect/landmark/objective_landmark/medium,
 /turf/open/floor/almayer/cargo,
@@ -8970,8 +8970,8 @@
 /obj/structure/prop/hybrisa/airport/dropshipnosecone{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop/north,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 
 (1,1,1) = {"

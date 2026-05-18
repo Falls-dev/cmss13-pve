@@ -52,7 +52,7 @@
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/clf_dropship)
 "aI" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = 7;
 	pixel_y = 3
@@ -61,7 +61,7 @@
 	icon_state = "W";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/yellow3/west,
 /area/lv759/indoors/spaceport/cargo)
 "bf" = (
@@ -103,7 +103,7 @@
 	color = "#5d524b";
 	alpha = 155
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecalleft";
 	color = "#d3d3d3"
@@ -124,7 +124,7 @@
 /obj/item/roller/bedroll,
 /obj/item/roller/bedroll,
 /obj/item/roller/bedroll,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/southwest,
 /area/lv759/indoors/spaceport/clf_dropship)
 "cc" = (
@@ -202,7 +202,7 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/obj/effect/decal/hybrisa/warning/redandwhite_E,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
 "cD" = (
@@ -247,7 +247,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "dr" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/door/poddoor/shutters/almayer,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/spaceport/cargo_maintenance)
@@ -259,7 +259,7 @@
 	pixel_x = -1;
 	pixel_y = 34
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/largecrate/random/barrel/blue{
 	pixel_x = -6;
 	pixel_y = -9
@@ -276,7 +276,7 @@
 /turf/open/floor/plating/plating_catwalk/prison,
 /area/lv759/indoors/spaceport/cargo)
 "dz" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
@@ -285,7 +285,7 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "dA" = (
 /obj/structure/closet/crate/ammo,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/clothing/accessory/storage/webbing/black,
 /obj/item/clothing/accessory/storage/webbing/black,
 /obj/item/clothing/accessory/storage/webbing/black,
@@ -310,8 +310,8 @@
 	pixel_y = 32;
 	layer = 2.9
 	},
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/strata_decals/grime/grime4,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/greenglow{
@@ -346,11 +346,11 @@
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
-/obj/structure/platform_decoration/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ei" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = -4;
 	pixel_y = 2
@@ -400,13 +400,13 @@
 /obj/structure/shuttle/part/dropship_clf/transparent{
 	icon_state = "101"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "eP" = (
 /obj/structure/machinery/floodlight,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "fa" = (
 /obj/structure/sign/safety/bulkhead_door,
@@ -416,7 +416,7 @@
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/cargo)
 "ff" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = -9;
 	pixel_y = 20
@@ -442,7 +442,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
 	dir = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "fN" = (
@@ -456,14 +456,14 @@
 	icon_state = "thermite";
 	name = "impact"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "fP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "fT" = (
 /obj/item/ammo_casing,
@@ -473,7 +473,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out"
 	},
-/obj/structure/platform/metal/almayer,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/metal/wired,
 /turf/open/floor/strata/yellow3/northeast,
 /area/lv759/indoors/spaceport/cargo)
@@ -489,7 +489,7 @@
 	buckle_offset_x = -7
 	},
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
-/obj/effect/decal/hybrisa/warning/redandwhite_W,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
@@ -508,12 +508,12 @@
 	buckle_offset_x = -7
 	},
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
-/obj/effect/decal/hybrisa/warning/redandwhite_E,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
 "gg" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /obj/structure/barricade/metal/wired{
 	dir = 4
@@ -531,8 +531,8 @@
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "gk" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/item/stack/rods,
 /obj/item/clothing/head/hardhat{
 	pixel_x = 4;
@@ -567,7 +567,7 @@
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gI" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "gK" = (
@@ -583,7 +583,7 @@
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "gU" = (
 /obj/structure/barricade/handrail{
@@ -629,8 +629,8 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "hg" = (
 /obj/effect/landmark/survivor_spawner/clf/hybrisa,
-/obj/effect/decal/hybrisa/warning/redandwhite_E,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/lv759/indoors/spaceport/clf_dropship)
 "hl" = (
@@ -680,7 +680,7 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ic" = (
 /obj/effect/landmark/survivor_spawner/clf/hybrisa,
-/obj/effect/decal/hybrisa/warning/redandwhite_W,
+/obj/effect/decal/cleanable/blood,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/lv759/indoors/spaceport/clf_dropship)
 "ie" = (
@@ -716,7 +716,7 @@
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "il" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/showcase{
 	breakable = 1;
 	density = 0;
@@ -737,15 +737,15 @@
 "in" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
 /obj/item/trash/cigbutt,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "iQ" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
@@ -786,7 +786,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /obj/item/trash/cigbutt,
 /turf/open/floor/strata/yellow3,
@@ -831,8 +831,8 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "kc" = (
 /obj/effect/decal/medical_decals{
@@ -845,7 +845,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "kd" = (
-/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	layer = 3.33
@@ -911,7 +911,7 @@
 /turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right,
 /area/lv759/indoors/spaceport/clf_dropship)
 "lP" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue4/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "md" = (
@@ -925,26 +925,26 @@
 /obj/effect/decal/hybrisa/WY/WY1{
 	pixel_y = 16
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/blood/oil/streak{
 	pixel_x = 8;
 	pixel_y = 15
 	},
 /obj/item/trash/cigbutt,
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mi" = (
-/obj/structure/platform/metal/almayer,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/metal/wired,
 /turf/open/floor/strata/yellow3/north,
 /area/lv759/indoors/spaceport/cargo)
 "ml" = (
 /obj/item/trash/cigbutt,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "mp" = (
@@ -958,7 +958,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "mD" = (
 /obj/structure/machinery/light/dropship/blue{
@@ -993,7 +993,7 @@
 /area/lv759/indoors/spaceport/clf_dropship)
 "mQ" = (
 /obj/structure/machinery/door/airlock/prison_hatch,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/door/poddoor/hybrisa/white{
 	name = "\improper UD-9M 'Dogbite'";
 	color = "#646464";
@@ -1023,7 +1023,7 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
@@ -1082,11 +1082,11 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ol" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ov" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ox" = (
@@ -1098,9 +1098,9 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "oF" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "oQ" = (
 /obj/item/tool/warning_cone{
@@ -1122,8 +1122,8 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/corsat/officetiles,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "po" = (
 /obj/structure/sign/safety/restrictedarea{
@@ -1140,12 +1140,12 @@
 	pixel_x = -9;
 	pixel_y = 20
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = 2;
 	pixel_y = 9
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "px" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1169,7 +1169,7 @@
 	pixel_x = -1;
 	pixel_y = 34
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/sandbags{
 	pixel_y = 14
 	},
@@ -1215,7 +1215,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/sandbags{
 	pixel_y = 14
 	},
@@ -1230,7 +1230,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "qv" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/door/poddoor/hybrisa/white{
 	name = "\improper UD-9M 'Dogbite' - Cargo Hold";
 	color = "#646464";
@@ -1239,8 +1239,8 @@
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "qC" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "qG" = (
@@ -1269,7 +1269,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "qT" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/manifold/hidden/dark{
 	dir = 8
 	},
@@ -1288,7 +1288,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "rd" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue4/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "rt" = (
@@ -1321,14 +1321,14 @@
 	pixel_x = -15
 	},
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
 "rC" = (
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "rD" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
@@ -1344,7 +1344,7 @@
 	color = "#646464";
 	id = "clf_cargo_1"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "sm" = (
@@ -1367,7 +1367,7 @@
 	dir = 8;
 	pixel_y = -8
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/structure/surface/rack{
 	pixel_y = 17;
 	density = 0;
@@ -1389,15 +1389,15 @@
 	pixel_y = 1
 	},
 /obj/item/trash/cigbutt,
-/obj/effect/decal/hybrisa/dirt_2,
-/turf/open/floor/corsat/officetiles,
+/obj/effect/decal/cleanable/blood_2,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "st" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "sB" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/largecrate/random/mini/ammo{
 	pixel_x = -3;
 	pixel_y = 17
@@ -1433,7 +1433,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "uf" = (
-/obj/structure/platform/metal/almayer/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
@@ -1458,7 +1458,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "uo" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
@@ -1479,7 +1479,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "uT" = (
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "uV" = (
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname,
@@ -1518,13 +1518,13 @@
 	icon_state = "W";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/yellow3/west,
 /area/lv759/indoors/spaceport/cargo)
 "vv" = (
 /obj/structure/blocker/invisible_wall,
 /obj/structure/machinery/door/poddoor{
-	explo_proof = 1;
+	 = 1;
 	needs_power = 0;
 	unacidable = 1;
 	name = "\improper Lockdown";
@@ -1537,7 +1537,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "vN" = (
@@ -1549,7 +1549,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "vP" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "vR" = (
@@ -1586,11 +1586,11 @@
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
 /obj/item/ammo_magazine/rifle/mar40,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "wb" = (
 /obj/effect/landmark/survivor_spawner/clf_engi,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "wc" = (
@@ -1601,13 +1601,13 @@
 /turf/open/floor/strata/multi_tiles/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "wd" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
 /obj/item/trash/cigbutt,
-/obj/effect/decal/hybrisa/dirt_2,
-/turf/open/floor/corsat/officetiles,
+/obj/effect/decal/cleanable/blood_2,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "wg" = (
 /obj/effect/decal/warning_stripes{
@@ -1699,7 +1699,7 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "xC" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
@@ -1789,7 +1789,7 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "ye" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "yf" = (
 /obj/item/weapon/gun/smg/fp9000,
@@ -1803,7 +1803,7 @@
 /obj/item/ammo_magazine/smg/fp9000,
 /obj/item/ammo_magazine/smg/fp9000,
 /obj/item/ammo_magazine/smg/fp9000,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/clf_dropship)
 "yp" = (
@@ -1850,8 +1850,8 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
-/turf/open/floor/prison/ramptop,
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "zh" = (
 /turf/closed/shuttle/dropship5/CLF/Fire/transparent{
@@ -1864,7 +1864,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "zx" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -1873,7 +1873,7 @@
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "zI" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/spaceport/cargo)
 "zJ" = (
@@ -1914,7 +1914,7 @@
 	icon_state = "S";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -1943,14 +1943,14 @@
 /turf/open/floor/corsat/plate,
 /area/lv759/indoors/spaceport/kitchen)
 "AM" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "AP" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /obj/item/weapon/gun/rifle/m16,
 /turf/open/floor/almayer/cargo,
@@ -1970,7 +1970,7 @@
 /obj/item/ammo_magazine/rifle/m16/ap,
 /obj/item/ammo_magazine/rifle/m16/ap,
 /obj/item/ammo_magazine/rifle/m16/ap,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "AT" = (
 /obj/structure/window/framed/hybrisa/spaceport/reinforced,
@@ -2041,7 +2041,7 @@
 /obj/structure/shuttle/part/dropship_clf/transparent{
 	icon_state = "101"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
@@ -2059,7 +2059,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/communications_office)
 "CM" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "CO" = (
@@ -2083,7 +2083,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "Da" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil/streak,
@@ -2096,7 +2096,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/cargo)
 "Dk" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Dp" = (
@@ -2112,7 +2112,7 @@
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "DB" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /turf/open/floor/almayer,
 /area/lv759/indoors/spaceport/cargo)
@@ -2131,7 +2131,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "Eq" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/door_control{
 	id = "clf_cargo_2";
 	name = "Cargo Lockdown";
@@ -2145,14 +2145,14 @@
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Er" = (
 /obj/structure/shuttle/part/dropship_clf/transparent,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Ev" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue4/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Ew" = (
@@ -2194,7 +2194,7 @@
 	icon_state = "W";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
@@ -2206,7 +2206,7 @@
 	icon_state = "W";
 	layer = 3.3
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/yellow3/west,
 /area/lv759/indoors/spaceport/cargo)
 "FG" = (
@@ -2220,7 +2220,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/spaceport/cargo)
 "FJ" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark,
 /obj/structure/barricade/metal/wired{
 	dir = 8
@@ -2231,7 +2231,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "FR" = (
 /obj/structure/sign/banners/clf_flag{
@@ -2239,8 +2239,8 @@
 	pixel_y = 31;
 	layer = 2.9
 	},
-/obj/effect/decal/hybrisa/warning/redandwhite_W,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /turf/open/shuttle/dropship/medium_grey_single_wide_up_to_down,
 /area/lv759/indoors/spaceport/clf_dropship)
@@ -2266,7 +2266,7 @@
 "Gp" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_S,
 /obj/item/ammo_magazine/rifle/m16,
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Gy" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2290,7 +2290,7 @@
 	pixel_x = 1;
 	pixel_y = 2
 	},
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "GX" = (
 /obj/structure/pipes/standard/manifold/hidden/dark{
@@ -2341,7 +2341,7 @@
 	pixel_x = 4;
 	pixel_y = 14
 	},
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Ic" = (
@@ -2375,7 +2375,7 @@
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "It" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
@@ -2436,7 +2436,7 @@
 	pixel_y = 6
 	},
 /obj/item/weapon/gun/rifle/m16,
-/turf/open/floor/prison/ramptop/north,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "IQ" = (
 /obj/structure/bed/chair/vehicle{
@@ -2455,18 +2455,18 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/obj/effect/decal/hybrisa/warning/redandwhite_W,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
 "IS" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/defenses/handheld/planted_flag/clf,
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/cargo)
 "Jp" = (
-/obj/effect/decal/hybrisa/warning/redandwhite_E,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/generic{
 	color = "#5d524b";
 	alpha = 155
@@ -2488,10 +2488,10 @@
 	icon_state = "N"
 	},
 /obj/item/trash/cigbutt,
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "JJ" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/landmark/survivor_spawner/clf/hybrisa,
 /turf/open/floor/strata/multi_tiles,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -2555,7 +2555,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/colony/autoname{
 	welded = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "Kx" = (
@@ -2592,23 +2592,23 @@
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb{
 	pixel_y = -5
 	},
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer/test_floor5,
 /area/lv759/indoors/spaceport/clf_dropship)
 "KI" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3/north,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "La" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/shuttle/part/dropship_clf{
 	icon_state = "99"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Ld" = (
 /obj/effect/decal/cleanable/dirt,
@@ -2653,18 +2653,18 @@
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/cargo)
 "LK" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/structure/platform/metal/stair_cut/strata_left,
-/turf/open/floor/prison/ramptop/east,
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "LR" = (
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/cargo)
 "LU" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/power/port_gen,
 /obj/structure/cable{
 	icon_state = "11-6";
@@ -2685,7 +2685,7 @@
 /obj/structure/shuttle/part/dropship_clf/transparent{
 	icon_state = "6"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Mj" = (
@@ -2694,7 +2694,7 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "Mr" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/machinery/faxmachine{
 	department = "CLF - Cell 42"
 	},
@@ -2723,9 +2723,9 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo)
 "MN" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Na" = (
@@ -2761,7 +2761,7 @@
 /turf/open/floor/strata/yellow3/north,
 /area/lv759/indoors/spaceport/cargo)
 "Ob" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/barricade/sandbags{
 	pixel_y = 14
 	},
@@ -2793,8 +2793,8 @@
 	},
 /area/lv759/indoors/spaceport/clf_dropship)
 "Oq" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/wirecutters,
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 9
@@ -2805,7 +2805,7 @@
 /turf/open/floor/prison/floor_plate/southwest,
 /area/lv759/indoors/spaceport/cargo)
 "Ot" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/strata_decals/grime/grime4{
 	dir = 1
 	},
@@ -2820,7 +2820,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "OD" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue4,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "OM" = (
@@ -2828,7 +2828,7 @@
 /turf/open/floor/strata/blue3/west,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "OP" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/reagent_container/glass/bucket{
 	pixel_x = 12;
 	pixel_y = 12
@@ -2867,7 +2867,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Pj" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Pq" = (
@@ -2893,7 +2893,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/floor3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "PL" = (
@@ -2904,7 +2904,7 @@
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Qe" = (
 /turf/closed/wall/hybrisa/spaceport/reinforced,
@@ -2913,7 +2913,7 @@
 /obj/structure/shuttle/part/dropship_clf/transparent{
 	icon_state = "2"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Qg" = (
@@ -2937,7 +2937,7 @@
 	pixel_y = -8
 	},
 /obj/item/tool/extinguisher/mini,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /turf/open/floor/prison/southwest,
 /area/lv759/indoors/spaceport/clf_dropship)
 "QA" = (
@@ -2949,11 +2949,11 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 9
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "QM" = (
-/obj/structure/pipes/vents/pump,
+/obj/structure/pipes/pipes/pump,
 /obj/structure/largecrate/random/mini/ammo{
 	pixel_x = -15;
 	pixel_y = 8
@@ -2992,7 +2992,7 @@
 	layer = 3.33
 	},
 /obj/effect/decal/strata_decals/catwalk/prison,
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/sandbags/wired{
 	dir = 4
 	},
@@ -3049,7 +3049,7 @@
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/corsat/spiralplate,
 /area/lv759/indoors/spaceport/clf_dropship)
 "RS" = (
@@ -3099,8 +3099,8 @@
 /turf/closed/wall/hybrisa/spaceport/reinforced,
 /area/lv759/indoors/spaceport/kitchen)
 "SH" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
 /obj/item/reagent_container/glass/bucket{
 	pixel_x = 12;
 	pixel_y = 12
@@ -3129,7 +3129,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "SK" = (
-/obj/structure/pipes/vents/pump_hybrisa,
+/obj/structure/pipes/pipe,
 /obj/structure/barricade/plasteel/wired{
 	dir = 4
 	},
@@ -3187,10 +3187,10 @@
 /turf/open/floor/prison/southwest,
 /area/lv759/indoors/spaceport/clf_dropship)
 "TO" = (
-/turf/open/floor/prison/ramptop/east,
+/turf/open/floor/plating/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "TP" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
 	layer = 3.33
@@ -3209,7 +3209,7 @@
 /turf/open/floor/shiva/radiator_tile2,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Uu" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/trash/cigbutt,
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
@@ -3229,17 +3229,17 @@
 	color = "#646464";
 	id = "clf_cargo_2"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
 "UR" = (
 /obj/effect/decal/hybrisa/warning/redandwhite_N{
 	pixel_y = 1
 	},
-/turf/open/floor/corsat/officetiles,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "UX" = (
-/obj/structure/platform/metal/almayer,
+/obj/structure/platform/strata/metal,
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
@@ -3247,19 +3247,19 @@
 /turf/open/floor/strata/yellow3/north,
 /area/lv759/indoors/spaceport/cargo)
 "Vl" = (
-/obj/structure/platform/metal/almayer/west,
-/turf/open/floor/prison/ramptop/north,
+/obj/structure/platform/strata/metal,
+/turf/open/floor/plating/north,
 /area/lv759/indoors/spaceport/cargo)
 "Vz" = (
-/obj/structure/platform/metal/strata/west,
+/obj/structure/platform/strata/metal,
 /obj/item/device/flashlight/lamp/tripod{
 	on = 0
 	},
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "VA" = (
-/obj/effect/decal/hybrisa/dirt,
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood_2,
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/floor/almayer/test_floor4,
 /area/lv759/indoors/spaceport/clf_dropship)
@@ -3330,7 +3330,7 @@
 	color = "#d3d3d3";
 	pixel_x = -2
 	},
-/obj/effect/decal/hybrisa/dirt_2,
+/obj/effect/decal/cleanable/blood_2,
 /obj/effect/landmark/survivor_spawner/clf_medic/hybrisa,
 /turf/open/floor/prison/southwest,
 /area/lv759/indoors/spaceport/clf_dropship)
@@ -3355,7 +3355,7 @@
 /turf/open/floor/strata/blue3/east,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Xl" = (
-/obj/structure/platform/metal/strata/east,
+/obj/structure/platform/strata/metal,
 /turf/open/floor/strata/blue3,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Xw" = (
@@ -3367,7 +3367,7 @@
 /obj/structure/shuttle/part/dropship_clf/transparent{
 	icon_state = "5"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /turf/open/floor/prison/cell_stripe/north,
 /area/lv759/indoors/spaceport/clf_dropship)
 "XQ" = (
@@ -3388,7 +3388,7 @@
 /turf/open/floor/plating,
 /area/lv759/indoors/spaceport/cargo_maintenance)
 "XR" = (
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/cable{
 	icon_state = "2-6";
 	color = "#550d0d";
@@ -3419,7 +3419,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out"
 	},
-/obj/structure/platform/metal/almayer,
+/obj/structure/platform/strata/metal,
 /obj/structure/barricade/metal/wired,
 /turf/open/floor/strata/yellow3/northwest,
 /area/lv759/indoors/spaceport/cargo)
@@ -3450,12 +3450,12 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/item/tool/warning_cone{
 	pixel_x = 6;
 	pixel_y = 17
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "YN" = (
 /obj/structure/closet/emcloset,
@@ -3472,11 +3472,11 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/effect/decal/cleanable/dirt{
 	layer = 4
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/docking_bay_2)
 "Zd" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3507,11 +3507,11 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "N"
 	},
-/obj/effect/decal/hybrisa/dirt,
+/obj/effect/decal/cleanable/blood,
 /obj/structure/shuttle/part/dropship_clf{
 	icon_state = "95"
 	},
-/turf/open/floor/prison/ramptop,
+/turf/open/floor/plating,
 /area/lv759/indoors/spaceport/clf_dropship)
 "Zw" = (
 /obj/structure/barricade/sandbags{
