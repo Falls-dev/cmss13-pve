@@ -1496,7 +1496,7 @@
 	pixel_y = 2
 	},
 /obj/item/clothing/glasses/science,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "adY" = (
 /obj/structure/window/reinforced{
@@ -1516,7 +1516,7 @@
 	pixel_y = 8;
 	pixel_x = -4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "adZ" = (
 /obj/structure/barricade/handrail/kutjevo,
@@ -4511,7 +4511,7 @@
 /area/lv759/indoors/wy_research_complex/hallwaysoutheast)
 "alG" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "alH" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -4581,7 +4581,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "alO" = (
 /obj/effect/decal/medical_decals{
@@ -7130,7 +7130,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "asy" = (
 /obj/structure/window/framed/hybrisa/colony/hospital/reinforced,
@@ -9093,7 +9093,7 @@
 	pixel_y = 1;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "aDl" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/frame{
@@ -10332,7 +10332,7 @@
 	icon_state = "W"
 	},
 /obj/item/shard,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "aMy" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -10839,7 +10839,7 @@
 /obj/structure/machinery/door/window/southleft{
 	pixel_y = 13
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "aQI" = (
 /obj/effect/decal/cleanable/blood,
@@ -12336,7 +12336,7 @@
 /obj/structure/prop/hybrisa/misc/buildinggreebliessmall/smallvent3{
 	pixel_y = 28
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "bcl" = (
 /obj/structure/prop/hybrisa/misc/machinery/screens/frame{
@@ -13960,7 +13960,7 @@
 	pixel_x = -1;
 	pixel_y = -3
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "boL" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -14141,7 +14141,7 @@
 /obj/structure/machinery/door/window/southleft{
 	dir = 8
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "bqo" = (
 /obj/item/reagent_container/glass/bucket{
@@ -15124,7 +15124,7 @@
 	layer = 5;
 	level = 2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "bxw" = (
 /obj/effect/decal/cleanable/blood,
@@ -15160,7 +15160,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "bxJ" = (
 /obj/structure/pipes/standard/manifold/hidden/dark{
@@ -16978,7 +16978,7 @@
 /obj/structure/machinery/light/small/blue{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "bNa" = (
 /obj/effect/decal/warning_stripes{
@@ -18689,7 +18689,7 @@
 	pixel_x = 6;
 	pixel_y = -2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "bYu" = (
 /obj/effect/decal/cleanable/blood,
@@ -20549,7 +20549,7 @@
 	pixel_x = 1;
 	color = "#d3d3d3"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "cmB" = (
 /obj/structure/prop/hybrisa/vehicles/Small_Truck/Red{
@@ -21988,7 +21988,7 @@
 	pixel_x = 2;
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "cwR" = (
 /obj/effect/decal/cleanable/blood,
@@ -22021,7 +22021,7 @@
 /obj/effect/landmark/objective_landmark/science,
 /obj/item/device/analyzer,
 /obj/effect/decal/cleanable/blood_2,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "cxd" = (
 /obj/effect/decal/warning_stripes{
@@ -24766,7 +24766,7 @@
 	icon_state = "E";
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "cRb" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -26272,7 +26272,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "dbH" = (
 /obj/structure/prop/hybrisa/boulders/large_boulderdark/boulder_dark3,
@@ -26375,7 +26375,7 @@
 /area/lv759/outdoors/colony_streets/central_streets)
 "dcs" = (
 /obj/structure/stairs/perspective/kutjevo,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "dcC" = (
 /obj/effect/decal/cleanable/blood{
@@ -26734,7 +26734,7 @@
 	icon_state = "W";
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "dfb" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -27154,7 +27154,7 @@
 	pixel_y = 2
 	},
 /obj/structure/machinery/light/small/blue,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "dhR" = (
 /obj/structure/bed/chair/wood/normal{
@@ -28843,7 +28843,7 @@
 	icon_state = "S"
 	},
 /obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "dun" = (
 /obj/effect/decal/strata_decals/grime/grime3{
@@ -29813,7 +29813,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "dCY" = (
 /obj/structure/reagent_dispensers/fueltank/spacecraft,
@@ -31428,7 +31428,7 @@
 	pixel_x = -4;
 	buckling_x = -4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "dQB" = (
 /obj/effect/decal/cleanable/blood,
@@ -32451,7 +32451,7 @@
 	pixel_x = -7;
 	pixel_y = 7
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "dYv" = (
 /obj/effect/decal/cleanable/blood/xeno,
@@ -32463,7 +32463,7 @@
 	pixel_y = 5
 	},
 /obj/item/shard,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "dYD" = (
 /obj/structure/closet/fireaxecabinet,
@@ -32749,7 +32749,7 @@
 	icon_state = "E"
 	},
 /obj/structure/largecrate/random/case/double,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "eaB" = (
 /obj/item/trash/cigbutt{
@@ -33711,7 +33711,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "ehV" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -35347,7 +35347,7 @@
 /obj/item/tool/kitchen/tray{
 	pixel_y = 13
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "euu" = (
 /obj/structure/surface/table/reinforced/black,
@@ -35445,7 +35445,7 @@
 /obj/effect/decal/strata_decals/grime/grime4{
 	dir = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "evd" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -38657,7 +38657,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "eVc" = (
 /turf/closed/wall{
@@ -39980,7 +39980,7 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "ffB" = (
 /obj/structure/disposalpipe/segment,
@@ -40625,7 +40625,7 @@
 	pixel_x = -2;
 	pixel_y = 3
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "fkW" = (
 /obj/structure/surface/rack,
@@ -43100,7 +43100,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "fDG" = (
 /obj/structure/flora/pottedplant{
@@ -47298,7 +47298,7 @@
 	pixel_y = 18;
 	layer = 3.01
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "glG" = (
 /obj/effect/decal/warning_stripes{
@@ -47721,7 +47721,7 @@
 /obj/structure/prop/hybrisa/misc/machinery/screens/frame{
 	pixel_y = 32
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "goT" = (
 /obj/effect/decal/warning_stripes{
@@ -50652,7 +50652,7 @@
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaysouthwest)
 "gMV" = (
 /turf/open/floor/prison/darkbrown2/northeast,
@@ -50830,7 +50830,7 @@
 	pixel_y = 1
 	},
 /obj/structure/largecrate/random/barrel/medical,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "gOE" = (
 /obj/structure/machinery/floodlight,
@@ -51811,7 +51811,7 @@
 	pixel_x = -8;
 	pixel_y = 6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "gVo" = (
 /turf/closed/wall/hybrisa/spaceport/reinforced,
@@ -51869,7 +51869,7 @@
 	icon_state = "W"
 	},
 /obj/structure/inflatable,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "gVT" = (
 /obj/structure/desertdam/decals/road_edge,
@@ -52843,7 +52843,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "heM" = (
 /obj/effect/decal/cleanable/blood{
@@ -53992,7 +53992,7 @@
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "hnC" = (
 /obj/effect/decal/cleanable/blood,
@@ -54575,7 +54575,7 @@
 /obj/item/reagent_container/spray/cleaner{
 	pixel_x = -6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "hrQ" = (
 /obj/effect/decal/cleanable/blood,
@@ -54891,7 +54891,7 @@
 	layer = 2.5;
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "hud" = (
 /obj/effect/decal/cleanable/blood,
@@ -55437,7 +55437,7 @@
 	layer = 2
 	},
 /obj/structure/machinery/big_computers/computerwhite/computer3,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "hzp" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -55522,7 +55522,7 @@
 	pixel_y = 2
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "hzH" = (
 /obj/item/device/toner{
@@ -58665,7 +58665,7 @@
 	icon_state = "N";
 	pixel_y = 2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "hWP" = (
 /turf/open/floor/prison/blue_plate,
@@ -58975,7 +58975,7 @@
 	pixel_x = -14;
 	pixel_y = 9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "hZf" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -59136,7 +59136,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "iaw" = (
 /obj/structure/window/framed/hybrisa/research/reinforced,
@@ -60260,7 +60260,7 @@
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "iiG" = (
 /obj/structure/disposalpipe/segment,
@@ -63036,7 +63036,7 @@
 	icon_state = "N";
 	pixel_y = 5
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "iDn" = (
 /obj/structure/machinery/optable,
@@ -63994,7 +63994,7 @@
 	pixel_x = 6
 	},
 /obj/item/storage/fancy/vials,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "iLi" = (
 /obj/structure/machinery/light{
@@ -65597,7 +65597,7 @@
 	},
 /obj/item/shard,
 /obj/item/shard,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "iYb" = (
 /obj/effect/decal/cleanable/blood,
@@ -66489,7 +66489,7 @@
 /obj/structure/machinery/door/window/southleft{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "jfP" = (
 /obj/effect/decal/cleanable/blood,
@@ -67271,7 +67271,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "jkO" = (
 /obj/effect/decal/cleanable/blood,
@@ -67362,7 +67362,7 @@
 /obj/item/roller/bedroll,
 /obj/item/roller/bedroll,
 /obj/item/roller/bedroll,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "jly" = (
 /turf/open/floor/corsat/marked,
@@ -68572,7 +68572,7 @@
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "jvq" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
@@ -72300,7 +72300,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "jZJ" = (
 /obj/item/tool/wet_sign{
@@ -74056,7 +74056,7 @@
 	on = 0;
 	pixel_y = 9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "koh" = (
 /obj/item/stack/sheet/cardboard,
@@ -75361,7 +75361,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "kvH" = (
 /obj/effect/decal/cleanable/blood,
@@ -75419,7 +75419,7 @@
 	dir = 1;
 	pixel_y = 12
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "kwa" = (
 /obj/structure/blocker/forcefield/vehicles,
@@ -75853,7 +75853,7 @@
 	pixel_x = 1
 	},
 /obj/item/shard,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "kzl" = (
 /obj/structure/surface/table/reinforced/prison{
@@ -76251,7 +76251,7 @@
 /obj/structure/pipes/standard/manifold/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaycentral)
 "kCl" = (
 /turf/open/floor/hybrisa/tile/blacktileshiny,
@@ -77939,7 +77939,7 @@
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "kQr" = (
 /obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
@@ -78386,7 +78386,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "kUf" = (
 /obj/structure/surface/table/almayer,
@@ -79746,7 +79746,7 @@
 /obj/structure/machinery/big_computers/computerwhite/computer1{
 	pixel_y = 6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "lea" = (
 /obj/effect/decal/warning_stripes{
@@ -83908,7 +83908,7 @@
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "lIY" = (
 /obj/item/storage/briefcase{
@@ -84540,7 +84540,7 @@
 /turf/closed/wall/hybrisa/colony,
 /area/lv759/outdoors/colony_streets/central_streets)
 "lOu" = (
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaycentral)
 "lOy" = (
 /obj/structure/platform/strata/metal,
@@ -87451,7 +87451,7 @@
 	layer = 1.9
 	},
 /obj/structure/machinery/big_computers/computerwhite/computer5,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "mla" = (
 /turf/open/floor/hybrisa/engineership/engineer_floor13/east,
@@ -88338,7 +88338,7 @@
 	pixel_y = 1;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "mrr" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -89554,7 +89554,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "mAk" = (
 /obj/item/tool/warning_cone{
@@ -91056,7 +91056,7 @@
 	pixel_y = 7
 	},
 /obj/effect/landmark/objective_landmark/science,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "mMH" = (
 /turf/closed/wall/hybrisa/research/reinforced,
@@ -91123,7 +91123,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaycentral)
 "mNa" = (
 /turf/open/floor/prison/cell_stripe/west,
@@ -91811,7 +91811,7 @@
 	pixel_x = 6;
 	pixel_y = 18
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "mTO" = (
 /turf/open/floor/plating/plating_catwalk/prison,
@@ -92518,7 +92518,7 @@
 	pixel_x = 1;
 	pixel_y = 3
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "mZM" = (
 /obj/structure/surface/rack,
@@ -92661,7 +92661,7 @@
 /obj/item/reagent_container/glass/beaker/large,
 /obj/item/reagent_container/glass/beaker/large,
 /obj/item/reagent_container/glass/beaker/large,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "nbc" = (
 /obj/structure/platform/kutjevo/rock,
@@ -92765,7 +92765,7 @@
 	color = "#848484"
 	},
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "nbL" = (
 /obj/effect/decal/warning_stripes{
@@ -93044,7 +93044,7 @@
 	pixel_x = -10
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "ndT" = (
 /obj/structure/filingcabinet{
@@ -94694,7 +94694,7 @@
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "nrj" = (
 /obj/effect/decal/cleanable/blood,
@@ -97110,7 +97110,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "nKS" = (
 /obj/structure/barricade/metal,
@@ -97919,7 +97919,7 @@
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "nPX" = (
 /obj/structure/blocker/forcefield/vehicles,
@@ -99495,7 +99495,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "oaO" = (
 /obj/structure/machinery/light/double/blue{
@@ -101572,7 +101572,7 @@
 	icon_state = "W"
 	},
 /obj/structure/inflatable,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "ord" = (
 /obj/effect/decal/cleanable/blood,
@@ -103766,7 +103766,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "oJC" = (
 /obj/effect/decal/cleanable/blood,
@@ -104947,7 +104947,7 @@
 	},
 /obj/item/shard,
 /obj/item/shard,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "oSG" = (
 /obj/structure/machinery/colony_floodlight/street{
@@ -105577,7 +105577,7 @@
 	},
 /obj/structure/platform/strata/metal,
 /obj/structure/machinery/big_computers/computerwhite/computer4,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "oXj" = (
 /obj/structure/machinery/disposal/delivery,
@@ -107248,7 +107248,7 @@
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "pkZ" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/generic/autoname{
@@ -108836,7 +108836,7 @@
 /obj/item/reagent_container/spray/cleaner{
 	pixel_x = 6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "pxb" = (
 /obj/structure/prop/invuln/minecart_tracks{
@@ -110499,7 +110499,7 @@
 	},
 /obj/item/reagent_container/glass/beaker/vial,
 /obj/item/reagent_container/glass/beaker/vial,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "pJb" = (
 /obj/structure/prop/hybrisa/fakeplatforms/platform3{
@@ -111427,7 +111427,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "pRh" = (
 /obj/structure/cable/white{
@@ -111796,7 +111796,7 @@
 /area/lv759/indoors/spaceport/communications_office)
 "pTY" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/hallwaycentral)
 "pUc" = (
 /obj/structure/platform/strata/metal,
@@ -112730,7 +112730,7 @@
 /obj/structure/bed/hybrisa/prisonbed{
 	dir = 10
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "qbV" = (
 /obj/structure/prop/hybrisa/misc/fake/lattice/full,
@@ -114287,7 +114287,7 @@
 /obj/structure/surface/table/almayer{
 	color = "#848484"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "qoB" = (
 /obj/structure/machinery/door/airlock/glass{
@@ -115970,7 +115970,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "qBG" = (
 /obj/item/stack/sandbags/large_stack,
@@ -116151,7 +116151,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "qDu" = (
 /obj/structure/prop/hybrisa/cavedecor/stalagmite3,
@@ -116832,7 +116832,7 @@
 	pixel_x = 9;
 	pixel_y = 8
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "qJp" = (
 /obj/structure/bed/chair/comfy{
@@ -120647,7 +120647,7 @@
 	dir = 1;
 	pixel_y = 6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "rmZ" = (
 /obj/structure/machinery/door/poddoor/hybrisa/open_shutters,
@@ -122930,7 +122930,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "rEq" = (
 /obj/structure/machinery/light/small/blue,
@@ -123612,7 +123612,7 @@
 	icon_state = "W"
 	},
 /obj/structure/inflatable,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "rJm" = (
 /obj/structure/barricade/handrail/hybrisa/handrail,
@@ -125505,7 +125505,7 @@
 	},
 /obj/structure/platform/strata/metal,
 /obj/structure/machinery/big_computers/computerwhite/computer5,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "rWb" = (
 /obj/structure/cable/white{
@@ -128372,7 +128372,7 @@
 /obj/effect/decal/hybrisa/trash{
 	icon_state = "trash_8"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "srN" = (
 /obj/effect/decal/cleanable/blood,
@@ -129681,7 +129681,7 @@
 	layer = 2
 	},
 /obj/structure/machinery/big_computers/science_big/protolathe,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "sBB" = (
 /obj/effect/decal/cleanable/blood,
@@ -131596,7 +131596,7 @@
 	pixel_x = 27;
 	pixel_y = 32
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "sRd" = (
 /turf/closed/wall{
@@ -131897,7 +131897,7 @@
 	pixel_x = 8;
 	pixel_y = 8
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "sTU" = (
 /obj/structure/prop/invuln/minecart_tracks{
@@ -133007,7 +133007,7 @@
 	layer = 5;
 	level = 2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "tcu" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
@@ -133358,7 +133358,7 @@
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "teC" = (
 /obj/structure/bed/chair{
@@ -135128,7 +135128,7 @@
 	},
 /obj/item/tool/surgery/cautery,
 /obj/item/tool/surgery/scalpel,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "tqD" = (
 /obj/structure/platform/kutjevo/rock,
@@ -135407,7 +135407,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "ttf" = (
 /obj/item/attachable/bayonet/upp{
@@ -140224,7 +140224,7 @@
 /obj/structure/pipes/standard/simple/hidden/dark{
 	dir = 4
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "ugM" = (
 /obj/effect/decal/cleanable/vomit{
@@ -140494,7 +140494,7 @@
 /obj/structure/machinery/light/double/blue{
 	dir = 8
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "uiL" = (
 /obj/structure/pipes/standard/simple/hidden/dark,
@@ -141757,7 +141757,7 @@
 /obj/structure/surface/table/reinforced/prison{
 	color = "#8e98a0"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "usB" = (
 /obj/structure/machinery/atm{
@@ -142328,7 +142328,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "uwU" = (
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
@@ -145008,7 +145008,7 @@
 	icon_state = "SE-out";
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "uPp" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -145613,7 +145613,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "uSS" = (
 /obj/structure/surface/rack,
@@ -148792,7 +148792,7 @@
 	pixel_y = 16
 	},
 /obj/effect/landmark/objective_landmark/far,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "vtn" = (
 /obj/structure/machinery/space_heater/radiator/red{
@@ -150223,7 +150223,7 @@
 	layer = 2.5;
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "vDz" = (
 /obj/effect/sentry_landmark/lz_1/bottom_left,
@@ -151258,7 +151258,7 @@
 /turf/open/floor/corsat,
 /area/lv759/indoors/recycling_plant_waste_disposal_incinerator)
 "vLL" = (
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "vLN" = (
 /obj/effect/decal/medical_decals{
@@ -153464,7 +153464,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "wdj" = (
 /obj/structure/platform/strata/metal,
@@ -154278,7 +154278,7 @@
 /obj/structure/machinery/faxmachine/uscm{
 	pixel_y = 10
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "wjg" = (
 /obj/effect/decal/cleanable/flour,
@@ -154493,7 +154493,7 @@
 	icon_state = "E"
 	},
 /obj/effect/decal/cleanable/blood,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "wkN" = (
 /obj/structure/machinery/door/airlock/multi_tile/hybrisa/personal/autoname{
@@ -157391,7 +157391,7 @@
 	icon_state = "N";
 	pixel_y = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "wHY" = (
 /obj/structure/prop/structure_lattice{
@@ -157597,7 +157597,7 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "wKq" = (
 /obj/effect/decal/cleanable/blood,
@@ -158579,7 +158579,7 @@
 /obj/effect/decal/hybrisa/trash{
 	pixel_y = 12
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "wSK" = (
 /obj/structure/platform/strata/metal,
@@ -160432,7 +160432,7 @@
 	icon_state = "E"
 	},
 /obj/structure/largecrate/random/barrel/white,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "xgU" = (
 /obj/structure/desertdam/decals/road_edge{
@@ -161474,7 +161474,7 @@
 	layer = 3.33;
 	pixel_x = 1
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenobiology)
 "xoN" = (
 /obj/structure/window/reinforced{
@@ -162872,7 +162872,7 @@
 /obj/structure/platform/strata/metal{
 	layer = 1.9
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "xyy" = (
 /obj/effect/decal/cleanable/blood/oil,
@@ -162939,7 +162939,7 @@
 	pixel_x = -8;
 	pixel_y = 6
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "xyS" = (
 /obj/structure/prop/hybrisa/cavedecor/stalagmite5,
@@ -163922,7 +163922,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "E"
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/bunker/checkpoint)
 "xFT" = (
 /obj/structure/platform_decoration/metal/strata/north,
@@ -164625,7 +164625,7 @@
 /turf/open/floor/almayer/cargo,
 /area/lv759/indoors/spaceport/baggagehandling)
 "xLK" = (
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/cafeteria)
 "xLM" = (
 /obj/structure/largecrate/random/barrel/black,
@@ -164672,7 +164672,7 @@
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
 /obj/item/reagent_container/glass/beaker,
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "xMl" = (
 /obj/structure/prop/hybrisa/misc/trash/green{
@@ -165357,7 +165357,7 @@
 	dir = 1;
 	layer = 2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/xenoarcheology)
 "xRQ" = (
 /obj/structure/pipes/standard/simple/hidden/dark{
@@ -165835,7 +165835,7 @@
 	pixel_x = -2;
 	pixel_y = 12
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/janitor)
 "xVA" = (
 /obj/structure/prop/hybrisa/fakeplatforms/platform4/deco{
@@ -167160,7 +167160,7 @@
 	layer = 5;
 	level = 2
 	},
-/turf/open/floor/almayer/blackfull/west,
+/turf/open/floor/almayer/plate,
 /area/lv759/indoors/wy_research_complex/mainlabs)
 "yfp" = (
 /obj/structure/machinery/power/apc/no_power/west,
