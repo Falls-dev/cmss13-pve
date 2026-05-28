@@ -17,7 +17,6 @@ map almayer
 endmap
 
 map firefly
-	disabled
 endmap
 
 map golden_arrow
