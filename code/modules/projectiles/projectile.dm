@@ -969,10 +969,12 @@
 	var/damage_result = damage
 
 	// Проверка на игруна
+
 	if(src && src.wear_suit && hasvar(src.wear_suit, "bullet_deflection_charges"))
 		var/obj/item/clothing/suit/A = src.wear_suit
 		if(A.vars["bullet_deflection_charges"] > 0)
-			damage_result = damage_result * (1 - A.vars["bullet_absorption_ratio"])
+			P.damage = P.damage * (1 - A.vars["bullet_absorption_ratio"])
+			damage_result = P.damage
 			A.vars["bullet_deflection_charges"]--
 			to_chat(src, SPAN_WARNING("Armor deflected this shot! Lucky ass.."))
 			playsound(src.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
@@ -980,7 +982,8 @@
 				to_chat(src, SPAN_DANGER("YOUR PLATES ARE BROKEN, JESUS!"))
 				playsound(src.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
 		else
-			damage_result = damage_result * (1 - 0.78)
+			P.damage = P.damage * (1 - 0.78)
+			damage_result = P.damage
 			to_chat(src, SPAN_NOTICE("It's broken, but still can hold some projectiles. Don't be pointman anymore."))
 
 	damage = damage_result
