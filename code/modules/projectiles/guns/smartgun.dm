@@ -739,16 +739,15 @@
 	button.overlays += image('icons/mob/hud/actions.dmi', button, action_icon_state)
 
 // ПО ВЕЛИКОЙ ПРОСЬБЕ МОЕГО КРУТОГО МЕНЕДЖЕРА Я ДЕЛАЮ НОВЫЙ СГ
-/obj/item/weapon/gun/smartgun/pve
+/obj/item/weapon/gun/launcher/smartgun/pve
 	name = "M56 Smartgun 'Frontline' PvE"
 	desc = "A heavily modified heavy machinegun tracking system. Unique selector switches munitions on the fly. Integrated stabilizer removes recoil and IFF lock on allies."
 	var/pve_ammo_mode = 1
 
-/obj/item/weapon/gun/smartgun/pve/unique_action(mob/user)
+/obj/item/weapon/gun/launcher/smartgun/pve/unique_action(mob/user)
 	pve_ammo_mode++
 	if(pve_ammo_mode > 4)
 		pve_ammo_mode = 1
-
 	switch(pve_ammo_mode)
 		if(1)
 			to_chat(user, "<span class='notice'>[src] switched to STANDARD rounds.</span>")
@@ -760,10 +759,25 @@
 			to_chat(user, "<span class='purple'>[src] switched to HIGH-EXPLOSIVE AOE rounds.</span>")
 	return
 
-/obj/item/weapon/gun/smartgun/pve/Fire(atom/target, mob/living/user, params, reflex, dual_wield)
+/obj/item/weapon/gun/launcher/smartgun/pve/Fire(atom/target, mob/living/user, params, reflex, dual_wield)
 	if(user && ishuman(user))
 		var/mob/living/carbon/human/H = user
 		if(hasvar(H, "recoil_modifier")) H.vars["recoil_modifier"] = 0
 		if(hasvar(H, "accuracy_modifier")) H.vars["accuracy_modifier"] = 10
 
-	return ..()
+	var/datum/P = ..()
+	if(P)
+		switch(pve_ammo_mode)
+			if(2)
+				if(hasvar(P, "name")) P.vars["name"] = "holographic smartgun laser"
+				if(hasvar(P, "damage")) P.vars["damage"] = P.vars["damage"] * 1.2
+				if(hasvar(P, "color")) P.vars["color"] = "#00ffff"
+			if(3)
+				if(hasvar(P, "name")) P.vars["name"] = "armor-piercing heavy bullet"
+				if(hasvar(P, "damage")) P.vars["damage"] = P.vars["damage"] * 1.5
+				if(hasvar(P, "armor_penetration")) P.vars["armor_penetration"] = 100
+			if(4)
+				if(hasvar(P, "name")) P.vars["name"] = "high-explosive flak round"
+				if(hasvar(P, "damage")) P.vars["damage"] = P.vars["damage"] * 0.8
+				if(hasvar(P, "projectile_flags")) P.vars["projectile_flags"] |= 1
+	return P
