@@ -971,21 +971,24 @@
 	// Проверка на игруна
 	if(ishuman(src))
 		var/mob/living/carbon/human/H = src
-		if(H.wear_suit)
-			var/obj/item/clothing/suit/storage/marine/armor/A = H.wear_suit
-			if(istype(A))
-				if(A.bullet_deflection_charges > 0)
-					damage_result = damage_result * (1 - A.bullet_absorption_ratio)
-					A.bullet_deflection_charges--
-					to_chat(H, SPAN_WARNING("Armor deflected this shot! Lucky ass.."))
-					playsound(H.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
-					if(A.bullet_deflection_charges <= 0)
-						to_chat(H, SPAN_DANGER("YOUR PLATES ARE BROKEN, JESUS!"))
-						playsound(H.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
-				else
-					damage_result = damage_result * (1 - 0.78)
-					to_chat(H, SPAN_NOTICE("It's broken, but still can hold some projectiles. Don't be pointman anymore."))
+		if(H.wear_suit && hasvar(H.wear_suit, "bullet_deflection_charges"))
+			var/obj/item/clothing/suit/A = H.wear_suit
+
+			if(A.vars["bullet_deflection_charges"] > 0)
+				damage_result = damage_result * (1 - A.vars["bullet_absorption_ratio"])
+				A.vars["bullet_deflection_charges"]--
+				to_chat(H, SPAN_WARNING("Armor deflected this shot! Lucky ass.."))
+				playsound(H.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
+
+				if(A.vars["bullet_deflection_charges"] <= 0)
+					to_chat(H, SPAN_DANGER("YOUR PLATES ARE BROKEN, JESUS!"))
+					playsound(H.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
+			else
+				damage_result = damage_result * (1 - 0.78)
+				to_chat(H, SPAN_NOTICE("It's broken, but still can hold some projectiles. Don't be pointman anymore."))
+
 	damage = damage_result
+
 
 	flash_weak_pain()
 	if(P.ammo.stamina_damage)
