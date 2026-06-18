@@ -967,9 +967,25 @@
 
 	var/damage = P.calculate_damage()
 	var/damage_result = damage
+	// Проверка на игруна
+	if(wear_suit && ishuman(src) && src.client && hasvar(wear_suit, "bullet_deflection_charges"))
+		var/obj/item/clothing/suit/A = wear_suit
 
-	if(SEND_SIGNAL(src, COMSIG_HUMAN_PRE_BULLET_ACT, P) & COMPONENT_CANCEL_BULLET_ACT)
-		return
+		if(A.vars["bullet_deflection_charges"] > 0)
+			var/absorption = A.vars["bullet_absorption_ratio"]
+			damage_result = damage_result * (1 - absorption)
+			A.vars["bullet_deflection_charges"]--
+			to_chat(src, SPAN_WARNING("Armor deflected this shot! Lucky ass.."))
+			playsound(src.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
+
+			if(A.vars["bullet_deflection_charges"] <= 0)
+				to_chat(src, SPAN_DANGER("YOUR PLATES ARE BROKEN, JESUS!"))
+				playsound(src.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
+
+		if(A.vars["bullet_deflection_charges"] <= 0)
+			var/residual_protection = 0.78
+			damage_result = damage_result * (1 - residual_protection)
+			to_chat(src, SPAN_NOTICE("It's broken, but still can hold some projectiles. Don't be pointman anymore."))
 
 	flash_weak_pain()
 	if(P.ammo.stamina_damage)

@@ -1028,3 +1028,55 @@
 	armor_internaldamage = CLOTHING_ARMOR_NONE
 	time_to_unequip = 10
 	time_to_equip = 10
+// ======================================= Это пухосос (Починка броника с помощью адекватного или гетто варианта)===========================================
+/obj/item/clothing/suit/storage/marine/armor/attackby(obj/item/W, mob/user)
+	// КРИТИЧЕСКАЯ ПРОВЕРКА НАВЫКА: без инженерии 1+ чинить нельзя вообще
+	if(user.skills && user.skills.get_skill_level(SKILL_ENGINEER) < 1)
+		to_chat(user, "<span class='warning'>You too dumb to fix this thing, you need someone with engineering skill! </span>")
+		return ..()
+
+	// Проверяем, нужна ли вообще починка
+	if(bullet_deflection_charges >= max_bullet_deflection)
+		to_chat(user, "<span class='notice'>Plates are good, for what you want fix it? </span>")
+		return ..()
+
+	// ==========================================
+	// ВАРИАНТ 1: ПОЧИНКА МЕТАЛЛОМ И СВАРКОЙ (5 секунд)
+	// ==========================================
+	if(istype(W, /obj/item/stack/sheet/metal))
+		var/obj/item/stack/sheet/metal/M = W
+
+		// Ищем включенный сварочный аппарат в другой руке
+		var/obj/item/tool/weldingtool/T = user.get_inactive_hand()
+		if(!istype(T) || !T.welding)
+			to_chat(user, "<span class='warning'>You need metal sheets and welding tool for this operation. </span>")
+			return
+
+		user.visible_message("<span class='notice'>[user] Look at this guy! He is fixing plates of [src]...</span>")
+
+		// do_after(user, время в десятых долях секунды). 50 = 5 секунд.
+		if(do_after(user, 50, target = src))
+			if(M.use(1)) // Тратим 1 лист металла
+				if(T.remove_fuel(1))
+					bullet_deflection_charges = max_bullet_deflection
+					to_chat(user, "<span class='green'>Plates are fixed with your metal, but could be better. </span>")
+					playsound(src.loc, 'sound/items/welder2.ogg', 50, 1)
+		return
+
+	// ==========================================
+	// ВАРИАНТ 2: "ГЕТТО" ПОЧИНКА СТЕРЖНЯМИ (30 секунд)
+	// ==========================================
+	if(istype(W, /obj/item/stack/rods))
+		var/obj/item/stack/rods/R = W
+
+		user.visible_message("<span class='danger'>[user] Starting to do ghetto fixing [src] by metal rods. It will take more.</span>")
+
+		// 300 = 30 секунд задержки
+		if(do_after(user, 300, target = src))
+			if(R.use(1)) // Тратим 1 стержень
+				bullet_deflection_charges = max_bullet_deflection
+				to_chat(user, "<span class='green'>Somehow you fixed it. You believe it'll hold for more rounds...</span>")
+				playsound(src.loc, 'sound/items/screwdriver2.ogg', 60, 1)
+		return
+	// Если кликнули чем-то другим, вызываем стандартный код игры
+	return ..()

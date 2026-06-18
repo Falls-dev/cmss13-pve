@@ -514,3 +514,12 @@
 	flags_inv_hide = NO_FLAGS
 	siemens_coefficient = 0.6
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_ARMS
+/obj/item/clothing/suit/storage/marine/armor
+	var/bullet_deflection_charges = 10
+	var/max_bullet_deflection = 10
+	var/bullet_absorption_ratio = 0.95
+
+/obj/item/clothing/suit/armor/vest
+	var/bullet_deflection_charges = 10
+	var/max_bullet_deflection = 10
+	var/bullet_absorption_ratio = 0.95
