@@ -737,3 +737,33 @@
 		action_icon_state = "retrieve_1"
 	button.overlays.Cut()
 	button.overlays += image('icons/mob/hud/actions.dmi', button, action_icon_state)
+
+// ПО ВЕЛИКОЙ ПРОСЬБЕ МОЕГО КРУТОГО МЕНЕДЖЕРА Я ДЕЛАЮ НОВЫЙ СГ
+/obj/item/weapon/gun/smartgun/pve
+	name = "M56 Smartgun 'Frontline' PvE"
+	desc = "A heavily modified heavy machinegun tracking system. Unique selector switches munitions on the fly. Integrated stabilizer removes recoil and IFF lock on allies."
+	var/pve_ammo_mode = 1
+
+/obj/item/weapon/gun/smartgun/pve/unique_action(mob/user)
+	pve_ammo_mode++
+	if(pve_ammo_mode > 4)
+		pve_ammo_mode = 1
+
+	switch(pve_ammo_mode)
+		if(1)
+			to_chat(user, "<span class='notice'>[src] switched to STANDARD rounds.</span>")
+		if(2)
+			to_chat(user, "<span class='warning'>[src] switched to HOLOGRAPHIC LASER rounds.</span>")
+		if(3)
+			to_chat(user, "<span class='danger'>[src] switched to ARMOR-PIERCING HEAVY rounds.</span>")
+		if(4)
+			to_chat(user, "<span class='purple'>[src] switched to HIGH-EXPLOSIVE AOE rounds.</span>")
+	return
+
+/obj/item/weapon/gun/smartgun/pve/Fire(atom/target, mob/living/user, params, reflex, dual_wield)
+	if(user && ishuman(user))
+		var/mob/living/carbon/human/H = user
+		if(hasvar(H, "recoil_modifier")) H.vars["recoil_modifier"] = 0
+		if(hasvar(H, "accuracy_modifier")) H.vars["accuracy_modifier"] = 10
+
+	return ..()
