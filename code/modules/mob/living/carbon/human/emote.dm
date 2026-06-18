@@ -356,6 +356,23 @@
 	if(!.)
 		return FALSE
 
+/datum/emote/living/carbon/human/warcry/run_emote(mob/living/user, params, type_override, intentional)
+	. = ..()
+	if(!.)
+		return FALSE
+	if(prob(20))
+		to_chat(user, "<span class='green'>YOUR WAR CRY HAS RAISED MORALE OF YOUR MATES! HO-AH!</span>")
+		for(var/mob/living/carbon/human/H in orange(6, user))
+			if(H.client && H.stat != DEAD)
+				if(H.reagents)
+					H.reagents.add_reagent("hyperzine", 5)
+				if(hasvar(H, "suppression"))
+					H.vars["suppression"] = 0
+				to_chat(H, "<span class='notice'>YOU HEARD WAR CRY OF [user]! YOU FEEL YOURSELF STRONGER AND MORE ACCURATE!</span>")
+				spawn(20)
+					if(H && H.stat != DEAD)
+						to_chat(H, "<span class='warning'>It's gone....</span>")
+
 	user.show_speech_bubble("warcry")
 
 /datum/emote/living/carbon/human/warcry/get_sound(mob/living/user)
