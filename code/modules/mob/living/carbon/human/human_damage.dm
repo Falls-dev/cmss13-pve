@@ -417,6 +417,7 @@ This function restores all limbs.
 /mob/living/carbon/human/apply_damage(damage = 0, damagetype = BRUTE, def_zone = null, \
 	sharp = 0, edge = 0, obj/used_weapon = null, no_limb_loss = FALSE, \
 	permanent_kill = FALSE, mob/firer = null, force = FALSE
+
 )
 	if(protection_aura && damage > 0)
 		damage = floor(damage * ((ORDER_HOLD_CALC_LEVEL - protection_aura) / ORDER_HOLD_CALC_LEVEL))
@@ -510,6 +511,19 @@ This function restores all limbs.
 		else
 			// The damage is negative so we want to heal, but heal damage only takes positive numbers.
 			I.heal_damage(-1 * damage)
+	if(wear_suit && hasvar(wear_suit, "bullet_deflection_charges"))
+		var/datum/A = wear_suit
+		if(A.vars["bullet_deflection_charges"] > 0)
+			damage = damage * (1 - A.vars["bullet_absorption_ratio"])
+			A.vars["bullet_deflection_charges"]--
+			to_chat(src, "<span class='warning'>Armor deflected this shot! Lucky ass..</span>")
+			playsound(src.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
+			if(A.vars["bullet_deflection_charges"] <= 0)
+				to_chat(src, "<span class='danger'>YOUR PLATES ARE BROKEN, JESUS!</span>")
+				playsound(src.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
+		else
+			damage = damage * (1 - 0.78)
+			to_chat(src, "<span class='notice'>It's broken, but still can hold some projectiles. Don't be pointman anymore.</span>")
 
 	pain.apply_pain(damage * PAIN_ORGAN_DAMAGE_MULTIPLIER)
 
