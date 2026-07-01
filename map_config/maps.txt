@@ -115,4 +115,5 @@ map binhai_supply_station
 endmap
 
 map hybrisia_prospera
+	voteweight 1
 endmap

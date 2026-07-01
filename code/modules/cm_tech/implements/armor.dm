@@ -12,6 +12,8 @@
 	var/is_armor = TRUE
 	var/armor_health = 10
 	var/armor_maxhealth = 10
+	var/armor_broken = FALSE
+	var/post_break_damage_mult = 0.52
 	var/take_slash_damage = TRUE
 	var/slash_durability_mult = 0.25
 	var/FF_projectile_durability_mult = 0.1
@@ -80,6 +82,9 @@
 /obj/item/clothing/accessory/health/proc/check_to_signal(obj/item/clothing/S, mob/living/user, slot)
 	SIGNAL_HANDLER
 
+	if(!istype(user) || !user.client)
+		return
+
 	if(slot == WEAR_BODY)
 		if(take_slash_damage)
 			RegisterSignal(user, COMSIG_HUMAN_XENO_ATTACK, PROC_REF(take_slash_damage))
@@ -97,31 +102,41 @@
 
 /obj/item/clothing/accessory/health/proc/take_bullet_damage(mob/living/carbon/human/user, damage, ammo_flags, obj/projectile/P)
 	SIGNAL_HANDLER
-	if(damage <= 0 || (ammo_flags & AMMO_IGNORE_ARMOR))
+	if(!istype(user) || !user.client)
 		return
-	if(!is_armor)
+	if(damage <= 0 || !is_armor || (ammo_flags & AMMO_IGNORE_ARMOR))
 		return
-	var/damage_to_nullify = armor_health
-	var/final_proj_mult = FF_projectile_durability_mult
+	if(!(ammo_flags & AMMO_BALLISTIC) || (ammo_flags & (AMMO_ROCKET|AMMO_SNIPER)) || (ammo_flags & AMMO_ACIDIC))
+		return
 
-	var/mob/living/carbon/human/pfirer = P.firer
-	if(user.faction != pfirer.faction)
-		final_proj_mult = hostile_projectile_durability_mult
-	armor_health = max(armor_health - damage*final_proj_mult, 0)
+	if(!armor_health)
+		if(!armor_broken)
+			armor_broken = TRUE
+			user.show_message(SPAN_WARNING("You feel [src] break apart."), null, null, null, CHAT_TYPE_ARMOR_DAMAGE)
+			playsound(user, armor_shattersound, 35, TRUE)
 
-	update_icon()
-	if(!armor_health && damage_to_nullify)
-		user.show_message(SPAN_WARNING("You feel [src] break apart."), null, null, null, CHAT_TYPE_ARMOR_DAMAGE)
-		playsound(user, armor_shattersound, 35, TRUE)
+		var/reduced_damage = max(0, damage * post_break_damage_mult)
+		if(reduced_damage > 0)
+			user.apply_damage(reduced_damage, P.ammo.damage_type, P.def_zone, firer = P.firer)
 
-	if(damage_to_nullify)
 		playsound(user, armor_hitsound, 25, TRUE)
 		P.play_hit_effect(user)
 		return COMPONENT_CANCEL_BULLET_ACT
 
+	armor_health = max(armor_health - 1, 0)
+	update_icon()
+	if(!armor_health)
+		armor_broken = TRUE
+		user.show_message(SPAN_WARNING("You feel [src] break apart."), null, null, null, CHAT_TYPE_ARMOR_DAMAGE)
+		playsound(user, armor_shattersound, 35, TRUE)
+
+	playsound(user, armor_hitsound, 25, TRUE)
+	P.play_hit_effect(user)
+	return COMPONENT_CANCEL_BULLET_ACT
+
 /obj/item/clothing/accessory/health/proc/take_slash_damage(mob/living/user, list/slashdata)
 	SIGNAL_HANDLER
-	if(!is_armor)
+	if(!istype(user) || !user.client || !is_armor)
 		return
 	var/armor_damage = slashdata["n_damage"]
 	var/damage_to_nullify = armor_health
@@ -157,8 +172,8 @@
 	scrappable = FALSE
 	FF_projectile_durability_mult = 0.3
 
-	armor_health = 100
-	armor_maxhealth = 100
+	armor_health = 10
+	armor_maxhealth = 10
 
 	armor_shattersound = 'sound/effects/ceramic_shatter.ogg'
 
