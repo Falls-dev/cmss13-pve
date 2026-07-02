@@ -4379,3 +4379,6 @@ Defined in conflicts.dm of the #defines folder.
 
 	gun.recalculate_attachment_bonuses()
 	gun.update_overlays(src, "stock")
+
+/obj/item/attachable/stock/rifle/collapsible/ak4047
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/ported_weapon.dmi'
