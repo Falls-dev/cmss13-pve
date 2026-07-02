@@ -629,6 +629,8 @@
 	default_ammo = /datum/ammo/bullet/rifle
 	max_rounds = 40
 	gun_type = /obj/item/weapon/gun/rifle/ak4047
+	ammo_band_icon = null
+	ammo_band_icon_empty = null
 
 /obj/item/ammo_magazine/rifle/ak4047/ap
 	name = "\improper AK-4047 AP magazine (10x24mm)"
