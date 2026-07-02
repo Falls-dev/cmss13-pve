@@ -2076,7 +2076,7 @@
 	desc = "The UPP equivalent to the M41A Pulse Rifle, the AK-4047 is a cheap and reliable substitute. As such, the weapon often winds up in the hands of mercenaries and insurgents. While not as accurate as the M41, the AK-4047 is sturdier than the USCMC weapon. An AK-4047 still works after being thrown off a cliff and left underwater for a month."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/ported_weapon.dmi'
 	icon_state = "ak4047"
-	item_state = "ak4047_singlearm"
+	item_state = "ak4047"
 	item_icons = list(
 		WEAR_L_HAND = 'icons/mob/humans/onmob/inhands/weapons/gun_lefthand.dmi',
 		WEAR_R_HAND = 'icons/mob/humans/onmob/inhands/weapons/gun_righthand.dmi'
