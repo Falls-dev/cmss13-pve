@@ -635,6 +635,7 @@
 /obj/item/ammo_magazine/rifle/ak4047/ap
 	name = "\improper AK-4047 AP magazine (10x24mm)"
 	icon_state = "ak4047_ap"
+	item_state = "ak4047_ap"
 	desc = "A 10mm magazine containing armor piercing rounds for the AK-4047 rifle."
 	default_ammo = /datum/ammo/bullet/rifle/ap
 	ammo_band_color = AMMO_BAND_COLOR_AP
@@ -642,6 +643,7 @@
 /obj/item/ammo_magazine/rifle/ak4047/heap
 	name = "\improper AK-4047 HEAP magazine (10x24mm)"
 	icon_state = "ak4047_heap"
+	item_state = "ak4047_heap"
 	desc = "A 10mm magazine containing the standard high explosive armor piercing rounds for the AK-4047 rifle."
 	default_ammo = /datum/ammo/bullet/rifle/heap
 	ammo_band_color = AMMO_BAND_COLOR_HEAP
@@ -649,6 +651,7 @@
 /obj/item/ammo_magazine/rifle/ak4047/incendiary
 	name = "\improper AK-4047 incendiary magazine (10x24mm)"
 	icon_state = "ak4047_i"
+	item_state = "ak4047_i"
 	desc = "A 10mm assault rifle magazine containing the incendiary rounds for the AK-4047 rifle."
 	default_ammo = /datum/ammo/bullet/rifle/incendiary
 	ammo_band_color = AMMO_BAND_COLOR_INCENDIARY
