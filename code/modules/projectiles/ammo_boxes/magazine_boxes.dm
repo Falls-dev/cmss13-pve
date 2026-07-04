@@ -1439,7 +1439,7 @@
 	empty = TRUE
 
 /obj/item/ammo_box/magazine/ak4047/incendiary
-	name = "magazine box (AK-4047 HEAP x 10)"
+	name = "magazine box (AK-4047 incendiary x 10)"
 	overlay_ammo_type = "_type71_incend"
 	overlay_content = "_type71_incend"
 	magazine_type = /obj/item/ammo_magazine/rifle/ak4047/incendiary
