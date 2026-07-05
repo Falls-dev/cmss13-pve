@@ -897,3 +897,47 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 	accuracy_mult = BASE_ACCURACY_MULT
 	scatter = SCATTER_AMOUNT_TIER_7
 	damage_mult = BASE_BULLET_DAMAGE_MULT + BULLET_DAMAGE_MULT_TIER_2
+
+
+// M10 ported from PVP build by Pipevin
+
+/obj/item/weapon/gun/pistol/glock18c
+	name = "\improper Glock 18-c"
+	desc = "Glock 18-c, good old gun with automatic fire mode. Can allow you to shoot 1200 projectiles within 30 seconds."
+	icon = 'icons/obj/items/weapons/guns/guns_by_faction/ported_weapon.dmi'
+	icon_state = "m10"
+	item_state = "m10"
+	attachable_allowed = list(
+		/obj/item/attachable/reddot, //Rail
+		/obj/item/attachable/reflex,
+		/obj/item/attachable/flashlight,
+		/obj/item/attachable/magnetic_harness,
+		/obj/item/attachable/suppressor, //Muzzle
+		/obj/item/attachable/extended_barrel,
+		/obj/item/attachable/heavy_barrel,
+	)
+	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_ONE_HAND_WIELDED|GUN_AMMO_COUNTER
+	start_automatic = TRUE
+	map_specific_decoration = FALSE
+	fire_sound = null
+	fire_sounds = list('sound/weapons/gun_m10_auto_pistol.ogg', 'sound/weapons/gun_m10_auto_pistol2.ogg')
+	reload_sound = 'sound/weapons/handling/gun_m10_auto_pistol_reload.ogg'
+	unload_sound = 'sound/weapons/handling/gun_m10_auto_pistol_unload.ogg'
+
+	current_mag = /obj/item/ammo_magazine/pistol/glock18c
+
+/obj/item/weapon/gun/pistol/m10/set_gun_attachment_offsets()
+	attachable_offset = list("muzzle_x" = 25, "muzzle_y" = 19,"rail_x" = 11, "rail_y" = 21, "under_x" = 18, "under_y" = 15, "stock_x" = 25, "stock_y" = 17)
+
+/obj/item/weapon/gun/pistol/m10/set_gun_config_values()
+	..()
+	set_burst_amount(0)
+	set_fire_delay(FIRE_DELAY_TIER_12)
+	fa_scatter_peak = FULL_AUTO_SCATTER_PEAK_TIER_4
+	fa_max_scatter = SCATTER_AMOUNT_TIER_7
+	accuracy_mult = BASE_ACCURACY_MULT
+	accuracy_mult_unwielded = BASE_ACCURACY_MULT - HIT_ACCURACY_MULT_TIER_4
+	scatter = SCATTER_AMOUNT_TIER_5
+	scatter_unwielded = SCATTER_AMOUNT_TIER_4
+	recoil_unwielded = RECOIL_AMOUNT_TIER_5
+	damage_mult = BASE_BULLET_DAMAGE_MULT - BULLET_DAMAGE_MULT_TIER_5
