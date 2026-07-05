@@ -284,7 +284,7 @@
 
 // M1O bollets
 
-/datum/ammo/bullet/pistol/m10
+/datum/ammo/pistol/glock18c
 	name = "auto-pistol bullet"
 	damage = 30
 	accurate_range = 2
@@ -295,7 +295,7 @@
 	scatter = SCATTER_AMOUNT_TIER_5
 	accuracy = HIT_ACCURACY_TIER_3
 
-/datum/ammo/bullet/pistol/m10/ap
+/datum/ammo/bullet/pistol/glock18c/ap
 	name = "armor-piercing auto-pistol bullet"
 
 	damage = 27

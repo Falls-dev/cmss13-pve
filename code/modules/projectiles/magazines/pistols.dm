@@ -395,17 +395,17 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 /obj/item/ammo_magazine/pistol/glock18c
 	name = "\improper Glock 18c magazine (10x20mm-APC)"
 	desc = "A compact 20-round high-velocity magazine, designed for rapid reloads and reliable performance in close-quarters combat."
-	default_ammo = /datum/ammo/bullet/pistol/m10
+	default_ammo = /datum/ammo/bullet/pistol/glock18c
 	caliber = "10x20mm-APC"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
 	icon_state = "m10"
 	max_rounds = 20
-	gun_type = /obj/item/weapon/gun/pistol/m10
+	gun_type = /obj/item/weapon/gun/pistol/glock18c
 
 /obj/item/ammo_magazine/pistol/glock18c/extended
 	name = "\improper Glock 18c HV extended magazine (10x20mm-APC)"
 	desc = "An extended 65-round high-velocity magazine, offering additional firepower for sustained engagements without significantly increasing reload time."
-	default_ammo = /datum/ammo/bullet/pistol/m10
+	default_ammo = /datum/ammo/bullet/pistol/glock18c
 	caliber = "10x20mm-APC"
 	icon_state = "m10_ext"
 	bonus_overlay = "m10_ex_overlay"
@@ -415,39 +415,39 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 /obj/item/ammo_magazine/pistol/glock18c/drum
 	name = "\improper Glock 18c HV drum magazine (10x20mm-APC)"
 	desc = "A super-extended 120-round drum magazine designed for prolonged firefights, delivering maximum ammunition capacity at the cost of a longer reload."
-	default_ammo = /datum/ammo/bullet/pistol/m10
+	default_ammo = /datum/ammo/bullet/pistol/glock18c
 	caliber = "10x20mm-APC"
 	icon_state = "m10_drum"
 	bonus_overlay = "m10_drum_overlay"
 	max_rounds = 120
-	gun_type = /obj/item/weapon/gun/pistol/m10
+	gun_type = /obj/item/weapon/gun/pistol/glock18c
 
 /obj/item/ammo_magazine/pistol/glock18c/ap
 	name = "\improper Glock 18c AP magazine (10x20mm-APC)"
 	desc = "A 40-round magazine loaded with armor-piercing rounds. Designed to punch through body armor and light cover, though with reduced muzzle velocity compared to standard HV loads."
-	default_ammo = /datum/ammo/bullet/pistol/m10/ap
+	default_ammo = /datum/ammo/bullet/pistol/glock18c/ap
 	caliber = "10x20mm-APC"
 	icon = 'icons/obj/items/weapons/guns/ammo_by_faction/uscm.dmi'
 	icon_state = "m10_ap"
 	max_rounds = 40
-	gun_type = /obj/item/weapon/gun/pistol/m10
+	gun_type = /obj/item/weapon/gun/pistol/glock18c
 
 /obj/item/ammo_magazine/pistol/glock18c/ap/extended
 	name = "\improper Glock 18c AP extended magazine (10x20mm-APC)"
 	desc = "A 65-round extended magazine loaded with armor-piercing rounds. Designed to punch through body armor and light cover, though with reduced muzzle velocity compared to standard HV loads."
-	default_ammo = /datum/ammo/bullet/pistol/m10/ap
+	default_ammo = /datum/ammo/bullet/pistol/glock18c/ap
 	caliber = "10x20mm-APC"
 	icon_state = "m10_ap_ext"
 	bonus_overlay = "m10_ap_ex_overlay"
 	max_rounds = 65
-	gun_type = /obj/item/weapon/gun/pistol/m10
+	gun_type = /obj/item/weapon/gun/pistol/glock18c
 
 /obj/item/ammo_magazine/pistol/glock18c/ap/drum
 	name = "\improper Glock 18c AP drum magazine (10x20mm-APC)"
 	desc = "A super-extended 100-round drum loaded with armor-piercing rounds. Designed to punch through body armor and light cover, though with reduced muzzle velocity compared to standard HV loads."
-	default_ammo = /datum/ammo/bullet/pistol/m10/ap
+	default_ammo = /datum/ammo/bullet/pistol/glock18c/ap
 	caliber = "10x20mm-APC"
 	icon_state = "m10_ap_drum"
 	bonus_overlay = "m10_ap_drum_overlay"
 	max_rounds = 100
-	gun_type = /obj/item/weapon/gun/pistol/m10
+	gun_type = /obj/item/weapon/gun/pistol/glock18c
