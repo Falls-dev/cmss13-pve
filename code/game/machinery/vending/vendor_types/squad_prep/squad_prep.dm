@@ -810,6 +810,11 @@
 		list("NP92 Standard Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/np92/unloaded, VENDOR_ITEM_REGULAR),
 		list("Type 73 Service Pistol", round(scale * 2), /obj/item/weapon/gun/pistol/t73/unloaded, VENDOR_ITEM_REGULAR),
 
+        list("RIFLE", -1, null, null),
+		list("AK4047 automatic rifle", round(scale * 2), /obj/item/weapon/gun/rifle/ak4047, VENDOR_ITEM_REGULAR),
+		list("AK4047 magazine", round (scale * 2), /obj/item/ammo_magazine/rifle/ak4047, VENDOR_ITEM_REGULAR),
+		list("AK4047 AP magazine", round (scale * 2), /obj/item/ammo_magazine/rifle/ak4047/ap, VENDOR_ITEM_REGULAR),
+
 		list("MISCELLANEOUS", -1, null, null),
 		list("Extinguisher", round(scale * 5), /obj/item/tool/extinguisher, VENDOR_ITEM_REGULAR),
 		list("Fire Extinguisher (Portable)", round(scale * 1), /obj/item/tool/extinguisher/mini, VENDOR_ITEM_REGULAR),
