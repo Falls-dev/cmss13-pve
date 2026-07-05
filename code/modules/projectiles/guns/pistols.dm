@@ -932,7 +932,7 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 /obj/item/weapon/gun/pistol/m10/set_gun_config_values()
 	..()
 	set_burst_amount(0)
-	set_fire_delay(FIRE_DELAY_TIER_12)
+	set_fire_delay(FIRE_DELAY_TIER_1)
 	fa_scatter_peak = FULL_AUTO_SCATTER_PEAK_TIER_4
 	fa_max_scatter = SCATTER_AMOUNT_TIER_7
 	accuracy_mult = BASE_ACCURACY_MULT

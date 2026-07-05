@@ -298,6 +298,6 @@
 /datum/ammo/bullet/pistol/glock18c/ap
 	name = "armor-piercing auto-pistol bullet"
 
-	damage = 27
+	damage = 29
 	penetration = ARMOR_PENETRATION_TIER_6
 	shell_speed = AMMO_SPEED_TIER_5
