@@ -419,19 +419,6 @@ This function restores all limbs.
 	permanent_kill = FALSE, mob/firer = null, force = FALSE
 
 )
-	if(wear_suit && hasvar(wear_suit, "bullet_deflection_charges"))
-		var/datum/A = wear_suit
-		if(A.vars["bullet_deflection_charges"] > 0)
-			damage = damage * (1 - A.vars["bullet_absorption_ratio"])
-			A.vars["bullet_deflection_charges"]--
-			to_chat(src, "<span class='warning'>Armor deflected this shot! Lucky ass..</span>")
-			playsound(src.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
-			if(A.vars["bullet_deflection_charges"] <= 0)
-				to_chat(src, "<span class='danger'>YOUR PLATES ARE BROKEN, JESUS!</span>")
-				playsound(src.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
-		else
-			damage = damage * (1 - 0.78)
-			to_chat(src, "<span class='notice'>It's broken, but still can hold some projectiles. Don't be pointman anymore.</span>")
 
 	if(protection_aura && damage > 0)
 		damage = floor(damage * ((ORDER_HOLD_CALC_LEVEL - protection_aura) / ORDER_HOLD_CALC_LEVEL))

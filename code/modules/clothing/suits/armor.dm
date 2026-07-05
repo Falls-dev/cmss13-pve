@@ -524,20 +524,3 @@
 	var/max_bullet_deflection = 10
 	var/bullet_absorption_ratio = 0.95
 
-/obj/item/clothing/suit/bullet_act(obj/projectile/P)
-	if(src.loc && ishuman(src.loc))
-		var/mob/living/carbon/human/H = src.loc
-		if(H.client && H.stat != DEAD)
-			if(hasvar(src, "bullet_deflection_charges"))
-				if(src.vars["bullet_deflection_charges"] > 0)
-					P.damage = P.damage * (1 - src.vars["bullet_absorption_ratio"])
-					src.vars["bullet_deflection_charges"]--
-					to_chat(H, "<span class='warning'>Armor deflected this shot! Lucky ass..</span>")
-					playsound(H.loc, 'sound/bullets/armorblockheavy2.ogg', 50, 1)
-					if(src.vars["bullet_deflection_charges"] <= 0)
-						to_chat(H, "<span class='danger'>YOUR PLATES ARE BROKEN, JESUS!</span>")
-						playsound(H.loc, 'sound/bullets/armorblock1.ogg', 70, 1)
-				else
-					P.damage = P.damage * (1 - 0.78)
-					to_chat(H, "<span class='notice'>It's broken, but still can hold some projectiles. Don't be pointman anymore.</span>")
-	return ..()
