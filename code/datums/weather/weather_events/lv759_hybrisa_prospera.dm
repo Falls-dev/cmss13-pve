@@ -15,7 +15,7 @@
 	effect_message = null
 	damage_per_tick = 0
 
-	ambience = 'sound/ambience/rainforest.ogg'
+	ambience = 'sound/ambience/rainandthunderlong.ogg'
 
 /datum/weather_event/hybrisa_very_light_rain
 	name = "Hybrisa Very Light Rain"
@@ -34,4 +34,4 @@
 	effect_message = null
 	damage_per_tick = 0
 
-	ambience = 'sound/ambience/rainforest.ogg'
+	ambience = 'sound/ambience/rainandthunderlong.ogg'
