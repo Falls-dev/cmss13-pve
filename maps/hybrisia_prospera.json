@@ -4,13 +4,6 @@
     "map_file": "LV759_Hybrisa_Prospera.dmm",
     "webmap_url": "LV759_Hybrisa_Prospera",
     "weather_holder": "/datum/weather_ss_map_holder/lv759_hybrisa_prospera",
-    "defcon_triggers": [
-        4750,
-        3500,
-        2000,
-        1000,
-        0.0
-    ],
     "map_item_type": "/obj/item/map/lv759_map",
     "announce_text": "A distress signal has been received from the urban world of Hybrisa Prospera. The ###SHIPNAME### is dispatching a response team.",
     "monkey_types": [
