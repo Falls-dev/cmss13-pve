@@ -1844,7 +1844,7 @@
 	hold = /obj/item/storage/internal/accessory/black_vest/m56/grenade
 
 /obj/item/storage/internal/accessory/black_vest/m56/grenade
-	storage_slots = 4
+	storage_slots = 12
 	can_hold = list(
 		/obj/item/explosive/grenade/high_explosive,
 		/obj/item/explosive/grenade/high_explosive/super,
