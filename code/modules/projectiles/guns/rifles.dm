@@ -2113,6 +2113,13 @@
 		/obj/item/attachable/scope,
 		/obj/item/attachable/scope/mini,
 		/obj/item/attachable/sling,
+        /obj/item/attachable/flashlight/grip/upp,
+        /obj/item/attachable/lasersight/upp,
+        /obj/item/attachable/scope/upp,
+        /obj/item/attachable/scope/mini/upp,
+        /obj/item/attachable/reflex/upp,
+        /obj/item/attachable/verticalgrip/upp,
+        /obj/item/attachable/angledgrip/upp,
 	)
 	flags_gun_features = GUN_AUTO_EJECTOR|GUN_CAN_POINTBLANK|GUN_AMMO_COUNTER
 	map_specific_decoration = FALSE

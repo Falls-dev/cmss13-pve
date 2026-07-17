@@ -759,6 +759,12 @@
 		list("Rail Flashlight", round(scale * 5), /obj/item/attachable/flashlight, VENDOR_ITEM_REGULAR),
 		list("Two-point Sling", round(scale * 5), /obj/item/attachable/sling, VENDOR_ITEM_REGULAR),
 		list("M13 Fighting Knife", round(scale * 25), /obj/item/weapon/knife/marine, VENDOR_ITEM_REGULAR),
+		list ("S6 Reflex Sight", round (scale * 5), /obj/item/attachable/reflex, VENDOR_ITEM_REGULAR),
+        list ("Suppressor", round (scale * 5), /obj/item/attachable/suppressor, VENDOR_ITEM_REGULAR),
+		list ("Underbarrel Shotgun", round (scale * 5), /obj/item/attachable/attached_gun/shotgun, VENDOR_ITEM_REGULAR),
+		list ("Laser Sight", round (scale * 5), /obj/item/attachable/lasersight, VENDOR_ITEM_REGULAR),
+        list ("Vertical Grip",round (scale * 5), /obj/item/attachable/verticalgrip, VENDOR_ITEM_RECOMMENDED),
+		list ("Extended Barrel", round (scale * 5), /obj/item/attachable/extended_barrel, VENDOR_ITEM_REGULAR),
 		)
 
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/upp
@@ -825,6 +831,13 @@
 		list("Rail Flashlight", round(scale * 5), /obj/item/attachable/flashlight, VENDOR_ITEM_REGULAR),
 		list("Type 80 Bayonet", round(scale * 5), /obj/item/attachable/bayonet/upp, null, VENDOR_ITEM_REGULAR),
 		list("Type 83 Grenade Launcher", 3, /obj/item/attachable/attached_gun/grenade/type71, null, VENDOR_ITEM_REGULAR),
+        list ("Flashlight Grip", round(scale * 5), /obj/item/attachable/flashlight/grip/upp, VENDOR_ITEM_REGULAR),
+		list ("Laser Sight Module", round(scale * 5), /obj/item/attachable/lasersight/upp, VENDOR_ITEM_REGULAR),
+		list ("4X Sniper Scope", round(scale * 5), /obj/item/attachable/scope/upp, VENDOR_ITEM_REGULAR),
+		list ("2X Low-range Scope", round(scale * 5), /obj/item/attachable/scope/mini/upp, VENDOR_ITEM_REGULAR),
+        list ("Reflex Sight", round(scale * 5),/obj/item/attachable/reflex/upp, VENDOR_ITEM_RECOMMENDED),
+        list ("Vertical Grip", round(scale * 5), /obj/item/attachable/verticalgrip/upp, VENDOR_ITEM_REGULAR),
+		list ("Angled Grip", round(scale * 5), /obj/item/attachable/angledgrip/upp, VENDOR_ITEM_REGULAR),
 
 		list("CLOTHING", -1, null, null),
 		list("Balaclava", round(scale * 5), /obj/item/clothing/mask/rebreather/scarf/tan, VENDOR_ITEM_REGULAR),
@@ -895,6 +908,11 @@
 		list("Rail Flashlight", round(scale * 5), /obj/item/attachable/flashlight, VENDOR_ITEM_REGULAR),
 		list("Two-point Sling", round(scale * 5), /obj/item/attachable/sling, VENDOR_ITEM_REGULAR),
 		list("M13 Fighting Knife", round(scale * 5), /obj/item/weapon/knife/marine, VENDOR_ITEM_REGULAR),
+		list ("S6 Reflex Sight", round (scale * 5), /obj/item/attachable/reflex, VENDOR_ITEM_REGULAR),
+        list ("Suppressor", round (scale * 5), /obj/item/attachable/suppressor, VENDOR_ITEM_REGULAR),
+		list ("Underbarrel Shotgun", round (scale * 5), /obj/item/attachable/attached_gun/shotgun, VENDOR_ITEM_REGULAR),
+		list ("Laser Sight", round (scale * 5), /obj/item/attachable/lasersight, VENDOR_ITEM_REGULAR),
+        list ("Vertical Grip",round (scale * 5), /obj/item/attachable/verticalgrip, VENDOR_ITEM_RECOMMENDED),
 		)
 
 /obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/pmc
