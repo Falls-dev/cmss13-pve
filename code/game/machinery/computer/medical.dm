@@ -13,6 +13,7 @@
 	var/authenticated = null
 	var/rank = null
 	var/screen = null
+	games_enabled = FALSE // Disable built-in games, has custom medical interface
 	var/datum/data/record/active1 = null
 	var/datum/data/record/active2 = null
 	var/a_id = null

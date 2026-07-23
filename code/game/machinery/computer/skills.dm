@@ -13,6 +13,7 @@
 	var/datum/data/record/active1 = null
 	var/a_id = null
 	var/temp = null
+	games_enabled = FALSE // Disable built-in games, has custom employment interface
 	var/printing = null
 	var/can_change_id = 0
 	var/list/Perp

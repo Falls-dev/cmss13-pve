@@ -9,6 +9,7 @@
 	var/mob/living/carbon/human/victim = null
 	var/obj/structure/machinery/optable/table = null
 	processing = TRUE
+	games_enabled = FALSE // Disable built-in games, has custom medical interface
 
 /obj/structure/machinery/computer/operating/New()
 	..()

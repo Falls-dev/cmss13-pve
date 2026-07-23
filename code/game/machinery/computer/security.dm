@@ -13,6 +13,7 @@
 	var/datum/data/record/active1 = null
 	var/datum/data/record/active2 = null
 	var/a_id = null
+	games_enabled = FALSE // Disable built-in games, has custom security interface
 	var/temp = null
 	var/printing = null
 	var/can_change_id = 0

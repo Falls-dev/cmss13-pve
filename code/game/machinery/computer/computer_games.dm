@@ -1,108 +1,65 @@
+// Computer Games Module - Snake and Minesweeper for all computers
 
-//computer that displays random emails from the Almayer crew, purely for backstory.
+/obj/structure/machinery/computer/proc/has_custom_interface()
+	// Check if this computer type has a custom interface
+	// Computers with custom interfaces should override this to return TRUE
+	return FALSE
 
-/obj/structure/machinery/computer/emails
-	name = "Personal Computer"
-	desc = "A personal computer used to view emails"
-	icon = 'icons/obj/structures/machinery/computer.dmi'
-	icon_state = "terminal1"
-	var/screen = 0
-	var/email_type = /datum/fluff_email/almayer //the type of emails this computer will show. e.g. USCM emails for the personal computers on the Almayer
-	var/list/email_list
-	var/selected_mail
-	games_enabled = FALSE // Disable built-in games, has custom email/games interface
-
-
-/obj/structure/machinery/computer/emails/Initialize()
-	. = ..()
-	email_list = list()
-	var/list/L = typesof(email_type) - email_type
-	var/email_amt = rand(2,4)
-	for(var/i=1 to email_amt)
-		var/path = pick_n_take(L)
-		email_list += new path()
-
-/obj/structure/machinery/computer/emails/Destroy()
-	QDEL_NULL_LIST(email_list)
-	. = ..()
-
-
-/obj/structure/machinery/computer/emails/attack_hand(mob/user)
+/obj/structure/machinery/computer/Topic(href, href_list)
 	if(..())
 		return
 
-	var/dat
+	// Handle game navigation
+	if(games_enabled && !has_custom_interface())
+		handle_games_topic(href_list)
 
-	switch(screen)
-		if(0)
-			dat += "<A href='byond://?src=\ref[src];open_inbox=1'><font size=4>Inbox</font></A><HR>"
+/obj/structure/machinery/computer/proc/interact_games(mob/user)
+	if(inoperable())
+		return
+
+	user.set_interaction(src)
+	var/dat = "<HEAD><META HTTP-EQUIV='Refresh' CONTENT='10'></HEAD><BODY>\n"
+	dat += "<A href='byond://?src=\ref[user];mach_close=computer_games'>Close</A><br><br>"
+
+	switch(game_screen)
+		if(0) // Main menu
+			dat += "<center><h3>[src.name]</h3></center><HR>"
 			dat += "<A href='byond://?src=\ref[src];open_games=1'><font size=4>Games</font></A><HR>"
-		if(1)
-			dat += "<font size=4>Inbox</font> | <A href='byond://?src=\ref[src];close_inbox=1'>Close</A><HR>"
-			if(selected_mail)
-				var/datum/fluff_email/E = email_list[selected_mail]
-				dat += "<b>SUBJECT: [E.title]</b><HR>"
-				dat += "<b>FROM:</b> NAME EXPUNGED<BR>"
-				dat += "<b>TO:</b> NAME EXPUNGED<BR><BR>"
-				dat += "[E.entry_text]<HR>"
-				dat += "<A href='byond://?src=\ref[src];back=1'>Back</A>"
-			else
-				var/i = 0
-				for(var/mail in email_list)
-					i++
-					var/datum/fluff_email/FE = mail
-					dat += "<A href='byond://?src=\ref[src];selectmail=[i]'>[FE.title]</A><BR>"
-		if(2)
+			dat += "<i>This computer has no specific functions configured.</i><BR>"
+		if(1) // Games menu
 			dat += "<font size=4>Games</font> | <A href='byond://?src=\ref[src];close_games=1'>Back</A><HR>"
 			dat += "<A href='byond://?src=\ref[src];start_snake=1'><font size=3>Snake</font></A><HR>"
 			dat += "<A href='byond://?src=\ref[src];start_minesweeper=1'><font size=3>Minesweeper</font></A><HR>"
-		if(3) // Snake game
+		if(2) // Snake game
 			dat += "<font size=4>Snake</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
 			dat += render_snake_game()
-		if(4) // Minesweeper game
+		if(3) // Minesweeper game
 			dat += "<font size=4>Minesweeper</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
 			dat += render_minesweeper_game()
 
-	show_browser(user, dat, "Personal Computer", "email", width = 600, height = 520)
+	show_browser(user, dat, "Computer Games", "computer_games", width = 600, height = 520)
 
-
-/obj/structure/machinery/computer/emails/Topic(href, href_list)
-	if(..())
-		return
-
-	if(href_list["open_inbox"])
-		screen = 1
-		current_game = null
-
-	else if(href_list["close_inbox"])
-		screen = 0
-
-	else if(href_list["selectmail"])
-		selected_mail = text2num(href_list["selectmail"])
-
-	else if(href_list["back"])
-		selected_mail = null
-
-	else if(href_list["open_games"])
-		screen = 2
+/obj/structure/machinery/computer/proc/handle_games_topic(href_list)
+	if(href_list["open_games"])
+		game_screen = 1
 		current_game = null
 
 	else if(href_list["close_games"])
-		screen = 0
+		game_screen = 0
 		current_game = null
 
 	else if(href_list["start_snake"])
-		screen = 3
+		game_screen = 2
 		current_game = "snake"
 		initialize_snake()
 
 	else if(href_list["start_minesweeper"])
-		screen = 4
+		game_screen = 3
 		current_game = "minesweeper"
 		initialize_minesweeper()
 
 	else if(href_list["close_game"])
-		screen = 2
+		game_screen = 1
 		current_game = null
 		game_data = null
 
@@ -115,15 +72,14 @@
 		handle_minesweeper_input(href_list)
 
 	add_fingerprint(usr)
-// updateUsrDialog()
-	attack_hand(usr)
+	interact_games(usr)
 
 
 // ==================== SNAKE GAME ====================
 
-/obj/structure/machinery/computer/emails/proc/initialize_snake()
+/obj/structure/machinery/computer/proc/initialize_snake()
 	game_data = list(
-		"snake" = list(list(5, 5)), // Snake body segments [x, y]
+		"snake" = list(list(5, 5), list(4, 5), list(3, 5)), // Snake body segments [x, y] - start with 3 segments
 		"direction" = "right", // Current direction
 		"food" = list(10, 10), // Food position [x, y]
 		"score" = 0,
@@ -131,7 +87,7 @@
 		"grid_size" = 20 // 20x20 grid
 	)
 
-/obj/structure/machinery/computer/emails/proc/render_snake_game()
+/obj/structure/machinery/computer/proc/render_snake_game()
 	if(!game_data)
 		initialize_snake()
 
@@ -182,7 +138,7 @@
 	dat += "</center>"
 	return dat
 
-/obj/structure/machinery/computer/emails/proc/handle_snake_input(href_list)
+/obj/structure/machinery/computer/proc/handle_snake_input(href_list)
 	if(href_list["snake_restart"])
 		initialize_snake()
 		return
@@ -201,7 +157,7 @@
 	// Move snake
 	move_snake()
 
-/obj/structure/machinery/computer/emails/proc/move_snake()
+/obj/structure/machinery/computer/proc/move_snake()
 	if(game_data["game_over"])
 		return
 
@@ -255,12 +211,12 @@
 					break
 	else
 		// Remove tail if no food eaten
-		snake.Cut(snake.len, snake.len + 1)
+		snake.len--
 
 
 // ==================== MINESWEEPER GAME ====================
 
-/obj/structure/machinery/computer/emails/proc/initialize_minesweeper()
+/obj/structure/machinery/computer/proc/initialize_minesweeper()
 	var/grid_size = 10
 	var/mine_count = 15
 	var/list/grid = list()
@@ -269,7 +225,12 @@
 	for(var/y = 1 to grid_size)
 		var/list/row = list()
 		for(var/x = 1 to grid_size)
-			row += list("revealed" = FALSE, "mine" = FALSE, "flagged" = FALSE, "count" = 0)
+			var/list/cell_data = list()
+			cell_data["revealed"] = FALSE
+			cell_data["mine"] = FALSE
+			cell_data["flagged"] = FALSE
+			cell_data["count"] = 0
+			row += list(cell_data)
 		grid += list(row)
 
 	// Place mines randomly
@@ -306,7 +267,7 @@
 		"flags_left" = mine_count
 	)
 
-/obj/structure/machinery/computer/emails/proc/render_minesweeper_game()
+/obj/structure/machinery/computer/proc/render_minesweeper_game()
 	if(!game_data)
 		initialize_minesweeper()
 
@@ -327,7 +288,7 @@
 			dat += "<font size=4 color='red'>GAME OVER</font><BR><BR>"
 		dat += "<A href='byond://?src=\ref[src];ms_restart=1'>Play Again</A><BR><BR>"
 	else
-		dat += "Click to reveal, Shift+Click to flag<BR><BR>"
+		dat += "Click to reveal cells<BR><BR>"
 
 	// Render grid
 	dat += "<table border='1' cellpadding='0' cellspacing='0'>"
@@ -379,7 +340,7 @@
 	dat += "</center>"
 	return dat
 
-/obj/structure/machinery/computer/emails/proc/handle_minesweeper_input(href_list)
+/obj/structure/machinery/computer/proc/handle_minesweeper_input(href_list)
 	if(href_list["ms_restart"])
 		initialize_minesweeper()
 		return
@@ -392,7 +353,7 @@
 
 		reveal_minesweeper_cell(x, y)
 
-/obj/structure/machinery/computer/emails/proc/reveal_minesweeper_cell(x, y)
+/obj/structure/machinery/computer/proc/reveal_minesweeper_cell(x, y)
 	if(game_data["game_over"])
 		return
 
@@ -432,7 +393,7 @@
 	// Check win condition
 	check_minesweeper_win()
 
-/obj/structure/machinery/computer/emails/proc/check_minesweeper_win()
+/obj/structure/machinery/computer/proc/check_minesweeper_win()
 	var/list/grid = game_data["grid"]
 	var/grid_size = game_data["grid_size"]
 	var/mine_count = game_data["mine_count"]
@@ -446,4 +407,3 @@
 	if(revealed_count == (grid_size * grid_size) - mine_count)
 		game_data["game_over"] = TRUE
 		game_data["won"] = TRUE
-

@@ -6,6 +6,7 @@
 	circuit = /obj/item/circuitboard/computer/stationalert
 	var/alarms = list("Fire"=list(), "Atmosphere"=list(), "Power"=list())
 	processing = TRUE
+	games_enabled = FALSE // Disable built-in games, has custom alert interface
 
 /obj/structure/machinery/computer/station_alert/attack_remote(mob/user)
 	attack_hand(user)

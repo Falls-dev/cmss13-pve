@@ -13,6 +13,10 @@
 	var/processing = FALSE //Set to true if computer needs to do /process()
 	var/deconstructible = TRUE
 	var/exproof = 0
+	var/games_enabled = TRUE // Enable built-in games (Snake, Minesweeper) on this computer
+	var/game_screen = 0 // 0 = main, 1 = games menu, 2 = snake, 3 = minesweeper
+	var/current_game = null // "snake" or "minesweeper" or null
+	var/game_data = null // Store game state
 
 /obj/structure/machinery/computer/Initialize()
 	. = ..()
@@ -126,6 +130,10 @@
 	if(!.) //not broken or unpowered
 		if(ishuman(usr))
 			playsound(src, "keyboard", 15, 1)
+
+		// Show games menu if enabled and computer doesn't have custom interface
+		if(games_enabled && !has_custom_interface())
+			interact_games(usr)
 
 /obj/structure/machinery/computer/fixer
 	var/all_configs

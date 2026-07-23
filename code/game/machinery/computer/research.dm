@@ -7,6 +7,7 @@
 	var/max_clearance = 1 // max clearance level reached by research
 	var/main_terminal = FALSE
 	var/obj/structure/machinery/photocopier/photocopier
+	games_enabled = FALSE // Disable built-in games, has custom research interface
 
 /obj/structure/machinery/computer/research/main_terminal
 	name = "research main terminal"

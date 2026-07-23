@@ -7,6 +7,7 @@
 	unacidable = FALSE
 	density = TRUE
 	black_market_value = 35 //mendoza likes games
+	games_enabled = FALSE // Disable built-in games, has custom game
 	var/enemy_name = "Fury Fuhrer"
 	var/temp = "Sponsored by Weyland-Yutani and the United States Colonial Marines" //Temporary message, for attack messages, etc
 	var/player_hp = 30 //Player health/attack points
