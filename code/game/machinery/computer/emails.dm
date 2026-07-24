@@ -136,7 +136,6 @@
 		initialize_snake_emails()
 
 	var/list/snake = game_data["snake"]
-	var/direction = game_data["direction"]
 	var/list/food = game_data["food"]
 	var/score = game_data["score"]
 	var/game_over = game_data["game_over"]
