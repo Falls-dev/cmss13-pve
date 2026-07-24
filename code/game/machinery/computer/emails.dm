@@ -58,10 +58,10 @@
 			dat += "<A href='byond://?src=\ref[src];start_minesweeper=1'><font size=3>Minesweeper</font></A><HR>"
 		if(3) // Snake game
 			dat += "<font size=4>Snake</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
-			dat += render_snake_game()
+			dat += render_snake_game_emails()
 		if(4) // Minesweeper game
 			dat += "<font size=4>Minesweeper</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
-			dat += render_minesweeper_game()
+			dat += render_minesweeper_game_emails()
 
 	show_browser(user, dat, "Personal Computer", "email", width = 600, height = 520)
 
@@ -94,12 +94,12 @@
 	else if(href_list["start_snake"])
 		screen = 3
 		current_game = "snake"
-		initialize_snake()
+		initialize_snake_emails()
 
 	else if(href_list["start_minesweeper"])
 		screen = 4
 		current_game = "minesweeper"
-		initialize_minesweeper()
+		initialize_minesweeper_emails()
 
 	else if(href_list["close_game"])
 		screen = 2
@@ -108,11 +108,11 @@
 
 	// Snake controls
 	else if(current_game == "snake")
-		handle_snake_input(href_list)
+		handle_snake_input_emails(href_list)
 
 	// Minesweeper controls
 	else if(current_game == "minesweeper")
-		handle_minesweeper_input(href_list)
+		handle_minesweeper_input_emails(href_list)
 
 	add_fingerprint(usr)
 // updateUsrDialog()
@@ -121,9 +121,9 @@
 
 // ==================== SNAKE GAME ====================
 
-/obj/structure/machinery/computer/emails/proc/initialize_snake()
+/obj/structure/machinery/computer/emails/proc/initialize_snake_emails()
 	game_data = list(
-		"snake" = list(list(5, 5)), // Snake body segments [x, y]
+		"snake" = list(list(5, 5), list(4, 5), list(3, 5)), // Snake body segments [x, y] - start with 3 segments
 		"direction" = "right", // Current direction
 		"food" = list(10, 10), // Food position [x, y]
 		"score" = 0,
@@ -131,9 +131,9 @@
 		"grid_size" = 20 // 20x20 grid
 	)
 
-/obj/structure/machinery/computer/emails/proc/render_snake_game()
+/obj/structure/machinery/computer/emails/proc/render_snake_game_emails()
 	if(!game_data)
-		initialize_snake()
+		initialize_snake_emails()
 
 	var/list/snake = game_data["snake"]
 	var/direction = game_data["direction"]
@@ -182,9 +182,9 @@
 	dat += "</center>"
 	return dat
 
-/obj/structure/machinery/computer/emails/proc/handle_snake_input(href_list)
+/obj/structure/machinery/computer/emails/proc/handle_snake_input_emails(href_list)
 	if(href_list["snake_restart"])
-		initialize_snake()
+		initialize_snake_emails()
 		return
 
 	if(href_list["snake_dir"])
@@ -199,9 +199,9 @@
 			game_data["direction"] = new_dir
 
 	// Move snake
-	move_snake()
+	move_snake_emails()
 
-/obj/structure/machinery/computer/emails/proc/move_snake()
+/obj/structure/machinery/computer/emails/proc/move_snake_emails()
 	if(game_data["game_over"])
 		return
 
@@ -255,12 +255,12 @@
 					break
 	else
 		// Remove tail if no food eaten
-		snake.Cut(snake.len, snake.len + 1)
+		snake.len--
 
 
 // ==================== MINESWEEPER GAME ====================
 
-/obj/structure/machinery/computer/emails/proc/initialize_minesweeper()
+/obj/structure/machinery/computer/emails/proc/initialize_minesweeper_emails()
 	var/grid_size = 10
 	var/mine_count = 15
 	var/list/grid = list()
@@ -269,7 +269,12 @@
 	for(var/y = 1 to grid_size)
 		var/list/row = list()
 		for(var/x = 1 to grid_size)
-			row += list("revealed" = FALSE, "mine" = FALSE, "flagged" = FALSE, "count" = 0)
+			var/list/cell_data = list()
+			cell_data["revealed"] = FALSE
+			cell_data["mine"] = FALSE
+			cell_data["flagged"] = FALSE
+			cell_data["count"] = 0
+			row += list(cell_data)
 		grid += list(row)
 
 	// Place mines randomly
@@ -306,9 +311,9 @@
 		"flags_left" = mine_count
 	)
 
-/obj/structure/machinery/computer/emails/proc/render_minesweeper_game()
+/obj/structure/machinery/computer/emails/proc/render_minesweeper_game_emails()
 	if(!game_data)
-		initialize_minesweeper()
+		initialize_minesweeper_emails()
 
 	var/list/grid = game_data["grid"]
 	var/grid_size = game_data["grid_size"]
@@ -379,9 +384,9 @@
 	dat += "</center>"
 	return dat
 
-/obj/structure/machinery/computer/emails/proc/handle_minesweeper_input(href_list)
+/obj/structure/machinery/computer/emails/proc/handle_minesweeper_input_emails(href_list)
 	if(href_list["ms_restart"])
-		initialize_minesweeper()
+		initialize_minesweeper_emails()
 		return
 
 	if(href_list["ms_reveal"])
@@ -390,9 +395,9 @@
 		var/x = text2num(parts[1])
 		var/y = text2num(parts[2])
 
-		reveal_minesweeper_cell(x, y)
+		reveal_minesweeper_cell_emails(x, y)
 
-/obj/structure/machinery/computer/emails/proc/reveal_minesweeper_cell(x, y)
+/obj/structure/machinery/computer/emails/proc/reveal_minesweeper_cell_emails(x, y)
 	if(game_data["game_over"])
 		return
 
@@ -427,12 +432,12 @@
 				var/ny = y + dy
 				if(nx >= 1 && nx <= grid_size && ny >= 1 && ny <= grid_size)
 					if(!grid[ny][nx]["revealed"] && !grid[ny][nx]["flagged"])
-						reveal_minesweeper_cell(nx, ny)
+						reveal_minesweeper_cell_emails(nx, ny)
 
 	// Check win condition
-	check_minesweeper_win()
+	check_minesweeper_win_emails()
 
-/obj/structure/machinery/computer/emails/proc/check_minesweeper_win()
+/obj/structure/machinery/computer/emails/proc/check_minesweeper_win_emails()
 	var/list/grid = game_data["grid"]
 	var/grid_size = game_data["grid_size"]
 	var/mine_count = game_data["mine_count"]
@@ -446,4 +451,3 @@
 	if(revealed_count == (grid_size * grid_size) - mine_count)
 		game_data["game_over"] = TRUE
 		game_data["won"] = TRUE
-
