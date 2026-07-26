@@ -174,12 +174,16 @@
 			dat += "<font size=4>Games</font> | <A href='byond://?src=\ref[src];close_games=1'>Back</A><HR>"
 			dat += "<A href='byond://?src=\ref[src];start_snake=1'><font size=3>Snake</font></A><HR>"
 			dat += "<A href='byond://?src=\ref[src];start_minesweeper=1'><font size=3>Minesweeper</font></A><HR>"
+			dat += "<A href='byond://?src=\ref[src];start_minidoom=1'><font size=3>Mini Doom</font></A><HR>"
 		if(2) // Snake game
 			dat += "<font size=4>Snake</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
 			dat += render_snake_game()
 		if(3) // Minesweeper game
 			dat += "<font size=4>Minesweeper</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
 			dat += render_minesweeper_game()
+		if(4) // Mini Doom game
+			dat += "<font size=4>Mini Doom</font> | <A href='byond://?src=\ref[src];close_game=1'>Back</A><HR>"
+			dat += render_minidoom()
 
 	show_browser(user, dat, "Computer Games", "computer_games", width = 600, height = 520)
 
@@ -202,6 +206,11 @@
 		current_game = "minesweeper"
 		initialize_minesweeper()
 
+	else if(href_list["start_minidoom"])
+		game_screen = 4
+		current_game = "minidoom"
+		initialize_minidoom()
+
 	else if(href_list["close_game"])
 		game_screen = 1
 		current_game = null
@@ -214,6 +223,10 @@
 	// Minesweeper controls
 	else if(current_game == "minesweeper")
 		handle_minesweeper_input(href_list)
+
+	// Mini Doom controls
+	else if(current_game == "minidoom")
+		handle_minidoom_input(href_list)
 
 	add_fingerprint(usr)
 	interact_games(usr)
@@ -234,6 +247,10 @@
 /obj/structure/machinery/computer/proc/render_snake_game()
 	if(!game_data)
 		initialize_snake()
+
+	// Auto-move snake on each render
+	if(!game_data["game_over"])
+		move_snake()
 
 	var/list/snake = game_data["snake"]
 	var/list/food = game_data["food"]
@@ -296,9 +313,6 @@
 		   (new_dir == "left" && current_dir != "right") || \
 		   (new_dir == "right" && current_dir != "left"))
 			game_data["direction"] = new_dir
-
-	// Move snake
-	move_snake()
 
 /obj/structure/machinery/computer/proc/move_snake()
 	if(game_data["game_over"])
@@ -550,3 +564,6 @@
 	if(revealed_count == (grid_size * grid_size) - mine_count)
 		game_data["game_over"] = TRUE
 		game_data["won"] = TRUE
+
+// Include Mini Doom game
+#include "minidoom.dm"
