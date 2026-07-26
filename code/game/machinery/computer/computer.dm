@@ -236,7 +236,7 @@
 
 /obj/structure/machinery/computer/proc/initialize_snake()
 	game_data = list(
-		"snake" = list(list(5, 5), list(4, 5), list(3, 5)), // Snake body segments [x, y] - start with 3 segments
+		"snake" = list(), // Will be filled with simple coordinates
 		"direction" = "right", // Current direction
 		"food" = list(10, 10), // Food position [x, y]
 		"score" = 0,
@@ -244,13 +244,14 @@
 		"grid_size" = 20 // 20x20 grid
 	)
 
+	// Initialize snake with 3 segments
+	game_data["snake"] += list(list(5, 5)) // Head
+	game_data["snake"] += list(list(4, 5)) // Body
+	game_data["snake"] += list(list(3, 5)) // Tail
+
 /obj/structure/machinery/computer/proc/render_snake_game()
 	if(!game_data)
 		initialize_snake()
-
-	// Auto-move snake on each render
-	if(!game_data["game_over"])
-		move_snake()
 
 	var/list/snake = game_data["snake"]
 	var/list/food = game_data["food"]
@@ -314,17 +315,26 @@
 		   (new_dir == "right" && current_dir != "left"))
 			game_data["direction"] = new_dir
 
+		// Move snake when direction is pressed
+		move_snake()
+
 /obj/structure/machinery/computer/proc/move_snake()
 	if(game_data["game_over"])
 		return
 
 	var/list/snake = game_data["snake"]
+	if(!snake || !snake.len)
+		return
+
 	var/direction = game_data["direction"]
 	var/list/food = game_data["food"]
 	var/grid_size = game_data["grid_size"]
 
 	// Get head position
 	var/list/head = snake[1]
+	if(!head)
+		return
+
 	var/new_x = head[1]
 	var/new_y = head[2]
 
@@ -445,7 +455,7 @@
 			dat += "<font size=4 color='red'>GAME OVER</font><BR><BR>"
 		dat += "<A href='byond://?src=\ref[src];ms_restart=1'>Play Again</A><BR><BR>"
 	else
-		dat += "Click to reveal cells<BR><BR>"
+		dat += "Click to reveal cells, Shift+Click to flag<BR><BR>"
 
 	// Render grid
 	dat += "<table border='1' cellpadding='0' cellspacing='0'>"
@@ -488,7 +498,15 @@
 				bgcolor = "#FFFF00"
 
 			if(!cell["revealed"] && !cell["flagged"] && !game_over)
-				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'><A href='byond://?src=\ref[src];ms_reveal=[x],[y]'>[cell_content]</A></td>"
+				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
+				dat += "<A href='byond://?src=\ref[src];ms_reveal=[x],[y]'>[cell_content]</A> "
+				dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]' style='font-size:10px;'>F</A>"
+				dat += "</td>"
+			else if(cell["flagged"] && !game_over)
+				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
+				dat += "[cell_content] "
+				dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]' style='font-size:10px;'>X</A>"
+				dat += "</td>"
 			else
 				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center' style='color: [color];'>[cell_content]</td>"
 		dat += "</tr>"
@@ -509,6 +527,14 @@
 		var/y = text2num(parts[2])
 
 		reveal_minesweeper_cell(x, y)
+
+	if(href_list["ms_flag"])
+		var/coords = href_list["ms_flag"]
+		var/list/parts = splittext(coords, ",")
+		var/x = text2num(parts[1])
+		var/y = text2num(parts[2])
+
+		flag_minesweeper_cell(x, y)
 
 /obj/structure/machinery/computer/proc/reveal_minesweeper_cell(x, y)
 	if(game_data["game_over"])
@@ -564,6 +590,22 @@
 	if(revealed_count == (grid_size * grid_size) - mine_count)
 		game_data["game_over"] = TRUE
 		game_data["won"] = TRUE
+
+/obj/structure/machinery/computer/proc/flag_minesweeper_cell(x, y)
+	if(game_data["game_over"])
+		return
+
+	var/list/grid = game_data["grid"]
+	var/grid_size = game_data["grid_size"]
+
+	if(x < 1 || x > grid_size || y < 1 || y > grid_size)
+		return
+
+	var/cell = grid[y][x]
+	if(cell["revealed"])
+		return
+
+	cell["flagged"] = !cell["flagged"] // Toggle flag
 
 // Include Mini Doom game
 #include "minidoom.dm"
