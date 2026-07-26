@@ -236,18 +236,13 @@
 
 /obj/structure/machinery/computer/proc/initialize_snake()
 	game_data = list(
-		"snake" = list(), // Will be filled with simple coordinates
+		"snake" = list(list(5, 5), list(4, 5), list(3, 5)), // Snake body segments [x, y] - start with 3 segments
 		"direction" = "right", // Current direction
 		"food" = list(10, 10), // Food position [x, y]
 		"score" = 0,
 		"game_over" = FALSE,
 		"grid_size" = 20 // 20x20 grid
 	)
-
-	// Initialize snake with 3 segments
-	game_data["snake"] += list(list(5, 5)) // Head
-	game_data["snake"] += list(list(4, 5)) // Body
-	game_data["snake"] += list(list(3, 5)) // Tail
 
 /obj/structure/machinery/computer/proc/render_snake_game()
 	if(!game_data)
@@ -497,16 +492,16 @@
 				cell_content = "🚩"
 				bgcolor = "#FFFF00"
 
-			if(!cell["revealed"] && !cell["flagged"] && !game_over)
-				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
-				dat += "<A href='byond://?src=\ref[src];ms_reveal=[x],[y]'>[cell_content]</A> "
-				dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]' style='font-size:10px;'>F</A>"
-				dat += "</td>"
-			else if(cell["flagged"] && !game_over)
-				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
-				dat += "[cell_content] "
-				dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]' style='font-size:10px;'>X</A>"
-				dat += "</td>"
+			if(!cell["revealed"] && !game_over)
+				if(cell["flagged"])
+					dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
+					dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]'>🚩</A>"
+					dat += "</td>"
+				else
+					dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center'>"
+					dat += "<A href='byond://?src=\ref[src];ms_reveal=[x],[y]'>[cell_content]</A><BR>"
+					dat += "<A href='byond://?src=\ref[src];ms_flag=[x],[y]' style='font-size:8px;'>Flag</A>"
+					dat += "</td>"
 			else
 				dat += "<td width='25' height='25' bgcolor='[bgcolor]' align='center' style='color: [color];'>[cell_content]</td>"
 		dat += "</tr>"
