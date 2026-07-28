@@ -1,0 +1,13 @@
+{
+    "map_name": "Prospect Miranda",
+    "map_path": "map_files/Prospect_Miranda",
+    "map_file": "Prospect_Miranda.dmm",
+    "map_item_type": "/obj/item/map/prospect_miranda",
+    "gamemodes": [
+        "Distress Signal",
+        "Hunter Games",
+        "Hive Wars",
+        "Faction Clash",
+        "Infection"
+    ]
+}

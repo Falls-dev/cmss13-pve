@@ -144,6 +144,16 @@
 	html_link = "images/9/94/New_Varadero.png"
 	color = "red"
 
+/obj/item/map/tyrargo_rift
+	name = "\improper Tyrargo Rift map"
+	desc = "A labeled blueprint of the UA city Tyrargo Rift."
+	html_link = "images/7/79/Tyrargo_Rift.png"
+
+/obj/item/map/prospect_miranda
+	name = "\improper Prospect Miranda map"
+	desc = "A map of the Prospect Miranda mining facility."
+	html_link = ""
+
 /obj/item/map/almayer
 	name = "\improper USS Almayer map"
 	desc = "A labeled blueprint of the USS Almayer"
@@ -192,6 +202,8 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_LV759_HYBRISA_PROSPERA = new /obj/item/map/lv759_map(),
 		MAP_NEW_VARADERO = new /obj/item/map/new_varadero(),
 		MAP_NEW_VARADERO_REPAIRED = new /obj/item/map/new_varadero(),
+		MAP_TYRARGO_RIFT = new /obj/item/map/tyrargo_rift(),
+		MAP_PROSPECT_MIRANDA = new /obj/item/map/prospect_miranda(),
 		MAP_DERELICT_ALMAYER = new /obj/item/map/almayer(),
 		MAP_LV295_BLACKSITE = new /obj/item/map/lv522_map(),
 		MAP_SI391_SEKHMET = new /obj/item/map/lazarus_landing_map(),
