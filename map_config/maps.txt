@@ -114,3 +114,9 @@ endmap
 map lv759_hybrisa_prospera
 	voteweight 1
 endmap
+
+map tyrargo_rift
+endmap
+
+map prospect_miranda
+endmap

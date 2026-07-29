@@ -206,20 +206,28 @@ GLOBAL_DATUM(Banlist, /savefile)
 
 	var/data = "<hr><b>Sticky Bans:</b> [add_sticky] [find_sticky] [refresh_button] <table border=1 rules=all frame=void cellspacing=0 cellpadding=3>"
 
-	var/list/datum/view_record/stickyban/stickies = DB_VIEW(/datum/view_record/stickyban,
-		DB_COMP("active", DB_EQUALS, TRUE)
-	)
+	var/list/datum/view_record/stickyban/stickies
+	try
+		stickies = DB_VIEW(/datum/view_record/stickyban,
+			DB_COMP("active", DB_EQUALS, TRUE)
+		)
+	catch
+		to_chat(owner, SPAN_DANGER("Error: Failed to connect to the database. Stickyban data could not be retrieved."))
+		return
 
-	for(var/datum/view_record/stickyban/current_sticky in stickies)
-		var/whitelist_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];whitelist_ckey=1'>(WHITELIST)</a>"
-		var/remove_sticky_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];remove=1'>(REMOVE)</a>"
-		var/add_to_sticky_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];add=1'>(ADD)</a>"
+	if(!length(stickies))
+		data += "<tr><td colspan='6'>No sticky bans found.</td></tr>"
+	else
+		for(var/datum/view_record/stickyban/current_sticky in stickies)
+			var/whitelist_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];whitelist_ckey=1'>(WHITELIST)</a>"
+			var/remove_sticky_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];remove=1'>(REMOVE)</a>"
+			var/add_to_sticky_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];add=1'>(ADD)</a>"
 
-		var/impacted_ckey_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_ckeys=1'>CKEYs</a>"
-		var/impacted_ip_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_ips=1'>IPs</a>"
-		var/impacted_cid_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_cids=1'>CIDs</a>"
+			var/impacted_ckey_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_ckeys=1'>CKEYs</a>"
+			var/impacted_ip_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_ips=1'>IPs</a>"
+			var/impacted_cid_link = "<a href='byond://?src=\ref[src];[HrefToken()];sticky=[current_sticky.id];view_all_cids=1'>CIDs</a>"
 
-		data += "<tr><td>[whitelist_link][remove_sticky_link][add_to_sticky_link]</td><td>Identifier: [current_sticky.identifier]</td><td>Reason: [current_sticky.reason]</td><td>Message: [current_sticky.message]</td> <td>Admin: [current_sticky.admin]</td> <td>View: [impacted_ckey_link][impacted_ip_link][impacted_cid_link]</td></tr>"
+			data += "<tr><td>[whitelist_link][remove_sticky_link][add_to_sticky_link]</td><td>Identifier: [current_sticky.identifier]</td><td>Reason: [current_sticky.reason]</td><td>Message: [current_sticky.message]</td> <td>Admin: [current_sticky.admin]</td> <td>View: [impacted_ckey_link][impacted_ip_link][impacted_cid_link]</td></tr>"
 
 	data += "</table>"
 
