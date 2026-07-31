@@ -206,6 +206,13 @@ GLOBAL_DATUM(Banlist, /savefile)
 
 	var/data = "<hr><b>Sticky Bans:</b> [add_sticky] [find_sticky] [refresh_button] <table border=1 rules=all frame=void cellspacing=0 cellpadding=3>"
 
+	// Show loading message immediately to prevent blocking the MC with synchronous DB operations
+	show_browser(owner, "[data]<tr><td colspan='6'>Loading stickybans from database...</td></tr></table>", "Stickyban Panel", "sticky", width = 875, height = 400)
+
+	// Use INVOKE_ASYNC to avoid blocking the MC
+	INVOKE_ASYNC(src, PROC_REF(stickypanel_async), data)
+
+/datum/admins/proc/stickypanel_async(list/data)
 	var/list/datum/view_record/stickyban/stickies
 	try
 		stickies = DB_VIEW(/datum/view_record/stickyban,
