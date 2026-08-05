@@ -192,11 +192,12 @@
 	name = "strange metal wall"
 	desc = "Nigh indestructible walls that make up the hull of an unknown ancient ship, looks like nothing you can do will penetrate the hull."
 	icon = 'icons/turf/floors/engineership.dmi'
-	icon_state = "engineerwallfloor1"
+	icon_state = "engine"
 	allow_construction = FALSE
 	is_weedable = NOT_WEEDABLE
 
 /turf/open/floor/hybrisa/engineership/ship_hull/non_weedable_hull
+	icon = 'icons/turf/almayer.dmi'
 	icon_state = "outerhull_dir"
 
 /turf/open/floor/hybrisa/engineership/ship_hull/non_weedable_hull/southwest
@@ -1010,26 +1011,26 @@
 	name = "floor"
 	desc = "A strange metal floor, unlike any metal you've seen before."
 	icon = 'icons/turf/floors/engineership.dmi'
-	icon_state = "hybrisa"
+	icon_state = "engine"
 	plating_type = /turf/open/floor/plating/engineer_ship
 
 /turf/open/floor/hybrisa/engineership/engineer_floor1
-	icon_state = "engineer_metalfloor_3"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor2
-	icon_state = "engineer_floor_4"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor3
-	icon_state = "engineer_metalfloor_2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor4
-	icon_state = "engineer_metalfloor_1"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor5
-	icon_state = "engineerlight"
+	icon_state = "light_on"
 /turf/open/floor/hybrisa/engineership/engineer_floor6
-	icon_state = "engineer_floor_2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor7
-	icon_state = "engineer_floor_1"
+	icon_state = "engine"
 
 /turf/open/floor/hybrisa/engineership/engineer_floor8
-	icon_state = "engineer_floor_5"
+	icon_state = "engine"
 
 /turf/open/floor/hybrisa/engineership/engineer_floor8/east
 	dir = EAST
@@ -1038,13 +1039,13 @@
 	dir = WEST
 
 /turf/open/floor/hybrisa/engineership/engineer_floor9
-	icon_state = "engineer_metalfloor_4"
+	icon_state = "engine"
 
 /turf/open/floor/hybrisa/engineership/engineer_floor12
-	icon_state = "engineerwallfloor1"
+	icon_state = "engine"
 
 /turf/open/floor/hybrisa/engineership/engineer_floor13
-	icon_state = "outerhull_dir"
+	icon = 'icons/turf/almayer.dmi'
 
 /turf/open/floor/hybrisa/engineership/engineer_floor13/southeast
 	dir = SOUTHEAST
@@ -1071,8 +1072,7 @@
 	dir = NORTHWEST
 
 /turf/open/floor/hybrisa/engineership/engineer_floor14
-	icon_state = "engineer_floor_corner3"
-
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/engineer_floor14/north
 	dir = NORTH
 
@@ -1084,42 +1084,42 @@
 /turf/open/floor/hybrisa/engineership/pillars
 	name = "strange metal pillar"
 	desc = "A strange metal pillar, unlike any metal you've seen before."
-	icon_state = "eng_pillar1"
+	icon_state = "engine"
 	allow_construction = FALSE
 	is_weedable = NOT_WEEDABLE
 
 /turf/open/floor/hybrisa/engineership/pillars/north/pillar1
-	icon_state = "eng_pillar1"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/north/pillar2
-	icon_state = "eng_pillar2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/north/pillar3
-	icon_state = "eng_pillar3"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/north/pillar4
-	icon_state = "eng_pillar4"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/south/pillarsouth1
-	icon_state = "eng_pillarsouth1"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/south/pillarsouth2
-	icon_state = "eng_pillarsouth2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/south/pillarsouth3
-	icon_state = "eng_pillarsouth3"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/south/pillarsouth4
-	icon_state = "eng_pillarsouth4"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/west/pillarwest1
-	icon_state = "eng_pillarwest1"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/west/pillarwest2
-	icon_state = "eng_pillarwest2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/west/pillarwest3
-	icon_state = "eng_pillarwest3"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/west/pillarwest4
-	icon_state = "eng_pillarwest4"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/east/pillareast1
-	icon_state = "eng_pillareast1"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/east/pillareast2
-	icon_state = "eng_pillareast2"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/east/pillareast3
-	icon_state = "eng_pillareast3"
+	icon_state = "engine"
 /turf/open/floor/hybrisa/engineership/pillars/east/pillareast4
-	icon_state = "eng_pillareast4"
+	icon_state = "engine"
 
 // -------------------- // Hybrisa Wall types // ---------------- //
 
@@ -1145,7 +1145,7 @@
 	name = "rock wall"
 	desc = "Massive columns comprised of anicent sedimentary rocks loom before you."
 	icon = 'icons/turf/walls/kutjevorockdark.dmi'
-	icon_state = "rock"
+	icon_state = "4-way"
 	walltype = WALL_KUTJEVO_ROCK
 	turf_flags = TURF_HULL
 	baseturfs = /turf/open/floor/plating/hybrisa_rock
