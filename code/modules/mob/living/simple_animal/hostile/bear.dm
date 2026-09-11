@@ -37,6 +37,43 @@
 
 	faction = FACTION_UPP
 
+/mob/living/simple_animal/hostile/bear5
+	name = "BEAR5"
+	desc = "A massive blue animatronic bear."
+	icon = 'icons/mob/bear5.png'
+	icon_state = ""
+	icon_living = ""
+	icon_dead = ""
+	icon_gib = null
+	maxHealth = XENO_HEALTH_QUEEN * 5
+	health = XENO_HEALTH_QUEEN * 5
+	melee_damage_lower = 35
+	melee_damage_upper = 50
+	attacktext = "mauls"
+	attack_sound = 'sound/weapons/punch1.ogg'
+	speak = list("RAWR!", "WELCOME TO THE SHOW!")
+	speak_emote = list("growls", "roars")
+	emote_hear = list("clanks", "grinds")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	faction = FACTION_UPP
+	min_oxy = 0
+	max_oxy = 0
+	min_tox = 0
+	max_tox = 0
+	min_co2 = 0
+	max_co2 = 0
+	min_n2 = 0
+	max_n2 = 0
+	minbodytemp = 0
+
+/mob/living/simple_animal/hostile/bear5/death()
+	. = ..()
+	if(!.)
+		return
+	playsound(loc, 'sound/voice/BEAR5ROAR.mp3', 75, TRUE)
+
 //SPACE BEARS! SQUEEEEEEEE~  OW! FUCK! IT BIT MY HAND OFF!!
 /mob/living/simple_animal/hostile/bear/Hudson
 	name = "Hudson"
