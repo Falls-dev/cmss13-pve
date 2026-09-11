@@ -1,4 +1,21 @@
 /// A variant of a colony_floodlight_switch that instead uses GLOB.all_electric_fences
+/obj/structure/machinery/colony_floodlight_switch
+	var/machinery_type_whitelist
+	var/is_on = FALSE
+	var/list/linked_switches = list()
+
+/obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch/proc/set_is_on(value)
+	is_on = value
+	update_machines()
+
+/obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch/proc/update_machines()
+	for(var/obj/structure/fence/electrified/fence as anything in GLOB.all_electric_fences)
+		fence.set_is_on(is_on)
+
+/obj/structure/machinery/colony_floodlight
+	var/is_on = FALSE
+	var/explo_proof = FALSE
+
 /obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch
 	name = "colony electrified fence switch"
 	icon_state = "panelbnopower"
@@ -90,7 +107,6 @@
 
 /obj/structure/machinery/colony_floodlight/street/Initialize(mapload, ...)
 	. = ..()
-	AddComponent(/datum/component/shimmy_around, east_offset = -15, west_offset = -15)
 
 /obj/structure/machinery/colony_floodlight/street/initialize_pass_flags(datum/pass_flags_container/PF)
 	if(PF)
@@ -131,7 +147,6 @@
 
 /obj/structure/machinery/colony_floodlight/traffic/Initialize(mapload, ...)
 	. = ..()
-	AddComponent(/datum/component/shimmy_around, east_offset = -15, west_offset = -15)
 
 /obj/structure/machinery/colony_floodlight/traffic/update_icon()
 	if(damaged)

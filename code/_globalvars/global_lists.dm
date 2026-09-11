@@ -39,6 +39,8 @@ GLOBAL_LIST_INIT(available_taskbar_icons, setup_taskbar_icons())
 GLOBAL_LIST_EMPTY(minimap_icons)
 
 GLOBAL_LIST_EMPTY(mainship_pipes)
+GLOBAL_LIST_INIT(all_electric_fences, list())
+GLOBAL_LIST_INIT(all_breaker_switches, list())
 
 /// List of all the maps that have been cached for /proc/load_map
 GLOBAL_LIST_EMPTY(cached_maps)

@@ -213,6 +213,10 @@ GLOBAL_DATUM(Banlist, /savefile)
 	INVOKE_ASYNC(src, PROC_REF(stickypanel_async), data)
 
 /datum/admins/proc/stickypanel_async(list/data)
+	if(!SSdatabase || !SSdatabase.connection || !SSdatabase.connection.connection_ready())
+		to_chat(owner, SPAN_DANGER("Error: Database is unavailable. Stickyban data could not be retrieved."))
+		return
+
 	var/list/datum/view_record/stickyban/stickies
 	try
 		stickies = DB_VIEW(/datum/view_record/stickyban,

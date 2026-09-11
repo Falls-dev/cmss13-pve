@@ -156,7 +156,12 @@ GLOBAL_REAL(SSdatabase, /datum/controller/subsystem/database_query_manager)
 	qr.query_text = query_text
 	qr.success_callback = success_callback
 	qr.fail_callback = fail_callback
-	UNTIL(qr.process())
+	var/timeout = world.time + DB_LOCK_TIMEOUT
+	while(!qr.process() && world.time < timeout)
+		stoplag()
+	if(qr.status < DB_QUERY_FINISHED)
+		qr.status = DB_QUERY_BROKEN
+		qr.error = "Synchronous database query timed out."
 	return qr
 
 /datum/controller/subsystem/database_query_manager/proc/create_parametric_query_sync(query_text, parameters, success_callback, fail_callback)
@@ -169,7 +174,12 @@ GLOBAL_REAL(SSdatabase, /datum/controller/subsystem/database_query_manager)
 	qr.query_text = query_text
 	qr.success_callback = success_callback
 	qr.fail_callback = fail_callback
-	UNTIL(qr.process())
+	var/timeout = world.time + DB_LOCK_TIMEOUT
+	while(!qr.process() && world.time < timeout)
+		stoplag()
+	if(qr.status < DB_QUERY_FINISHED)
+		qr.status = DB_QUERY_BROKEN
+		qr.error = "Synchronous database query timed out."
 	return qr
 
 /proc/loadsql(filename)

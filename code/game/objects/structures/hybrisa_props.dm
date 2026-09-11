@@ -5,6 +5,7 @@
 /obj/structure/prop/hybrisa
 	icon = 'icons/obj/structures/props/vehicles/small_truck_red.dmi'
 	icon_state = "pimp"
+	var/explo_proof = FALSE
 
 // Vehicles
 
@@ -620,7 +621,6 @@
 
 /obj/structure/prop/hybrisa/vehicles/Mining_Crawlers/Initialize()
 	. = ..()
-	AddElement(/datum/element/corp_label/kelland)
 
 /obj/structure/prop/hybrisa/vehicles/Mining_Crawlers/Fuel
 	icon = 'icons/obj/structures/props/vehicles/mining_crawler_fuel.dmi'
@@ -899,7 +899,6 @@
 
 /obj/structure/prop/hybrisa/supermart/souto_man_prop/Initialize()
 	. = ..()
-	AddElement(/datum/element/corp_label/souta)
 
 /obj/structure/prop/hybrisa/supermart/souto_rack
 	name = "Souto cans rack"
@@ -1894,7 +1893,7 @@
 	switch(cup.type)
 		if(/obj/item/reagent_container/food/drinks/coffeecup)
 			icon_state = ("[base_state]_mug")
-		if(/obj/item/reagent_container/food/drinks/coffee/cuppa_joes)
+		if(/obj/item/reagent_container/food/drinks/coffee)
 			icon_state = ("[base_state]_cup")
 		if(/obj/item/reagent_container/food/drinks/coffeecup/wy)
 			icon_state = ("[base_state]_mug_wy")
@@ -2699,12 +2698,10 @@
 	var/range = 15
 
 /obj/structure/prop/hybrisa/misc/detonator/attack_hand(mob/user)
-	for(var/obj/item/explosive/plastic/hybrisa/mining/explosive in range(range))
-		if(explosive.id == id)
-			var/turf/target_turf
-			target_turf = get_turf(explosive.loc)
-			var/datum/cause_data/temp_cause = create_cause_data(src, user)
-			explosive.handle_explosion(target_turf, explosive.dir, temp_cause)
+	for(var/obj/item/explosive/plastic/explosive in range(range))
+		var/turf/target_turf = get_turf(explosive.loc)
+		var/datum/cause_data/temp_cause = create_cause_data(src, user)
+		explosive.handle_explosion(target_turf, explosive.dir, temp_cause)
 
 /obj/structure/prop/hybrisa/misc/firehydrant
 	name = "fire hydrant"
@@ -2719,7 +2716,6 @@
 
 /obj/structure/prop/hybrisa/misc/firehydrant/Initialize(mapload, ...)
 	. = ..()
-	AddComponent(/datum/component/shimmy_around)
 
 /obj/structure/prop/hybrisa/misc/firehydrant/initialize_pass_flags(datum/pass_flags_container/PF)
 	if(PF)
@@ -2836,7 +2832,6 @@
 
 /obj/structure/prop/hybrisa/misc/pole/Initialize(mapload, ...)
 	. = ..()
-	AddComponent(/datum/component/shimmy_around)
 
 /obj/structure/prop/hybrisa/misc/pole/initialize_pass_flags(datum/pass_flags_container/PF)
 	if(PF)

@@ -249,3 +249,41 @@
 		health -= floor(exposed_volume / 100)
 		healthcheck(0) //Don't make hit sounds, it's dumb with fire/heat
 	..()
+
+/obj/structure/fence/electrified
+	name = "electrified grille"
+	desc = "A reinforced electrified grille."
+	icon = 'icons/obj/structures/props/hybrisa/piping_wiring.dmi'
+	icon_state = "highvoltagegrille_off"
+	basestate = "highvoltagegrille"
+	throwpass = TRUE
+	unacidable = TRUE
+	var/electrified = FALSE
+	var/obj/structure/machinery/colony_floodlight_switch/electrified_fence_switch/breaker_switch
+
+/obj/structure/fence/electrified/update_nearby_icons()
+	return
+
+/obj/structure/fence/electrified/update_icon()
+	if(cut)
+		icon_state = "[basestate]_broken"
+	else if(electrified)
+		icon_state = basestate
+	else
+		icon_state = "[basestate]_off"
+
+/obj/structure/fence/electrified/proc/toggle_power()
+	electrified = !electrified
+	update_icon()
+
+/obj/structure/fence/electrified/proc/set_is_on(value)
+	electrified = value
+	update_icon()
+
+/obj/structure/fence/electrified/Initialize(mapload, start_dir = null, constructed = 0)
+	. = ..()
+	GLOB.all_electric_fences += src
+
+/obj/structure/fence/electrified/Destroy()
+	GLOB.all_electric_fences -= src
+	return ..()
