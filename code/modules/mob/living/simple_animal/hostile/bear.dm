@@ -68,6 +68,12 @@
 	max_n2 = 0
 	minbodytemp = 0
 
+/mob/living/simple_animal/hostile/bear5/Initialize()
+	. = ..()
+	var/matrix/size_transform = matrix()
+	size_transform.Scale(0.5, 0.5)
+	apply_transform(size_transform)
+
 /mob/living/simple_animal/hostile/bear5/death()
 	. = ..()
 	if(!.)
