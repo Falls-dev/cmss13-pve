@@ -165,8 +165,8 @@
 
 /obj/item/reagent_container/food/snacks/protein_pack/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 8)
-	reagents.add_reagent("coco", 8)
+	reagents.add_reagent("nutriment", 20)
+	reagents.add_reagent("coco", 12)
 	bitesize = 4
 
 /obj/item/reagent_container/food/snacks/protein_pack2
@@ -179,8 +179,8 @@
 
 /obj/item/reagent_container/food/snacks/protein_pack2/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 8)
-	reagents.add_reagent("strawberrypowder", 8)
+	reagents.add_reagent("nutriment", 20)
+	reagents.add_reagent("strawberrypowder", 12)
 	bitesize = 4
 
 /obj/item/reagent_container/food/snacks/protein_pack3
@@ -193,8 +193,8 @@
 
 /obj/item/reagent_container/food/snacks/protein_pack3/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 8)
-	reagents.add_reagent("vanilla", 8)
+	reagents.add_reagent("nutriment", 20)
+	reagents.add_reagent("vanilla", 12)
 	bitesize = 4
 
 /obj/item/reagent_container/food/snacks/mre_pack
@@ -212,7 +212,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal1/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal2
@@ -222,7 +222,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal2/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 2
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal3
@@ -232,7 +232,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal3/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal4
@@ -242,7 +242,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal4/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal5
@@ -252,7 +252,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal5/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal6
@@ -262,7 +262,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal6/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal7
@@ -272,7 +272,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/meal7/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 9)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas1
@@ -283,8 +283,8 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas1/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 15)
-	reagents.add_reagent("sugar", 9)
+	reagents.add_reagent("nutriment", 40)
+	reagents.add_reagent("sugar", 15)
 	bitesize = 8
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas2
@@ -295,8 +295,8 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas2/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 15)
-	reagents.add_reagent("sugar", 9)
+	reagents.add_reagent("nutriment", 40)
+	reagents.add_reagent("sugar", 15)
 	bitesize = 8
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas3
@@ -307,8 +307,8 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/xmas3/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 15)
-	reagents.add_reagent("sugar", 9)
+	reagents.add_reagent("nutriment", 40)
+	reagents.add_reagent("sugar", 15)
 	bitesize = 8
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving
@@ -318,7 +318,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 10)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving2
@@ -328,7 +328,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving2/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 10)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving3
@@ -338,7 +338,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/thanksgiving3/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 10)
+	reagents.add_reagent("nutriment", 35)
 	bitesize = 3
 
 //UPP Tray Food
@@ -353,7 +353,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/upp/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 15)
+	reagents.add_reagent("nutriment", 35)
 
 /obj/item/reagent_container/food/snacks/mre_pack/upp/meal1
 	name = "\improper UPP Prepared Meal (Chow mein)"
@@ -408,6 +408,12 @@
 	icon_state = "muesli"
 	filling_color = "#ED1169"
 
+/obj/item/reagent_container/food/snacks/protein_pack/rmc/Initialize()
+	. = ..()
+	reagents.add_reagent("nutriment", 20)
+	reagents.add_reagent("bread", 10)
+	bitesize = 4
+
 /obj/item/reagent_container/food/snacks/mre_pack/rmc
 	name = "\improper generic MRE pack"
 	icon = 'icons/obj/items/food_canteen.dmi'
@@ -418,7 +424,7 @@
 
 /obj/item/reagent_container/food/snacks/mre_pack/rmc/Initialize()
 	. = ..()
-	reagents.add_reagent("nutriment", 15)
+	reagents.add_reagent("nutriment", 35)
 
 /obj/item/reagent_container/food/snacks/mre_pack/rmc/meal1
 	name = "\improper RMC Prepared Meal (Roast Beef)"
