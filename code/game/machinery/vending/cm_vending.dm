@@ -72,7 +72,8 @@ IN_USE used for vending/denying
 
 /obj/structure/machinery/cm_vending/Initialize()
 	. = ..()
-	cm_build_inventory(get_listed_products(), 1, 3)
+	// Note: cm_build_inventory is called in sorted/Initialize() to avoid blocking calls
+	// in get_listed_products() for special vendor types like super_snowflake
 
 /obj/structure/machinery/cm_vending/update_icon()
 	//restoring sprite to initial
@@ -870,6 +871,10 @@ GLOBAL_LIST_EMPTY(vending_products)
 	. = ..()
 	if(z in SSmapping.levels_by_trait(ZTRAIT_GROUND))
 		malfunction()
+	// Build inventory deferred to avoid blocking calls in Initialize()
+	spawn(0)
+		if(!istype(src, /obj/structure/machinery/cm_vending/clothing/super_snowflake))
+			cm_build_inventory(get_listed_products(), 1, 3)
 
 /obj/structure/machinery/cm_vending/clothing/ui_static_data(mob/user)
 	. = ..(user)

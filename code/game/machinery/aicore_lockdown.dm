@@ -117,3 +117,4 @@
 	shipwide_ai_announcement(message, MAIN_AI_SYSTEM, 'sound/effects/biohazard.ogg')
 	message_admins(log)
 	log_ares_security("AI Core Lockdown", ares_log, person)
+

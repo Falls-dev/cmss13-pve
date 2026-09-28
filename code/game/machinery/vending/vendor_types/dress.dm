@@ -172,7 +172,8 @@
 
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/get_listed_products(mob/user)
 	//If we don't have an object type, we ask the user to supply it
-	if(!item_types)
+	//But only if we have a user (not during initialization)
+	if(!item_types && user)
 		var/obj/item/chosen = get_item_category_from_user()
 		if(!chosen)
 			return
@@ -184,6 +185,16 @@
 			add_items(item_type)
 
 	return items
+
+/obj/structure/machinery/cm_vending/clothing/super_snowflake/Initialize()
+	. = ..()
+	// Build the starting inventory without touching UI code or any blocking procs.
+	// If item_types is not set yet, the vendor remains empty until a user adds items.
+	if(item_types && !items)
+		items = list()
+		for(var/obj/item/item_type as anything in item_types)
+			add_items(item_type)
+		cm_build_inventory(items, 1, 3)
 
 /obj/structure/machinery/cm_vending/clothing/super_snowflake/proc/get_item_category_from_user()
 	var/item = tgui_input_text(usr,"What item to stock?", "Stock Vendor","")
