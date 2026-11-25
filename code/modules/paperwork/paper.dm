@@ -48,8 +48,6 @@
 	src.photo_list = photo_list
 
 	if(info != initial(info))
-		info = html_encode(info)
-		info = replacetext(info, "\n", "<BR>")
 		info = parsepencode(info)
 
 	update_icon()
@@ -210,6 +208,9 @@
 
 /obj/item/paper/proc/parsepencode(t, obj/item/tool/pen/P, mob/user as mob, iscrayon = 0)
 	var/datum/asset/asset = get_asset_datum(/datum/asset/simple/paper)
+	t = html_encode(t)
+	t = replacetext(t, "\n", "<BR>")
+	var/safe_name = user ? html_encode(user.real_name) : "Anonymous"
 
 	t = replacetext(t, "\[center\]", "<center>")
 	t = replacetext(t, "\[/center\]", "</center>")
@@ -222,7 +223,7 @@
 	t = replacetext(t, "\[/u\]", "</U>")
 	t = replacetext(t, "\[large\]", "<font size=\"4\">")
 	t = replacetext(t, "\[/large\]", "</font>")
-	t = replacetext(t, "\[sign\]", "<font face=\"[signfont]\"><i>[user ? user.real_name : "Anonymous"]</i></font>")
+	t = replacetext(t, "\[sign\]", "<font face=\"[signfont]\"><i>[safe_name]</i></font>")
 	t = replacetext(t, "\[date\]", "<font face=\"[signfont]\"><i>[time2text(REALTIMEOFDAY, "Day DD Month [GLOB.game_year]")]</i></font>")
 	t = replacetext(t, "\[shortdate\]", "<font face=\"[signfont]\"><i>[time2text(REALTIMEOFDAY, "DD/MM/[GLOB.game_year]")]</i></font>")
 	t = replacetext(t, "\[time\]", "<font face=\"[signfont]\"><i>[worldtime2text("hh:mm")]</i></font>")
@@ -347,7 +348,9 @@
 	if(href_list["write"])
 		var/id = href_list["write"]
 		var/t =  stripped_multiline_input(usr, "Enter what you want to write:", "Write", "", MAX_MESSAGE_LEN)
-		var/shortened_t = copytext(t,1,100)
+		if(!t)
+			return
+		var/shortened_t = html_encode(copytext(t, 1, 100))
 		msg_admin_niche("PAPER: [key_name(usr)] tried to write something. First 100 characters: [shortened_t]")
 
 		var/obj/item/i = usr.get_active_hand() // Check to see if he still got that darn pen, also check if he's using a crayon or pen.
@@ -362,7 +365,6 @@
 		if(src.loc != usr && !src.Adjacent(usr) && !((istype(src.loc, /obj/item/clipboard) || istype(src.loc, /obj/structure/noticeboard) || istype(src.loc, /obj/item/folder)) && (src.loc.loc == usr || src.loc.Adjacent(usr)) ) )
 			return
 
-		t = replacetext(t, "\n", "<BR>")
 		t = parsepencode(t, i, usr, iscrayon) // Encode everything from pencode to html
 
 		if(id!="end")
